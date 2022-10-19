@@ -39,10 +39,7 @@ pip install ftsynthesis
 
 ## Usage
 
-```
-`* 소스코드 실행 및 사용 방법 설명 (Usage Example 포함)
-```
-Please see [HowToUse.md] (HowToUse.md)
+Please see [HowToUse.md] (./HowToUse.md)
 
 
 ## Authors
