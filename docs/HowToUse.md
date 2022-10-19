@@ -42,7 +42,7 @@ synthesizer.synthesize(protocol, qubit_layout, synthesis_option=option, qubit_ta
 ## Arguments of *ftsynthesis*
 ### 1. Fault-Tolerant Protocol
 - It should be provided as a quantum assembly code format (.qasmf).
-- Note that in the directory [**tests/DB-QASM**](tests/DB-QASM), you can see the sample files.
+- Note that in the directory [**tests/DB-QASM**](../tests/DB-QASM), you can see the sample files.
 - When you write a qasm file, there is a naming rule as follws
 - Example:
 ```
