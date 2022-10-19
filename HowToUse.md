@@ -184,6 +184,6 @@ util.checkup_fault_tolerance(system_code, extended_layout_size, write_file=True)
 	- *extended\_layout\_size* : the size of the extended qubit layout
 	- *write\_file* : flag whether writing the result to a file or not
 
--output
+- output
 	- the full snapshots of the circuit with checking whether data qubits have interaction or not
  
