@@ -1,0 +1,43 @@
+Qubit LQ1-data0
+Qubit LQ1-data1
+Qubit LQ1-data2
+Qubit LQ1-data3
+Qubit LQ1-data4
+Qubit LQ1-data5
+Qubit LQ1-data6
+Qubit LQ2-magic0
+Qubit LQ2-magic1
+Qubit LQ2-magic2
+Qubit LQ2-magic3
+Qubit LQ2-magic4
+Qubit LQ2-magic5
+Qubit LQ2-magic6
+Cbit bit0
+Cbit bit1
+Cbit bit2
+Cbit bit3
+Cbit bit4
+Cbit bit5
+Cbit bit6
+CNOT LQ1-data0,LQ2-magic0
+CNOT LQ1-data1,LQ2-magic1
+CNOT LQ1-data2,LQ2-magic2
+CNOT LQ1-data3,LQ2-magic3
+CNOT LQ1-data4,LQ2-magic4
+CNOT LQ1-data5,LQ2-magic5
+CNOT LQ1-data6,LQ2-magic6
+MeasZ LQ2-magic0 -> bit0
+MeasZ LQ2-magic1 -> bit1
+MeasZ LQ2-magic2 -> bit2
+MeasZ LQ2-magic3 -> bit3
+MeasZ LQ2-magic4 -> bit4
+MeasZ LQ2-magic5 -> bit5
+MeasZ LQ2-magic6 -> bit6
+Barrier-All
+S LQ1-data0
+S LQ1-data1
+S LQ1-data2
+S LQ1-data3
+S LQ1-data4
+S LQ1-data5
+S LQ1-data6
