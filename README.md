@@ -8,7 +8,6 @@
 - [Usage]()(#usage)
 - [Authors]()(#authors)
 
-
 ## Environment
 - Language :  Python3
 - OS:  Ubuntu 20.04 
@@ -20,19 +19,18 @@ To run the project successfully, you need to install the following packages incl
 - simplejson, icecream, pandas, networkx, parse, progress, qubitmapping, userproperty
 
 ```
-`pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 Note that the packages *qubitmapping* and *userproperty* are developed by Y.Hwang for this project.
 
-
 ## Installation
 We encourage installing this project by cloning the source code from GitHub server.
-```bash
+```
+bash
 git clone https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
 ```
 
 It also can be installed via the pip tool (a python package manager). The following command installs the project.
-
 ```
 pip install ftsynthesis
 ```
@@ -50,7 +48,7 @@ Please see [HowToUse.md] (./HowToUse.md)
 ## Reference
 If you use our project for your research, we would be thankful if you referred to it by citing the following publication:
 ```
-`@article{hwang2022,
+@article{hwang2022,
   author    = {Y. Hwang},
   title     = {Fault-Tolerant Circuit Synthesis for Universal Fault-Tolerant Quantum Computing},
   ee        = {https://arxiv.org/abs/2206.02691},
@@ -58,11 +56,9 @@ If you use our project for your research, we would be thankful if you referred t
 }
 ```
 
-
 ## Acknowledgement
 
 This work was partly supported by Institute for Information & communications Technology Promotion (IITP) grant funded by the Korea government (MSIT) (No. 2019-0-00003, Research and Development of Core Technologies for Programming, Running, Implementing and Validating of Fault-Tolerant Quantum Computing System & No.2022-0-00463, Development of a quantum repeater in optical ﬁber networks for quantum internet) and the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. NRF-2019M3E4A1080146).
-
 
 ## License
 GNU GPLv3
