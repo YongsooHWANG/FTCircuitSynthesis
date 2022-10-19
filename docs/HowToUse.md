@@ -174,7 +174,7 @@ extended layout = {
 ```
 
 ### 3. *util.checkup\_fault\_tolerance*
-- function to check the fault-tolerance of the resulting circuit (called in *test.py*)
+- function to check the fault-tolerance of the resulting circuit (called in [*test.py*](../tests/test.py))
 - syntax
 ```
 util.checkup_fault_tolerance(system_code, extended_layout_size, write_file=True)
