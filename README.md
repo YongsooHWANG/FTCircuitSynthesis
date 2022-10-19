@@ -31,7 +31,7 @@ pip install ftsynthesis
 
 ## Usage
 
-Please see [How To Use.md](docs/How\ To\ Use.md)
+Please see [How To Use.md](docs/HowToUse.md)
 
 
 ## Authors
