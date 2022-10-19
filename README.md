@@ -1,4 +1,3 @@
-[https://shields.io]
 # Fault-Tolerant Quantum Circuit Synthesis for Universal Fault-Tolerant Quantum Computing
 - This project develops a quantum circuit synthesis algorithm for univeral fault-tolerant quantum computing based on concatenated codes such as [[7,1,3]] Steane code and [[25,1,7]] Golay code.
 - The circuits of fault-tolerant quantum protocol should be executable in terms of locality constraint that a quantum chip has, but with retaining both the fault tolerance and the logic sequence of the protocol.
