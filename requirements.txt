@@ -1,0 +1,8 @@
+simplejson
+icecream
+pandas
+networkx
+parse
+progress
+qubitmapping
+userproperty
