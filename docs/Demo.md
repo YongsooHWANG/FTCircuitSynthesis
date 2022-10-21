@@ -10,19 +10,25 @@
 Note that the quantum assembly code developed by us can be seen in the directory [tests/DB-QASM](../tests/DB-QASM)
 
 ### *test\_steane.py*
+#### How to execute
+```
+python test_steane.py
+```
+Note that the code includes calling the print function (*print* or *ic*). If you don't want to see all, please delete them selectively.
+
 #### Flow of the circuit synthesis
 
-1. Logical 1-Qubit Protocols
-  1.1 Define the size of a layout
-  1.2 Generate a qubit layout (done in the sample code via calling a module [layout_generator](../tests/layout_generator.py)
-  1.3 Synthesize the Stabilizer Measurement on the qubit layout -> keep the position of data qubits (A)
-  1.4 Synthesize the FT Preparation of the logical zero state
-  1.5 Synthesize the Magic State Preparation -> keep the position of magic qubits
+##### Logical 1-Qubit Protocols
+  1. Define the size of a layout
+  2. Generate a qubit layout (done in the sample code via calling a module [layout_generator](../tests/layout_generator.py)
+  3. Synthesize the Stabilizer Measurement on the qubit layout -> keep the position of data qubits (A)
+  4. Synthesize the FT Preparation of the logical zero state
+  5. Synthesize the Magic State Preparation -> keep the position of magic qubits
 
-2. Logical 2-Qubit Protocols
+##### Logical 2-Qubit Protocols
   Over the relative position between two qubits (*vertical* and *horizon*) 
-  2.1 Generate a qubit layout
-  2.2 Synthesize the CNOT (based on the position of the data qubits (A)
-  2.3 Synthesize the T Gate (based on the position of the data qubits (A) and magi qubits (B)
+  1. Generate a qubit layout
+  2. Synthesize the CNOT (based on the position of the data qubits (A)
+  3. Synthesize the T Gate (based on the position of the data qubits (A) and magi qubits (B)
 
 ## Syndrome Measurement of Golay code
