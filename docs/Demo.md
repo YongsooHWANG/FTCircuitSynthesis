@@ -7,6 +7,6 @@
 - Magic State : [Magic State Preparation (arXiv:0504218)](https://arxiv.org/abs/quant-ph/0504218)
 - T gate : [Teleportation-based (PRA 62, 052316)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.62.052316)
 
-Note that the quantum assembly code developed by us can be seen in the directory [tests/DB-QASM](/DB-QASM)
+Note that the quantum assembly code developed by us can be seen in the directory [tests/DB-QASM](../tests/DB-QASM)
 
 ## Syndrome Measurement of Golay code
