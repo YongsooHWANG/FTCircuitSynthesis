@@ -25,6 +25,8 @@ Note that the code includes calling the print function (*print* or *ic*). If you
   4. Synthesize [FT Preparation of the logical zero state](../tests/DB-QASM/steane/PrepZ.qasmf)
   5. Synthesize [Magic State Preparation](../tests/DB-QASM/steane/Prepare_Magic_State.qasmf) -> keep the position of magic qubits
 
+The snapshots of the syndrome measurement circuit are shown in the [Reference](https://arxiv.org/abs/2206.02691)
+
 ##### Logical 2-Qubit Protocols
   Over the relative position between two qubits (*vertical* and *horizon*) 
   1. Generate a qubit layout
