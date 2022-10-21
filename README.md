@@ -24,11 +24,6 @@ bash
 git clone https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
 ```
 
-It also can be installed via the pip tool (a python package manager). The following command installs the project.
-```
-pip install ftsynthesis
-```
-
 ## Usage
 
 Please see [How To Use.md](docs/HowToUse.md) to know how to use the package.
