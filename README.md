@@ -31,7 +31,8 @@ pip install ftsynthesis
 
 ## Usage
 
-Please see [How To Use.md](docs/HowToUse.md)
+Please see [How To Use.md](docs/HowToUse.md) to know how to use the package.
+For the sample demonstration codes for Steane code and Golay code, please see [Demonstration.md](docs/Demonstration.md).
 
 
 ## Authors
