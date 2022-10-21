@@ -32,11 +32,10 @@ pip install ftsynthesis
 ## Usage
 
 Please see [How To Use.md](docs/HowToUse.md) to know how to use the package.
+
 For the sample demonstration codes for Steane code and Golay code, please see [Demonstration.md](docs/Demonstration.md).
 
-
 ## Authors
-
 - Y. Hwang (ETRI, Quantum Technology Research Department), yhwang@etri.re.kr
 
 
@@ -51,10 +50,11 @@ If you use our project for your research, we would be thankful if you referred t
 }
 ```
 
+## License
+GNU GPLv3
+
 ## Acknowledgement
 
 This work was partly supported by Institute for Information & communications Technology Promotion (IITP) grant funded by the Korea government (MSIT) (No. 2019-0-00003, Research and Development of Core Technologies for Programming, Running, Implementing and Validating of Fault-Tolerant Quantum Computing System & No.2022-0-00463, Development of a quantum repeater in optical ﬁber networks for quantum internet) and the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. NRF-2019M3E4A1080146).
 
-## License
-GNU GPLv3
 
