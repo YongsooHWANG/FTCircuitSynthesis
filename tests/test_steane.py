@@ -78,7 +78,7 @@ print("===============")
 
 # iteration over various 2-dimensional qubit layout
 # for size in [(5, 6), (5, 7), (5, 8), (6, 6), (6, 7), (6, 8), (7, 7), (7, 8)]:
-for size in [(7, 7)]:
+for size in [(6, 7)]:
 	height, width = size[:]
 
 	print("the size of layout = {}x{}".format(height, width))
