@@ -90,8 +90,8 @@ for size in [(6, 7)]:
 	
 	# synthesis result 	
 	synthesis_result[stabilizer_measure] = synthesizer.synthesize(ftqc_protocol[stabilizer_measure],
-																path_qchip1,
-																synthesis_option=synthesis_option)
+									path_qchip1,
+									synthesis_option=synthesis_option)
 	
 	ic(synthesis_result[stabilizer_measure])
 	data_qubit_mapping_table = synthesis_result[stabilizer_measure]["system_code"]["initial_mapping"]
@@ -131,9 +131,9 @@ print("===============")
 print(" protocol : {}".format(protocol))
 print("===============")
 synthesis_result[protocol] = synthesizer.synthesize(ftqc_protocol[protocol],
-						    							path_qchip1,
-														synthesis_option=synthesis_option,
-														qubit_table=table_data_qubits)
+						    path_qchip1,
+						    synthesis_option=synthesis_option,
+						    qubit_table=table_data_qubits)
 
 collection_protocol_performance[protocol].append(synthesis_result[protocol])
 util.checkup_fault_tolerance(synthesis_result[protocol]["system_code"], data_best_layout_size, write_file=True)
@@ -145,8 +145,8 @@ print("===============")
 
 synthesis_option["moveback"] = False
 synthesis_result[protocol] = synthesizer.synthesize(ftqc_protocol[protocol],
-						    							path_qchip1,
-														synthesis_option=synthesis_option)
+						    path_qchip1,
+						    synthesis_option=synthesis_option)
 
 collection_protocol_performance[protocol].append(synthesis_result[protocol])
 
@@ -159,10 +159,10 @@ for neighbor_direction in ["vertical", "horizon"]:
 	# doubling the qubit layout with the chosen direction (horizon or vertical)
 	if neighbor_direction == "vertical":
 		extended_layout_size = {"height": data_best_layout_size["height"]*2,
-								"width": data_best_layout_size["width"]}
+					"width": data_best_layout_size["width"]}
 	elif neighbor_direction == "horizon":
 		extended_layout_size = {"height": data_best_layout_size["height"],
-								"width": data_best_layout_size["width"]*2}
+					"width": data_best_layout_size["width"]*2}
 	
 	# extended qubit layout (vertically, horizontally)
 	qchip2_layout = layout_generator.generate_regular_qchip_architecture(job_dir, extended_layout_size)
@@ -180,7 +180,7 @@ for neighbor_direction in ["vertical", "horizon"]:
 
 	# generate an extended qubit by merging two qubit layouts
 	extended_layout = util.merge_qubit_layout(inverse_qubit_table_LQ1, inverse_qubit_table_LQ2, 
-												direction=neighbor_direction, layout_size=data_best_layout_size)
+						direction=neighbor_direction, layout_size=data_best_layout_size)
 
 	print("extended layout = ")
 	pprint(extended_layout)
@@ -189,9 +189,9 @@ for neighbor_direction in ["vertical", "horizon"]:
 	synthesis_option["moveback"] = True
 	revised_protocol_name = "{}-{}".format(protocol, neighbor_direction)
 	synthesis_result[revised_protocol_name] = synthesizer.synthesize(ftqc_protocol[protocol],
-						    							path_qchip_extended_vertical,
-														synthesis_option=synthesis_option,
-														qubit_table=extended_layout)
+						    			path_qchip_extended_vertical,
+									synthesis_option=synthesis_option,
+									qubit_table=extended_layout)
 	
 	collection_protocol_performance[revised_protocol_name].append(synthesis_result[revised_protocol_name])	
 	util.checkup_fault_tolerance(synthesis_result[revised_protocol_name]["system_code"], extended_layout_size, write_file=True)
@@ -206,16 +206,17 @@ for neighbor_direction in ["vertical", "horizon"]:
 	# for example, horizontally data(left) magic(right), vertically data(up) and magic(down)
 	inverse_data_qubit_table = {v: "-".join(["LQ1", k]) for k, v in data_best_logical_qubit_configuration.items()}
 	inverse_magic_qubit_table = {v : "-".join(["LQ2", k.replace("data", "magic")]) if "data" in k 
-										else "-".join(["LQ2", k]) for k, v in magic_qubit_mapping_table.items()}
+						else "-".join(["LQ2", k]) for k, v in magic_qubit_mapping_table.items()}
 
 	extended_layout = util.merge_qubit_layout(inverse_data_qubit_table, inverse_magic_qubit_table, 
-												direction=neighbor_direction, layout_size=data_best_layout_size)
+						direction=neighbor_direction, layout_size=data_best_layout_size)
+	
 	util.display_qubit_mapping(extended_layout, extended_layout_size)
 	revised_protocol_name = "{}-{}-{}".format(protocol, neighbor_direction, "d2m")
 	synthesis_result[revised_protocol_name] = synthesizer.synthesize(ftqc_protocol[protocol],
-						    							path_qchip_extended_vertical,
-														synthesis_option=synthesis_option,
-														qubit_table=extended_layout)
+						    			path_qchip_extended_vertical,
+									synthesis_option=synthesis_option,
+									qubit_table=extended_layout)
 														
 	collection_protocol_performance[revised_protocol_name].append(synthesis_result[revised_protocol_name])															
 	util.checkup_fault_tolerance(synthesis_result[revised_protocol_name]["system_code"], extended_layout_size, write_file=True)
@@ -224,16 +225,17 @@ for neighbor_direction in ["vertical", "horizon"]:
 	# for example, horizontally data(right) magic(left), vertically data(down) and magic(up)
 	inverse_data_qubit_table = {v: "-".join(["LQ1", k]) for k, v in data_best_logical_qubit_configuration.items()}
 	inverse_magic_qubit_table = {v : "-".join(["LQ2", k.replace("data", "magic")]) if "data" in k 
-										else "-".join(["LQ2", k]) for k, v in magic_qubit_mapping_table.items()}
+						else "-".join(["LQ2", k]) for k, v in magic_qubit_mapping_table.items()}
 										
 	extended_layout = util.merge_qubit_layout(inverse_magic_qubit_table, inverse_data_qubit_table, 
-												direction=neighbor_direction, layout_size=data_best_layout_size)
+						direction=neighbor_direction, layout_size=data_best_layout_size)
+	
 	util.display_qubit_mapping(extended_layout, extended_layout_size)
 	revised_protocol_name = "{}-{}-{}".format(protocol, neighbor_direction, "m2d")
 	synthesis_result[revised_protocol_name] = synthesizer.synthesize(ftqc_protocol[protocol],
-						    							path_qchip_extended_vertical,
-														synthesis_option=synthesis_option,
-														qubit_table=extended_layout)
+						    			path_qchip_extended_vertical,
+									synthesis_option=synthesis_option,
+									qubit_table=extended_layout)
 	
 	collection_protocol_performance[revised_protocol_name].append(synthesis_result[revised_protocol_name])														
 	util.checkup_fault_tolerance(synthesis_result[revised_protocol_name]["system_code"], extended_layout_size, write_file=True)
