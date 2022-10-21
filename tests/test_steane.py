@@ -39,7 +39,7 @@ print("stabilizer measurement circuit : {} ".format(stabilizer_measure))
 
 # files for fault-tolerant protocols (in qasm)
 ftqc_protocol = {k: "".join([os.path.join(directory_code_qasmf, k), ".qasmf"]) for k in 
-					[stabilizer_measure, "CNOT", "Prepare_Magic_State", "T", "PrepZ"]}
+			[stabilizer_measure, "CNOT", "Prepare_Magic_State", "T", "PrepZ"]}
 
 synthesis_result = {}
 
@@ -53,13 +53,16 @@ job_dir = os.path.join(directory_mother_jobs, job_id)
 if not os.path.exists(job_dir): os.mkdir(job_dir)
 
 # the options for the synthesis task
-synthesis_option={"lap_depth": 5, "iteration": 1, "cost_function": "nnc", 
-					"moveback": True, "decay_factor": 0.1,
-					"allowable_data_interaction" : 0,
-					"extended_set_weight": 0.5,
-					"allow_swap" : True,
-					"optimal_criterion" : "circuit_depth", 
-					"initial_mapping_option": "periodic_random"}
+synthesis_option={"iteration": 1,
+		  "moveback": True,
+		  "allowable_data_interaction" : 0,
+		  "allow_swap" : True,
+		  "optimal_criterion" : "circuit_depth", 
+		  "cost_function": "lap", 
+		  "lap_depth": 5,  
+		  "decay_factor": 0.1,
+		  "extended_set_weight": 0.5,
+		 "initial_mapping_option": "periodic_random"}
 
 # reference data for finding an optimal circuit
 data_best_logical_qubit_configuration = None
