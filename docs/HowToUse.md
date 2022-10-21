@@ -119,6 +119,9 @@ synthesis_option={"iteration": 1,
 	extended_layout = util.merge_qubit_layout(inverse_qubit_table_LQ1, inverse_qubit_table_LQ2, 
 						direction=neighbor_direction, layout_size=data_best_layout_size)
 	```
+## How to call Main Module
+- It should be called with the arguments (protocol, qubit layout and synthesis option). Please see the sample codes for [Steane Code](../tests/test_steane.py) or [Golay Code](../tests/test_golay.py).
+- For the circuit synthesis over multiple protocols, you need to see the ![concept](hierarchical_FT_circuit_synthesis.pdf)
 
 ## How to use the utility functions
 ### 1. *layout\_generator.generate\_regular\_qchip\_architecture*
