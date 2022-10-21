@@ -121,7 +121,8 @@ synthesis_option={"iteration": 1,
 	```
 ## How to call Main Module
 - It should be called with the arguments (protocol, qubit layout and synthesis option). Please see the sample codes for [Steane Code](../tests/test_steane.py) or [Golay Code](../tests/test_golay.py).
-- For the circuit synthesis over multiple protocols, you need to see the ![concept](hierarchical_FT_circuit_synthesis.png)
+- For the circuit synthesis over multiple protocols, you need to see the below figure. ![concept](hierarchical_FT_circuit_synthesis.png)
+
 
 ## How to use the utility functions
 ### 1. *layout\_generator.generate\_regular\_qchip\_architecture*
