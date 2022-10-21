@@ -40,7 +40,7 @@ For the sample demonstration codes for Steane code and Golay code, please see [D
 
 
 ## Reference
-If you use our project for your research, we would be thankful if you referred to it by citing the following publication:
+If you use our project for your research, we would be grateful if you referred to it by citing the following publication:
 ```
 @article{hwang2022,
   author    = {Y. Hwang},
