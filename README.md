@@ -51,7 +51,7 @@ If you use our project for your research, we would be grateful if you referred t
 ```
 
 ## License
-GNU GPLv3
+[GNU GPLv3](/docs/gplv3.txt)
 
 ## Acknowledgement
 
