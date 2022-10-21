@@ -9,7 +9,7 @@
 Note: It does not work well on Mac OS now, but will be fixed soon.
 
 ## Prerequisites
-To run the project successfully, you need to install the following packages included in "requirements.txt" beforehand.
+To run the project successfully, you need to install the following packages included in "requirements.txt" after installation.
 - *simplejson*, *icecream*, *pandas*, *networkx*, *parse*, *progress*, *qubitmapping*, *userproperty*
 
 ```
