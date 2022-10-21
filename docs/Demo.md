@@ -31,7 +31,7 @@ The snapshots of the syndrome measurement circuit are shown in the [Reference](h
   Over the relative position between two qubits (*vertical* and *horizon*) 
   1. Generate a qubit layout
   2. Synthesize [CNOT](../tests/DB-QASM/steane/CNOT.qasmf) (based on the position of the data qubits (A)
-  3. Synthesize [T Gate](../tests/DB-QASM/steane/T.qasmf) (based on the position of the data qubits (A) and magi qubits (B)
+  3. Synthesize [T Gate](../tests/DB-QASM/steane/T.qasmf) (based on the position of the data qubits (A) and magic qubits (B)
 
 ## Syndrome Measurement of Golay code
 ### Fault-Tolerant Protocols included
