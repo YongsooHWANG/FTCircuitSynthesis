@@ -33,7 +33,7 @@ pip install ftsynthesis
 
 Please see [How To Use.md](docs/HowToUse.md) to know how to use the package.
 
-For the sample demonstration codes for Steane code and Golay code, please see [Demonstration.md](docs/Demonstration.md).
+For the sample demonstration codes for Steane code and Golay code, please see [Demo.md](docs/Demo.md).
 
 ## Authors
 - Y. Hwang (ETRI, Quantum Technology Research Department), yhwang@etri.re.kr
