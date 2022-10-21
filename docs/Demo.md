@@ -9,4 +9,13 @@
 
 Note that the quantum assembly code developed by us can be seen in the directory [tests/DB-QASM](../tests/DB-QASM)
 
+### *test\_steane.py*
+#### Flow of the circuit synthesis
+
+1. A Logical-1 Qubit Protocol
+  - Define the size of a layout
+  - Generate a qubit layout (done in the sample code via calling a module [layout_generator](../tests/layout_generator.py)
+  - Synthesize the Stabilizer Measurement on the qubit layout
+  - Synthesize the FT Preparation of the logical zero state
+
 ## Syndrome Measurement of Golay code
