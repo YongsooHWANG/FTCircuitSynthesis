@@ -57,3 +57,6 @@ Note that the code includes calling the print function (*print* or *ic*). If you
   5. Synthesize [second verification state](../tests/DB-QASM/golay/verification_first.qasmf)
   6. Synthesize [Syndrome Measurement](../tests/DB-QASM/golay/syndrome_measurement.qasmf)
 
+Note that the size of a layout in 1) is for a single logical qubit.
+
+Since the verification stages compare 4 copies of logical zero states, to perform the circuit synthesis of FT preparation of logical zero state, we need the extended layout of size $2m\times 2n$ assuming that the size of a single logical qubit is $m\times n$.
