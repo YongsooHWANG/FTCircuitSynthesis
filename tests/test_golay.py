@@ -56,7 +56,7 @@ synthesis_option={"iteration": 1,
 					"allow_swap" : True,
 					"initial_mapping_option": "periodic_random"}
 
-for size in [(7, 8)]:
+for size in [(7, 7)]:
 	height, width = size[:]
 	print("the size of layout = {} x {}".format(height, width))
 	layout_size = {"height": height, "width": width}
