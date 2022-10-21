@@ -10,7 +10,7 @@ Note: It does not work well on Mac OS now, but will be fixed soon.
 
 ## Prerequisites
 To run the project successfully, you need to install the following packages included in "requirements.txt" beforehand.
-- simplejson, icecream, pandas, networkx, parse, progress, qubitmapping, userproperty
+- *simplejson*, *icecream*, *pandas*, *networkx*, *parse*, *progress*, *qubitmapping*, *userproperty*
 
 ```
 pip install -r requirements.txt
