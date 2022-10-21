@@ -21,7 +21,7 @@ Note that the packages *qubitmapping* and *userproperty* are developed by Y.Hwan
 We encourage installing this project by cloning the source code from GitHub server.
 ```
 bash
-git clone https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
+git clone https://github.com/YongsooHWANG/FTCircuitSynthesis.git
 ```
 
 ## Usage
