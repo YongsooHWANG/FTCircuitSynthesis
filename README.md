@@ -46,7 +46,7 @@ If you use our project for your research, we would be grateful if you referred t
 ```
 
 ## License
-[GNU GPLv3](/docs/gplv3.txt)
+[BSD-3-Clause](/docs/LICENSE.md)
 
 ## Acknowledgement
 
