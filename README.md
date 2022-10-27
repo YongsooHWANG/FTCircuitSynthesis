@@ -31,8 +31,7 @@ Please see [How To Use.md](docs/HowToUse.md) to know how to use the package.
 For the sample demonstration codes for Steane code and Golay code, please see [Demo.md](docs/Demo.md).
 
 ## Authors
-- Y. Hwang (ETRI, Quantum Technology Research Department), yhwang@etri.re.kr
-
+- Yongsoo Hwang (ETRI, Quantum Technology Research Department), yhwang@etri.re.kr
 
 ## Reference
 If you use our project for your research, we would be grateful if you referred to it by citing the following publication:
@@ -46,10 +45,9 @@ If you use our project for your research, we would be grateful if you referred t
 ```
 
 ## License
-[BSD-3-Clause](/docs/LICENSE.md)
+This project is licensed under the [BSD-3-Clause](/docs/LICENSE.md)
 
 ## Acknowledgement
 
 This work was partly supported by Institute for Information & communications Technology Promotion (IITP) grant funded by the Korea government (MSIT) (No. 2019-0-00003, Research and Development of Core Technologies for Programming, Running, Implementing and Validating of Fault-Tolerant Quantum Computing System & No.2022-0-00463, Development of a quantum repeater in optical ﬁber networks for quantum internet) and the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. NRF-2019M3E4A1080146).
-
 
