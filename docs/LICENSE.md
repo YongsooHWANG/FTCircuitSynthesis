@@ -1,6 +1,5 @@
-You are eligible to use this source according to conditions described as below ONLY WHEN YOU ARE USING THIS CODE FOR NON-COMMERCIAL PURPOSE. If you want to use and/or redistribute this source commercially, please consult <manager>@etri.re.kr for details in advance.
 
-Copyright <YEAR> <COPYRIGHT HOLDER>
+Copyright 2022 ETRI
 
 Redistribution and use in source and binary forms, with or without modification, are permitted, provided that the following conditions are met:
 
