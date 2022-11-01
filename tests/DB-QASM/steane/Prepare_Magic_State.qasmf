@@ -1,0 +1,342 @@
+Qubit data0
+Qubit data1
+Qubit data2
+Qubit data3
+Qubit data4
+Qubit data5
+Qubit data6
+Qubit ancilla0
+Qubit ancilla1
+Qubit ancilla2
+Qubit ancilla3
+Qubit ancilla4
+Qubit ancilla5
+Qubit ancilla6
+Cbit checkup_bit0
+Cbit checkup_bit1
+Cbit checkup_bit2
+Cbit checkup_bit3
+Cbit checkup_bit4
+Cbit checkup_bit5
+Cbit checkup_bit6
+Cbit qec_bit0
+Cbit qec_bit1
+Cbit qec_bit2
+Cbit qec_bit3
+Cbit qec_bit4
+Cbit qec_bit5
+Cbit qec_bit6
+Qubit checkup_qubit0
+Cbit checkup_bit0
+PrepZ data0
+PrepZ data1
+PrepZ data2
+PrepZ data3
+PrepZ data4
+PrepZ data5
+PrepZ data6
+PrepZ checkup_qubit0
+H data1
+H data2
+H data3
+CNOT data1,data0
+CNOT data3,data5
+CNOT data2,data6
+CNOT data1,data4
+CNOT data2,data0
+CNOT data3,data6
+CNOT data1,data5
+CNOT data5,data3
+CNOT data0,checkup_qubit0
+CNOT data5,checkup_qubit0
+CNOT data6,checkup_qubit0
+MeasZ checkup_qubit0 -> checkup_bit0
+Barrier-All
+T data0
+T data1
+T data2
+T data3
+T data4
+T data5
+T data6
+PrepZ ancilla0
+PrepZ ancilla1
+PrepZ ancilla2
+PrepZ ancilla3
+PrepZ ancilla4
+PrepZ ancilla5
+PrepZ ancilla6
+PrepZ checkup_qubit0
+H ancilla3
+CNOT ancilla3,ancilla4
+CNOT ancilla3,ancilla2
+CNOT ancilla4,ancilla5
+CNOT ancilla2,ancilla1
+CNOT ancilla5,ancilla6
+CNOT ancilla1,ancilla0
+CNOT ancilla6,checkup_qubit0
+CNOT ancilla0,checkup_qubit0
+MeasZ checkup_qubit0 -> checkup_bit0
+Barrier-All
+CNOT ancilla0,data0
+CNOT ancilla1,data1
+CNOT ancilla2,data2
+CNOT ancilla3,data3
+CNOT ancilla4,data4
+CNOT ancilla5,data5
+CNOT ancilla6,data6
+Tdag data0
+Tdag data1
+Tdag data2
+Tdag data3
+Tdag data4
+Tdag data5
+Tdag data6
+H ancilla0
+H ancilla1
+H ancilla2
+H ancilla3
+H ancilla4
+H ancilla5
+H ancilla6
+MeasZ ancilla0 -> checkup_bit0
+MeasZ ancilla1 -> checkup_bit1
+MeasZ ancilla2 -> checkup_bit2
+MeasZ ancilla3 -> checkup_bit3
+MeasZ ancilla4 -> checkup_bit4
+MeasZ ancilla5 -> checkup_bit5
+MeasZ ancilla6 -> checkup_bit6
+Barrier-All
+PrepZ ancilla0
+PrepZ ancilla1
+PrepZ ancilla2
+PrepZ ancilla3
+PrepZ ancilla4
+PrepZ ancilla5
+PrepZ ancilla6
+PrepZ checkup_qubit0
+H ancilla0
+H ancilla4
+H ancilla5
+H ancilla6
+CNOT ancilla0,ancilla1
+CNOT ancilla5,ancilla3
+CNOT ancilla6,ancilla2
+CNOT ancilla4,ancilla1
+CNOT ancilla0,ancilla2
+CNOT ancilla6,ancilla3
+CNOT ancilla5,ancilla1
+CNOT ancilla3,ancilla5
+CNOT checkup_qubit0,ancilla0
+CNOT checkup_qubit0,ancilla5
+CNOT checkup_qubit0,ancilla6
+H checkup_qubit0
+MeasZ checkup_qubit0 -> checkup_bit0
+Barrier-All
+CNOT data0,ancilla0
+CNOT data1,ancilla1
+CNOT data2,ancilla2
+CNOT data3,ancilla3
+CNOT data4,ancilla4
+CNOT data5,ancilla5
+CNOT data6,ancilla6
+MeasZ ancilla0 -> qec_bit0
+MeasZ ancilla1 -> qec_bit1
+MeasZ ancilla2 -> qec_bit2
+MeasZ ancilla3 -> qec_bit3
+MeasZ ancilla4 -> qec_bit4
+MeasZ ancilla5 -> qec_bit5
+MeasZ ancilla6 -> qec_bit6
+PrepZ ancilla0
+PrepZ ancilla1
+PrepZ ancilla2
+PrepZ ancilla3
+PrepZ ancilla4
+PrepZ ancilla5
+PrepZ ancilla6
+PrepZ checkup_qubit0
+H ancilla1
+H ancilla2
+H ancilla3
+CNOT ancilla1,ancilla0
+CNOT ancilla3,ancilla5
+CNOT ancilla2,ancilla6
+CNOT ancilla1,ancilla4
+CNOT ancilla2,ancilla0
+CNOT ancilla3,ancilla6
+CNOT ancilla1,ancilla5
+CNOT ancilla5,ancilla3
+CNOT ancilla0,checkup_qubit0
+CNOT ancilla5,checkup_qubit0
+CNOT ancilla6,checkup_qubit0
+MeasZ checkup_qubit0 -> checkup_bit0
+Barrier-All
+CNOT ancilla0,data0
+CNOT ancilla1,data1
+CNOT ancilla2,data2
+CNOT ancilla3,data3
+CNOT ancilla4,data4
+CNOT ancilla5,data5
+CNOT ancilla6,data6
+H ancilla0
+H ancilla1
+H ancilla2
+H ancilla3
+H ancilla4
+H ancilla5
+H ancilla6
+MeasZ ancilla0 -> qec_bit0
+MeasZ ancilla1 -> qec_bit1
+MeasZ ancilla2 -> qec_bit2
+MeasZ ancilla3 -> qec_bit3
+MeasZ ancilla4 -> qec_bit4
+MeasZ ancilla5 -> qec_bit5
+MeasZ ancilla6 -> qec_bit6
+Barrier-All
+PrepZ ancilla0
+PrepZ ancilla1
+PrepZ ancilla2
+PrepZ ancilla3
+PrepZ ancilla4
+PrepZ ancilla5
+PrepZ ancilla6
+PrepZ ancilla0
+PrepZ ancilla1
+PrepZ ancilla2
+PrepZ ancilla3
+PrepZ ancilla4
+PrepZ ancilla5
+PrepZ ancilla6
+PrepZ checkup_qubit0
+H ancilla3
+CNOT ancilla3,ancilla4
+CNOT ancilla3,ancilla2
+CNOT ancilla4,ancilla5
+CNOT ancilla2,ancilla1
+CNOT ancilla5,ancilla6
+CNOT ancilla1,ancilla0
+CNOT ancilla6,checkup_qubit0
+CNOT ancilla0,checkup_qubit0
+MeasZ checkup_qubit0 -> checkup_bit0
+Barrier-All
+T data0
+T data1
+T data2
+T data3
+T data4
+T data5
+T data6
+CNOT ancilla0,data0
+CNOT ancilla1,data1
+CNOT ancilla2,data2
+CNOT ancilla3,data3
+CNOT ancilla4,data4
+CNOT ancilla5,data5
+CNOT ancilla6,data6
+Tdag data0
+Tdag data1
+Tdag data2
+Tdag data3
+Tdag data4
+Tdag data5
+Tdag data6
+H ancilla0
+H ancilla1
+H ancilla2
+H ancilla3
+H ancilla4
+H ancilla5
+H ancilla6
+MeasZ ancilla0 -> checkup_bit0
+MeasZ ancilla1 -> checkup_bit1
+MeasZ ancilla2 -> checkup_bit2
+MeasZ ancilla3 -> checkup_bit3
+MeasZ ancilla4 -> checkup_bit4
+MeasZ ancilla5 -> checkup_bit5
+MeasZ ancilla6 -> checkup_bit6
+Barrier-All
+PrepZ ancilla0
+PrepZ ancilla1
+PrepZ ancilla2
+PrepZ ancilla3
+PrepZ ancilla4
+PrepZ ancilla5
+PrepZ ancilla6
+PrepZ checkup_qubit0
+H ancilla0
+H ancilla4
+H ancilla5
+H ancilla6
+CNOT ancilla0,ancilla1
+CNOT ancilla5,ancilla3
+CNOT ancilla6,ancilla2
+CNOT ancilla4,ancilla1
+CNOT ancilla0,ancilla2
+CNOT ancilla6,ancilla3
+CNOT ancilla5,ancilla1
+CNOT ancilla3,ancilla5
+CNOT checkup_qubit0,ancilla0
+CNOT checkup_qubit0,ancilla5
+CNOT checkup_qubit0,ancilla6
+H checkup_qubit0
+MeasZ checkup_qubit0 -> checkup_bit0
+Barrier-All
+CNOT data0,ancilla0
+CNOT data1,ancilla1
+CNOT data2,ancilla2
+CNOT data3,ancilla3
+CNOT data4,ancilla4
+CNOT data5,ancilla5
+CNOT data6,ancilla6
+MeasZ ancilla0 -> qec_bit0
+MeasZ ancilla1 -> qec_bit1
+MeasZ ancilla2 -> qec_bit2
+MeasZ ancilla3 -> qec_bit3
+MeasZ ancilla4 -> qec_bit4
+MeasZ ancilla5 -> qec_bit5
+MeasZ ancilla6 -> qec_bit6
+PrepZ ancilla0
+PrepZ ancilla1
+PrepZ ancilla2
+PrepZ ancilla3
+PrepZ ancilla4
+PrepZ ancilla5
+PrepZ ancilla6
+PrepZ checkup_qubit0
+H ancilla1
+H ancilla2
+H ancilla3
+CNOT ancilla1,ancilla0
+CNOT ancilla3,ancilla5
+CNOT ancilla2,ancilla6
+CNOT ancilla1,ancilla4
+CNOT ancilla2,ancilla0
+CNOT ancilla3,ancilla6
+CNOT ancilla1,ancilla5
+CNOT ancilla5,ancilla3
+CNOT ancilla0,checkup_qubit0
+CNOT ancilla5,checkup_qubit0
+CNOT ancilla6,checkup_qubit0
+MeasZ checkup_qubit0 -> checkup_bit0
+Barrier-All
+CNOT ancilla0,data0
+CNOT ancilla1,data1
+CNOT ancilla2,data2
+CNOT ancilla3,data3
+CNOT ancilla4,data4
+CNOT ancilla5,data5
+CNOT ancilla6,data6
+H ancilla0
+H ancilla1
+H ancilla2
+H ancilla3
+H ancilla4
+H ancilla5
+H ancilla6
+MeasZ ancilla0 -> qec_bit0
+MeasZ ancilla1 -> qec_bit1
+MeasZ ancilla2 -> qec_bit2
+MeasZ ancilla3 -> qec_bit3
+MeasZ ancilla4 -> qec_bit4
+MeasZ ancilla5 -> qec_bit5
+MeasZ ancilla6 -> qec_bit6

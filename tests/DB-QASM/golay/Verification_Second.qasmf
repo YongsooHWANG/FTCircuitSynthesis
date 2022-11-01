@@ -1,0 +1,161 @@
+Qubit LQ1-data0
+Qubit LQ1-data1
+Qubit LQ1-data2
+Qubit LQ1-data3
+Qubit LQ1-data4
+Qubit LQ1-data5
+Qubit LQ1-data6
+Qubit LQ1-data7
+Qubit LQ1-data8
+Qubit LQ1-data9
+Qubit LQ1-data10
+Qubit LQ1-data11
+Qubit LQ1-data12
+Qubit LQ1-data13
+Qubit LQ1-data14
+Qubit LQ1-data15
+Qubit LQ1-data16
+Qubit LQ1-data17
+Qubit LQ1-data18
+Qubit LQ1-data19
+Qubit LQ1-data20
+Qubit LQ1-data21
+Qubit LQ1-data22
+Qubit LQ2-ancilla0
+Qubit LQ2-ancilla1
+Qubit LQ2-ancilla2
+Qubit LQ2-ancilla3
+Qubit LQ2-ancilla4
+Qubit LQ2-ancilla5
+Qubit LQ2-ancilla6
+Qubit LQ2-ancilla7
+Qubit LQ2-ancilla8
+Qubit LQ2-ancilla9
+Qubit LQ2-ancilla10
+Qubit LQ2-ancilla11
+Qubit LQ2-ancilla12
+Qubit LQ2-ancilla13
+Qubit LQ2-ancilla14
+Qubit LQ2-ancilla15
+Qubit LQ2-ancilla16
+Qubit LQ2-ancilla17
+Qubit LQ2-ancilla18
+Qubit LQ2-ancilla19
+Qubit LQ2-ancilla20
+Qubit LQ2-ancilla21
+Qubit LQ2-ancilla22
+PrepZ LQ1-data0
+PrepZ LQ2-ancilla0
+PrepZ LQ1-data1
+PrepZ LQ2-ancilla1
+PrepZ LQ1-data2
+PrepZ LQ2-ancilla2
+PrepZ LQ1-data3
+PrepZ LQ2-ancilla3
+PrepZ LQ1-data4
+PrepZ LQ2-ancilla4
+PrepZ LQ1-data5
+PrepZ LQ2-ancilla5
+PrepZ LQ1-data6
+PrepZ LQ2-ancilla6
+PrepZ LQ1-data7
+PrepZ LQ2-ancilla7
+PrepZ LQ1-data8
+PrepZ LQ2-ancilla8
+PrepZ LQ1-data9
+PrepZ LQ2-ancilla9
+PrepZ LQ1-data10
+PrepZ LQ2-ancilla10
+PrepZ LQ1-data11
+PrepZ LQ2-ancilla11
+PrepZ LQ1-data12
+PrepZ LQ2-ancilla12
+PrepZ LQ1-data13
+PrepZ LQ2-ancilla13
+PrepZ LQ1-data14
+PrepZ LQ2-ancilla14
+PrepZ LQ1-data15
+PrepZ LQ2-ancilla15
+PrepZ LQ1-data16
+PrepZ LQ2-ancilla16
+PrepZ LQ1-data17
+PrepZ LQ2-ancilla17
+PrepZ LQ1-data18
+PrepZ LQ2-ancilla18
+PrepZ LQ1-data19
+PrepZ LQ2-ancilla19
+PrepZ LQ1-data20
+PrepZ LQ2-ancilla20
+PrepZ LQ1-data21
+PrepZ LQ2-ancilla21
+PrepZ LQ1-data22
+PrepZ LQ2-ancilla22
+CNOT LQ2-ancilla0,LQ1-data0
+H LQ2-ancilla0
+MeasZ LQ2-ancilla0 -> Null0
+CNOT LQ2-ancilla1,LQ1-data1
+H LQ2-ancilla1
+MeasZ LQ2-ancilla1 -> Null0
+CNOT LQ2-ancilla2,LQ1-data2
+H LQ2-ancilla2
+MeasZ LQ2-ancilla2 -> Null0
+CNOT LQ2-ancilla3,LQ1-data3
+H LQ2-ancilla3
+MeasZ LQ2-ancilla3 -> Null0
+CNOT LQ2-ancilla4,LQ1-data4
+H LQ2-ancilla4
+MeasZ LQ2-ancilla4 -> Null0
+CNOT LQ2-ancilla5,LQ1-data5
+H LQ2-ancilla5
+MeasZ LQ2-ancilla5 -> Null0
+CNOT LQ2-ancilla6,LQ1-data6
+H LQ2-ancilla6
+MeasZ LQ2-ancilla6 -> Null0
+CNOT LQ2-ancilla7,LQ1-data7
+H LQ2-ancilla7
+MeasZ LQ2-ancilla7 -> Null0
+CNOT LQ2-ancilla8,LQ1-data8
+H LQ2-ancilla8
+MeasZ LQ2-ancilla8 -> Null0
+CNOT LQ2-ancilla9,LQ1-data9
+H LQ2-ancilla9
+MeasZ LQ2-ancilla9 -> Null0
+CNOT LQ2-ancilla10,LQ1-data10
+H LQ2-ancilla10
+MeasZ LQ2-ancilla10 -> Null0
+CNOT LQ2-ancilla11,LQ1-data11
+H LQ2-ancilla11
+MeasZ LQ2-ancilla11 -> Null0
+CNOT LQ2-ancilla12,LQ1-data12
+H LQ2-ancilla12
+MeasZ LQ2-ancilla12 -> Null0
+CNOT LQ2-ancilla13,LQ1-data13
+H LQ2-ancilla13
+MeasZ LQ2-ancilla13 -> Null0
+CNOT LQ2-ancilla14,LQ1-data14
+H LQ2-ancilla14
+MeasZ LQ2-ancilla14 -> Null0
+CNOT LQ2-ancilla15,LQ1-data15
+H LQ2-ancilla15
+MeasZ LQ2-ancilla15 -> Null0
+CNOT LQ2-ancilla16,LQ1-data16
+H LQ2-ancilla16
+MeasZ LQ2-ancilla16 -> Null0
+CNOT LQ2-ancilla17,LQ1-data17
+H LQ2-ancilla17
+MeasZ LQ2-ancilla17 -> Null0
+CNOT LQ2-ancilla18,LQ1-data18
+H LQ2-ancilla18
+MeasZ LQ2-ancilla18 -> Null0
+CNOT LQ2-ancilla19,LQ1-data19
+H LQ2-ancilla19
+MeasZ LQ2-ancilla19 -> Null0
+CNOT LQ2-ancilla20,LQ1-data20
+H LQ2-ancilla20
+MeasZ LQ2-ancilla20 -> Null0
+CNOT LQ2-ancilla21,LQ1-data21
+H LQ2-ancilla21
+MeasZ LQ2-ancilla21 -> Null0
+CNOT LQ2-ancilla22,LQ1-data22
+H LQ2-ancilla22
+MeasZ LQ2-ancilla22 -> Null0

@@ -1,0 +1,115 @@
+Qubit data0
+Qubit data1
+Qubit data2
+Qubit data3
+Qubit data4
+Qubit data5
+Qubit data6
+Qubit data7
+Qubit data8
+Qubit data9
+Qubit data10
+Qubit data11
+Qubit data12
+Qubit data13
+Qubit data14
+Qubit data15
+Qubit data16
+Qubit data17
+Qubit data18
+Qubit data19
+Qubit data20
+Qubit data21
+Qubit data22
+Qubit ancilla0
+Qubit ancilla1
+Qubit ancilla2
+Qubit ancilla3
+Qubit ancilla4
+Qubit ancilla5
+Qubit ancilla6
+Qubit ancilla7
+Qubit ancilla8
+Qubit ancilla9
+Qubit ancilla10
+Qubit ancilla11
+Qubit ancilla12
+Qubit ancilla13
+Qubit ancilla14
+Qubit ancilla15
+Qubit ancilla16
+Qubit ancilla17
+Qubit ancilla18
+Qubit ancilla19
+Qubit ancilla20
+Qubit ancilla21
+Qubit ancilla22
+CNOT ancilla0,data0
+H data0
+MeasZ data0 -> Null0
+CNOT ancilla1,data1
+H data1
+MeasZ data1 -> Null0
+CNOT ancilla2,data2
+H data2
+MeasZ data2 -> Null0
+CNOT ancilla3,data3
+H data3
+MeasZ data3 -> Null0
+CNOT ancilla4,data4
+H data4
+MeasZ data4 -> Null0
+CNOT ancilla5,data5
+H data5
+MeasZ data5 -> Null0
+CNOT ancilla6,data6
+H data6
+MeasZ data6 -> Null0
+CNOT ancilla7,data7
+H data7
+MeasZ data7 -> Null0
+CNOT ancilla8,data8
+H data8
+MeasZ data8 -> Null0
+CNOT ancilla9,data9
+H data9
+MeasZ data9 -> Null0
+CNOT ancilla10,data10
+H data10
+MeasZ data10 -> Null0
+CNOT ancilla11,data11
+H data11
+MeasZ data11 -> Null0
+CNOT ancilla12,data12
+H data12
+MeasZ data12 -> Null0
+CNOT ancilla13,data13
+H data13
+MeasZ data13 -> Null0
+CNOT ancilla14,data14
+H data14
+MeasZ data14 -> Null0
+CNOT ancilla15,data15
+H data15
+MeasZ data15 -> Null0
+CNOT ancilla16,data16
+H data16
+MeasZ data16 -> Null0
+CNOT ancilla17,data17
+H data17
+MeasZ data17 -> Null0
+CNOT ancilla18,data18
+H data18
+MeasZ data18 -> Null0
+CNOT ancilla19,data19
+H data19
+MeasZ data19 -> Null0
+CNOT ancilla20,data20
+H data20
+MeasZ data20 -> Null0
+CNOT ancilla21,data21
+H data21
+MeasZ data21 -> Null0
+CNOT ancilla22,data22
+H data22
+MeasZ data22 -> Null0

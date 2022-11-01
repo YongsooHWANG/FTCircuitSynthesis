@@ -1,0 +1,109 @@
+Qubit data0
+Qubit data1
+Qubit data2
+Qubit data3
+Qubit data4
+Qubit data5
+Qubit data6
+Qubit syndrome0
+Qubit syndrome1
+Qubit syndrome2
+Qubit syndrome3
+Qubit syndrome4
+Qubit syndrome5
+Qubit syndrome6
+Qubit checkup0
+Cbit bit0
+Cbit bit1
+Cbit bit2
+Cbit bit3
+Cbit bit4
+Cbit bit5
+Cbit bit6
+Cbit checkbit0
+PrepZ syndrome0
+PrepZ syndrome1
+PrepZ syndrome2
+PrepZ syndrome3
+PrepZ syndrome4
+PrepZ syndrome5
+PrepZ syndrome6
+PrepZ checkup0
+H syndrome0
+H syndrome4
+H syndrome5
+H syndrome6
+CNOT syndrome0,syndrome1
+CNOT syndrome5,syndrome3
+CNOT syndrome6,syndrome2
+CNOT syndrome4,syndrome1
+CNOT syndrome0,syndrome2
+CNOT syndrome6,syndrome3
+CNOT syndrome5,syndrome1
+CNOT syndrome4,syndrome6
+CNOT checkup0,syndrome0
+CNOT checkup0,syndrome5
+CNOT checkup0,syndrome6
+H checkup0
+MeasZ checkup0 -> checkbit0
+Barrier-All
+CNOT data0,syndrome0
+CNOT data1,syndrome1
+CNOT data2,syndrome2
+CNOT data3,syndrome3
+CNOT data4,syndrome4
+CNOT data5,syndrome5
+CNOT data6,syndrome6
+MeasZ syndrome0 -> bit0
+MeasZ syndrome1 -> bit1
+MeasZ syndrome2 -> bit2
+MeasZ syndrome3 -> bit3
+MeasZ syndrome4 -> bit4
+MeasZ syndrome5 -> bit5
+MeasZ syndrome6 -> bit6
+Barrier-All
+PrepZ syndrome0
+PrepZ syndrome1
+PrepZ syndrome2
+PrepZ syndrome3
+PrepZ syndrome4
+PrepZ syndrome5
+PrepZ syndrome6
+PrepZ checkup0
+H syndrome1
+H syndrome2
+H syndrome3
+CNOT syndrome1,syndrome0
+CNOT syndrome3,syndrome5
+CNOT syndrome2,syndrome6
+CNOT syndrome1,syndrome4
+CNOT syndrome2,syndrome0
+CNOT syndrome3,syndrome6
+CNOT syndrome1,syndrome5
+CNOT syndrome6,syndrome4
+CNOT syndrome0,checkup0
+CNOT syndrome5,checkup0
+CNOT syndrome6,checkup0
+MeasZ checkup0 -> checkbit0
+Barrier-All
+CNOT syndrome0,data0
+CNOT syndrome1,data1
+CNOT syndrome2,data2
+CNOT syndrome3,data3
+CNOT syndrome4,data4
+CNOT syndrome5,data5
+CNOT syndrome6,data6
+H syndrome0
+H syndrome1
+H syndrome2
+H syndrome3
+H syndrome4
+H syndrome5
+H syndrome6
+MeasZ syndrome0 -> bit0
+MeasZ syndrome1 -> bit1
+MeasZ syndrome2 -> bit2
+MeasZ syndrome3 -> bit3
+MeasZ syndrome4 -> bit4
+MeasZ syndrome5 -> bit5
+MeasZ syndrome6 -> bit6
