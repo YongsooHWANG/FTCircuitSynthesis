@@ -1,0 +1,215 @@
+{
+    "mapping_performance" : {
+        "memory" : {
+            "current" : 55.27762,
+            "peak" : 55.401311
+        },
+        "time" : 8.330000291985925
+    },
+    "msg" : "Success",
+    "option" : {
+        "allow_swap" : true,
+        "allowable_data_interaction" : 0,
+        "application" : "ftqc",
+        "cost_function" : "lap",
+        "decay_factor" : 0.0,
+        "extended_set_weight" : 0.1,
+        "goal" : "system_code",
+        "homebase" : {
+            "data0" : 2,
+            "data1" : 5,
+            "data2" : 4,
+            "data3" : 7,
+            "data4" : 11,
+            "data5" : 8,
+            "data6" : 9
+        },
+        "initial_mapping_option" : "periodic_random",
+        "iteration" : 10,
+        "lap_depth" : 3,
+        "mapper" : "SABRE",
+        "moveback" : true,
+        "number_workers" : 4,
+        "optimal_criterion" : "number_locations",
+        "postprocessing" : false,
+        "prob_best_swap" : 0.99,
+        "qubit_connectivity" : "user"
+    },
+    "qchip" : {
+     "0" : [
+            1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+        ],
+        "1" : [
+            0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+        ],
+        "2" : [
+            0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+        ],
+        "3" : [
+            0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+        ],
+        "4" : [
+            0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+        ],
+        "5" : [
+            0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14
+        ],
+        "6" : [
+            0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14
+        ],
+        "7" : [
+            0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14
+        ],
+        "8" : [
+            0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14
+        ],
+        "9" : [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14
+        ],
+        "10" : [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14
+        ],
+        "11" : [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14
+        ],
+        "12" : [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14
+        ],
+        "13" : [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14
+        ],
+        "14" : [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+        ]
+    },
+    "result" : {
+        "analysis" : {
+            "Circuit Depth" : 8,
+            "Function List" : {},
+            "Interaction" : null,
+            "KQ" : 120,
+            "Locations" : 53,
+            "Qubit" : {
+                "Layout Size" : {
+                    "height" : 15,
+                    "length" : 1,
+                    "width" : 1
+                },
+                "Qubit" : 15
+            },
+            "Total Function" : 0
+        },
+        "checkup" : "mapping result is compatible with the given qubit connectivity.",
+        "qchip" : {
+            "device_name" : "file_qchip_15x1.json",
+            "dimension" : {
+                "height" : 15,
+                "length" : 1,
+                "width" : 1
+            },
+            "qubit_connectivity" : {
+                "0" : [
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+                ],
+                "1" : [
+                    0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+                ],
+                "2" : [
+                    0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+                ],
+                "3" : [
+                    0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+                ],
+                "4" : [
+                    0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+                ],
+                "5" : [
+                    0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14
+                ],
+                "6" : [
+                    0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14
+                ],
+                "7" : [
+                    0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14
+                ],
+                "8" : [
+                    0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14
+                ],
+                "9" : [
+                    0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14
+                ],
+                "10" : [
+                    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14
+                ],
+                "11" : [
+                    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14
+                ],
+                "12" : [
+                    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14
+                ],
+                "13" : [
+                    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14
+                ],
+                "14" : [
+                    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+                ]
+            }
+        },
+        "system_code" : {
+            "circuit" : {
+                "0" : [
+                    "CNOT 0,8",
+                    "CNOT 1,9",
+                    "CNOT 2,10",
+                    "CNOT 3,11",
+                    "CNOT 4,12",
+                    "CNOT 5,13",
+                    "CNOT 6,14"
+                ],
+                "1" : [
+                    "MeasZ 8 -> 8",
+                    "MeasZ 9 -> 9",
+                    "MeasZ 10 -> 10",
+                    "MeasZ 11 -> 11",
+                    "MeasZ 12 -> 12",
+                    "MeasZ 13 -> 13",
+                    "MeasZ 14 -> 14"
+                ]
+            },
+            "final_mapping" : {
+                "data0" : 0,
+                "data1" : 1,
+                "data2" : 2,
+                "data3" : 3,
+                "data4" : 4,
+                "data5" : 5,
+                "data6" : 6,
+                "checkup0" : 7,
+                "syndrome0" : 8,
+                "syndrome1" : 9,
+                "syndrome2" : 10,
+                "syndrome3" : 11,
+                "syndrome4" : 12,
+                "syndrome5" : 13,
+                "syndrome6" : 14
+            },
+            "initial_mapping" : {
+                "data0" : 0,
+                "data1" : 1,
+                "data2" : 2,
+                "data3" : 3,
+                "data4" : 4,
+                "data5" : 5,
+                "data6" : 6,
+                "checkup0" : 7,
+                "syndrome0" : 8,
+                "syndrome1" : 9,
+                "syndrome2" : 10,
+                "syndrome3" : 11,
+                "syndrome4" : 12,
+                "syndrome5" : 13,
+                "syndrome6" : 14
+            }        
+        }
+    }
+}
