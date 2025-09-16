@@ -1,0 +1,1356 @@
+==============================================================================================================
+Initial Mapping: 
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7                                                            
+1                              data13                  data17       data8      data22                        
+2                  data11       data0       data6      data21                                                
+3                                           data3      data14      data16       data9                        
+4                  data18       data1                  data15                               data4            
+5                                                       data2       data5                                    
+6                                          data20      data19      data10      data12                        
+7                                                                                                            
+==============================================================================================================
+==============================================================================================================
+instructions at 0-th index : 
+--------------------------------------------------------------------------------------------------------------
+ PrepZ  20 (   data0) : True                            PrepZ  38 (   data1) : True
+ PrepZ  49 (   data2) : True                            PrepZ  21 (   data6) : True
+ PrepZ   3 (   data7) : True                            PrepZ  14 (   data8) : True
+ PrepZ  33 (   data9) : True                            PrepZ  59 (  data10) : True
+ PrepX  60 (  data12) : True                            PrepX  11 (  data13) : True
+ PrepX  40 (  data15) : True                            PrepX  32 (  data16) : True
+ PrepX  37 (  data18) : True                            PrepX  22 (  data21) : True
+ PrepX  15 (  data22) : True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7                                                            
+1                              data13                  data17       data8      data22                        
+2                  data11       data0       data6      data21                                                
+3                                           data3      data14      data16       data9                        
+4                  data18       data1                  data15                               data4            
+5                                                       data2       data5                                    
+6                                          data20      data19      data10      data12                        
+7                                                                                                            
+==============================================================================================================
+instructions at 1-th index : 
+--------------------------------------------------------------------------------------------------------------
+ PrepZ  30 (   data3) : True                            PrepZ  50 (   data5) : True
+ PrepX  13 (  data17) : True
+ vv-CNOT  11, 20 (  data13,   data0) : True, True       vv-CNOT  40, 49 (  data15,   data2) : True, True
+ hh-CNOT  32, 33 (  data16,   data9) : True, True       hh-CNOT  37, 38 (  data18,   data1) : True, True
+ hh-CNOT  15, 14 (  data22,   data8) : True, True
+ hh-SWAP  22, 21 (  data21,   data6) : True, True       vv-SWAP  51, 60 ( dummy32,  data12) : False, True
+ vv-SWAP  68, 59 ( dummy44,  data10) : False, True      hh-SWAP   2,  3 ( dummy34,   data7) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data7                                                                        
+1                              data13                  data17       data8      data22                        
+2                  data11       data0      data21       data6                                                
+3                                           data3      data14      data16       data9                        
+4                  data18       data1                  data15                               data4            
+5                                                       data2       data5      data12                        
+6                                          data20      data19                                                
+7                                                                  data10                                    
+==============================================================================================================
+instructions at 2-th index : 
+--------------------------------------------------------------------------------------------------------------
+ PrepX  31 (  data14) : True                            PrepX  58 (  data19) : True
+ PrepX  57 (  data20) : True
+ vv-CNOT  13, 22 (  data17,   data6) : True, True       vv-CNOT  21, 30 (  data21,   data3) : True, True
+ hh-SWAP  48, 49 ( dummy31,   data2) : False, True      vv-SWAP  42, 33 ( dummy27,   data9) : False, True
+ vv-SWAP  28, 37 ( dummy25,  data18) : False, True      hh-SWAP  12, 11 ( dummy21,  data13) : False, True
+ vv-SWAP  29, 20 ( dummy11,   data0) : False, True      hh-SWAP  41, 40 ( dummy15,  data15) : False, True
+ hh-SWAP  39, 38 ( dummy40,   data1) : False, True      vv-SWAP  24, 15 ( dummy29,  data22) : False, True
+ vv-SWAP  59, 50 ( dummy44,   data5) : False, True      vv-SWAP  23, 14 (  dummy9,   data8) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data7                                                                        
+1                                          data13      data17                                                
+2                  data11                  data21       data6       data8      data22                        
+3                  data18       data0       data3      data14      data16                                    
+4                                           data1                  data15       data9       data4            
+5                                           data2                              data12                        
+6                                          data20      data19       data5                                    
+7                                                                  data10                                    
+==============================================================================================================
+instructions at 3-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  57, 48 (  data20,   data2) : True, True       hh-CNOT  58, 59 (  data19,   data5) : True, True
+ vv-CNOT  51, 42 (  data12,   data9) : True, True       hh-CNOT  28, 29 (  data18,   data0) : True, True
+ vv-SWAP   4, 13 ( dummy41,  data17) : False, True      vv-SWAP  40, 31 ( dummy15,  data14) : False, True
+ hh-SWAP  20, 21 ( dummy11,  data21) : False, True      vv-SWAP  11,  2 ( dummy21,   data7) : False, True
+ vv-SWAP  50, 41 ( dummy44,  data15) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                                      data17                                                
+1                               data7      data13                                                            
+2                  data11      data21                   data6       data8      data22                        
+3                  data18       data0       data3                  data16                                    
+4                                           data1      data14                   data9       data4            
+5                                           data2                  data15      data12                        
+6                                          data20      data19       data5                                    
+7                                                                  data10                                    
+==============================================================================================================
+instructions at 4-th index : 
+--------------------------------------------------------------------------------------------------------------
+ PrepZ  43 (   data4) : True                            PrepZ  19 (  data11) : True
+ vv-CNOT  20, 11 (  data21,   data7) : True, True       hh-CNOT  40, 39 (  data14,   data1) : True, True
+ hh-SWAP  56, 57 (  dummy4,  data20) : False, True      vv-SWAP  13, 22 ( dummy41,   data6) : False, True
+ vv-SWAP  33, 42 ( dummy27,   data9) : False, True      hh-SWAP   3,  4 ( dummy34,  data17) : False, True
+ vv-SWAP  37, 28 ( dummy25,  data18) : False, True      hh-SWAP  52, 51 ( dummy46,  data12) : False, True
+ hh-SWAP  31, 32 ( dummy15,  data16) : False, True      vv-SWAP  67, 58 ( dummy48,  data19) : False, True
+ hh-SWAP  49, 48 ( dummy31,   data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                          data17                                                            
+1                               data7      data13       data6                                                
+2                  data11      data21                               data8      data22                        
+3                               data0       data3      data16                   data9                        
+4                  data18                   data1      data14                               data4            
+5                                                       data2      data15                  data12            
+6                              data20                               data5                                    
+7                                                      data19      data10                                    
+==============================================================================================================
+instructions at 5-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  12, 13 (  data13,   data6) : True, True       vv-CNOT  24, 33 (  data22,   data9) : True, True
+ hh-CNOT  67, 68 (  data19,  data10) : True, True       hh-CNOT  31, 30 (  data16,   data3) : True, True
+ vv-SWAP  47, 56 ( dummy36,  data20) : False, True      vv-SWAP  61, 52 ( dummy13,  data12) : False, True
+ hh-SWAP  38, 39 ( dummy40,   data1) : False, True      vv-SWAP  28, 19 ( dummy25,  data11) : False, True
+ hh-SWAP  42, 43 ( dummy27,   data4) : False, True      hh-SWAP  36, 37 ( dummy39,  data18) : False, True
+ hh-SWAP  51, 50 ( dummy46,  data15) : False, True      vv-SWAP  32, 23 ( dummy15,   data8) : False, True
+ hh-SWAP  10, 11 ( dummy10,   data7) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                          data17                                                            
+1                   data7                  data13       data6                                                
+2                              data21                                          data22                        
+3                  data11       data0       data3      data16       data8       data9                        
+4      data18                   data1                  data14                   data4                        
+5                              data20                   data2                  data15                        
+6                                                                   data5                  data12            
+7                                                      data19      data10                                    
+==============================================================================================================
+instructions at 6-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  15, 24 ( dummy29,  data22) : False, True      hh-SWAP  46, 47 ( dummy37,  data20) : False, True
+ vv-SWAP  21, 30 ( dummy11,   data3) : False, True      vv-SWAP  50, 59 ( dummy46,   data5) : False, True
+ hh-SWAP  41, 42 ( dummy44,   data4) : False, True      vv-SWAP  70, 61 (  dummy6,  data12) : False, True
+ vv-SWAP  58, 67 ( dummy48,  data19) : False, True      hh-SWAP  69, 68 ( dummy42,  data10) : False, True
+ vv-SWAP  27, 36 ( dummy35,  data18) : False, True      vv-SWAP   1, 10 ( dummy23,   data7) : False, True
+ vv-SWAP  11, 20 ( dummy10,  data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                   data7                  data17                                                            
+1                              data21      data13       data6                  data22                        
+2                                           data3                                                            
+3      data18      data11       data0                  data16       data8       data9                        
+4                               data1                  data14       data4                                    
+5                  data20                               data2       data5      data15                        
+6                                                      data19                                                
+7                                                                              data10      data12            
+==============================================================================================================
+instructions at 7-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  40, 41 (  data14,   data4) : True, True       hh-CNOT  49, 50 (   data2,   data5) : True, True
+ hh-CNOT  70, 69 (  data12,  data10) : True, True
+ vv-SWAP  47, 38 ( dummy37,   data1) : False, True      hh-SWAP  22, 21 ( dummy41,   data3) : False, True
+ vv-SWAP  37, 46 ( dummy39,  data20) : False, True      vv-SWAP   6, 15 ( dummy43,  data22) : False, True
+ vv-SWAP  24, 33 ( dummy29,   data9) : False, True      hh-SWAP  10, 11 ( dummy23,  data21) : False, True
+ hh-SWAP  57, 58 (  dummy4,  data19) : False, True      hh-SWAP   0,  1 ( dummy17,   data7) : False, True
+ hh-SWAP  30, 29 ( dummy11,   data0) : False, True      vv-SWAP  42, 51 ( dummy44,  data15) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0       data7                              data17                              data22                        
+1                  data21                  data13       data6                                                
+2                                                       data3                   data9                        
+3      data18      data11                   data0      data16       data8                                    
+4                  data20                              data14       data4      data15                        
+5                               data1                   data2       data5                                    
+6                                          data19                                                            
+7                                                                              data10      data12            
+==============================================================================================================
+instructions at 8-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  22, 13 (   data3,   data6) : True, True       vv-CNOT  37, 28 (  data20,  data11) : True, True
+ vv-CNOT  40, 49 (  data14,   data2) : True, True
+ vv-SWAP  56, 47 ( dummy36,   data1) : False, True      vv-SWAP  21, 12 ( dummy41,  data13) : False, True
+ hh-SWAP  33, 32 ( dummy29,   data8) : False, True      hh-SWAP  68, 69 ( dummy42,  data10) : False, True
+ vv-SWAP  15, 24 ( dummy43,   data9) : False, True      vv-SWAP  61, 70 (  dummy6,  data12) : False, True
+ vv-SWAP   9,  0 ( dummy45,   data7) : False, True      hh-SWAP   7,  6 ( dummy19,  data22) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                          data17                                          data22            
+1       data7      data21                               data6                   data9                        
+2                                          data13       data3                                                
+3      data18      data11                   data0      data16                   data8                        
+4                  data20                              data14       data4      data15                        
+5                                                       data2       data5                                    
+6                               data1      data19                                          data12            
+7                                                                  data10                                    
+==============================================================================================================
+instructions at 9-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  57, 56 (  data19,   data1) : True, True       vv-CNOT  42, 33 (  data15,   data8) : True, True
+ vv-SWAP  19, 28 ( dummy25,  data11) : False, True      vv-SWAP  12,  3 ( dummy41,  data17) : False, True
+ vv-SWAP   4, 13 ( dummy34,   data6) : False, True      hh-SWAP  20, 21 ( dummy10,  data13) : False, True
+ hh-SWAP  39, 40 ( dummy40,  data14) : False, True      vv-SWAP  59, 68 ( dummy46,  data10) : False, True
+ vv-SWAP  52, 61 ( dummy13,  data12) : False, True      hh-SWAP  36, 37 ( dummy35,  data20) : False, True
+ vv-SWAP  18,  9 ( dummy33,   data7) : False, True      vv-SWAP  16,  7 ( dummy26,  data22) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                                       data6                                                
+1                  data21                  data17                               data9      data22            
+2       data7      data11      data13                   data3                                                
+3      data18                               data0      data16                   data8                        
+4      data20                              data14                   data4      data15                        
+5                                                       data2       data5                  data12            
+6                               data1      data19                  data10                                    
+7                                                                                                            
+==============================================================================================================
+instructions at 10-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  13, 22 ( dummy34,   data3) : False, True      vv-SWAP  11, 20 ( dummy23,  data13) : False, True
+ vv-SWAP  47, 56 ( dummy36,   data1) : False, True      vv-SWAP  48, 39 ( dummy31,  data14) : False, True
+ vv-SWAP  21, 12 ( dummy10,  data17) : False, True      vv-SWAP  40, 31 ( dummy40,  data16) : False, True
+ vv-SWAP  43, 52 ( dummy27,  data12) : False, True      hh-SWAP  58, 59 (  dummy4,  data10) : False, True
+ vv-SWAP  66, 57 ( dummy24,  data19) : False, True      vv-SWAP  45, 36 ( dummy16,  data20) : False, True
+ vv-SWAP  51, 42 ( dummy44,  data15) : False, True      vv-SWAP  24, 33 ( dummy43,   data8) : False, True
+ vv-SWAP  25, 16 ( dummy38,  data22) : False, True      hh-SWAP   3,  4 ( dummy41,   data6) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data6                                                            
+1                  data21      data13                   data3                   data9                        
+2       data7      data11                  data17                               data8      data22            
+3      data18                               data0                                                            
+4                                                      data16       data4                  data12            
+5      data20                   data1      data14       data2       data5      data15                        
+6                                                      data10                                                
+7                                          data19                                                            
+==============================================================================================================
+instructions at 11-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  21, 30 (  data17,   data0) : True, True
+ hh-SWAP  14, 13 (  dummy9,   data3) : False, True      hh-SWAP  20, 19 ( dummy23,  data11) : False, True
+ vv-SWAP   2, 11 ( dummy21,  data13) : False, True      vv-SWAP  38, 47 ( dummy37,   data1) : False, True
+ vv-SWAP  57, 48 ( dummy24,  data14) : False, True      vv-SWAP  54, 45 ( dummy28,  data20) : False, True
+ hh-SWAP  42, 43 ( dummy44,  data12) : False, True      hh-SWAP  67, 66 ( dummy48,  data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data13       data6                                                            
+1                  data21                                           data3       data9                        
+2       data7                  data11      data17                               data8      data22            
+3      data18                               data0                                                            
+4                               data1                  data16       data4      data12                        
+5                                                       data2       data5      data15                        
+6      data20                              data14      data10                                                
+7                                                      data19                                                
+==============================================================================================================
+instructions at 12-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  19, 10 ( dummy23,  data21) : False, True      vv-SWAP  11, 20 ( dummy21,  data11) : False, True
+ hh-SWAP   1,  2 ( dummy17,  data13) : False, True      vv-SWAP  29, 38 ( dummy11,   data1) : False, True
+ vv-SWAP  39, 30 ( dummy31,   data0) : False, True      vv-SWAP  23, 14 ( dummy15,   data3) : False, True
+ hh-SWAP  48, 49 ( dummy24,   data2) : False, True      hh-SWAP  56, 57 ( dummy36,  data14) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                  data13                   data6                                                            
+1                              data11                                           data9                        
+2       data7      data21                  data17                   data3       data8      data22            
+3      data18                   data1                                                                        
+4                                           data0      data16       data4      data12                        
+5                                           data2                   data5      data15                        
+6      data20                  data14                  data10                                                
+7                                                      data19                                                
+==============================================================================================================
+instructions at 13-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  12, 11 ( dummy10,  data11) : False, True      vv-SWAP  10,  1 ( dummy23,  data13) : False, True
+ hh-SWAP  49, 50 ( dummy24,   data5) : False, True      vv-SWAP  28, 19 ( dummy25,  data21) : False, True
+ hh-SWAP  57, 58 ( dummy36,  data10) : False, True      vv-SWAP  20, 29 ( dummy21,   data1) : False, True
+ hh-SWAP  22, 23 ( dummy34,   data3) : False, True      hh-SWAP  47, 48 ( dummy37,   data2) : False, True
+ hh-SWAP  55, 56 (  dummy2,  data14) : False, True      hh-SWAP  14, 15 ( dummy15,   data9) : False, True
+ hh-SWAP   2,  3 ( dummy17,   data6) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data6                                                                        
+1                  data13                  data11                   data9                                    
+2       data7                   data1      data17       data3                   data8      data22            
+3      data18      data21                                                                                    
+4                                           data0      data16       data4      data12                        
+5                               data2                   data5                  data15                        
+6      data20      data14                  data10                                                            
+7                                                      data19                                                
+==============================================================================================================
+instructions at 14-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  40, 49 (  data16,   data5) : True, True
+ vv-SWAP  50, 41 ( dummy24,   data4) : False, True      hh-SWAP  13, 12 (  dummy9,  data11) : False, True
+ vv-SWAP  19, 10 ( dummy25,  data13) : False, True      hh-SWAP  23, 24 ( dummy34,   data8) : False, True
+ vv-SWAP  46, 55 ( dummy39,  data14) : False, True      hh-SWAP  56, 57 (  dummy2,  data10) : False, True
+ hh-SWAP   1,  2 ( dummy23,   data6) : False, True      vv-SWAP  37, 28 ( dummy35,  data21) : False, True
+ vv-SWAP  58, 67 ( dummy36,  data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                   data6                                                                                    
+1                                                      data11       data9                                    
+2       data7      data13       data1      data17       data3       data8                  data22            
+3      data18                                                                                                
+4                  data21                   data0      data16                  data12                        
+5                  data14       data2                   data5       data4      data15                        
+6      data20                  data10                  data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 15-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  49, 50 (   data5,   data4) : True, True       hh-CNOT  14, 13 (   data9,  data11) : True, True
+ hh-CNOT  19, 20 (  data13,   data1) : True, True
+ vv-SWAP  31, 40 ( dummy40,  data16) : False, True      hh-SWAP  45, 46 ( dummy28,  data14) : False, True
+ vv-SWAP  12, 21 (  dummy9,  data17) : False, True      hh-SWAP  55, 56 ( dummy39,  data10) : False, True
+ hh-SWAP  24, 25 ( dummy34,  data22) : False, True      vv-SWAP  10,  1 ( dummy25,   data6) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                                                                                            
+1                   data6                  data17      data11       data9                                    
+2       data7      data13       data1                   data3       data8      data22                        
+3      data18                                          data16                                                
+4                  data21                   data0                              data12                        
+5      data14                   data2                   data5       data4      data15                        
+6      data20      data10                              data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 16-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  12, 13 (  data17,  data11) : True, True       hh-CNOT  54, 55 (  data20,  data10) : True, True
+ hh-SWAP  40, 39 ( dummy40,   data0) : False, True      hh-SWAP  48, 49 ( dummy37,   data5) : False, True
+ hh-SWAP  21, 22 (  dummy9,   data3) : False, True      vv-SWAP  15, 24 ( dummy15,  data22) : False, True
+ hh-SWAP  32, 31 ( dummy29,  data16) : False, True      vv-SWAP  36, 45 ( dummy16,  data14) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                                                                                            
+1                   data6                  data17      data11       data9      data22                        
+2       data7      data13       data1       data3                   data8                                    
+3      data18                                                      data16                                    
+4      data14      data21                               data0                  data12                        
+5                               data2       data5                   data4      data15                        
+6      data20      data10                              data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 17-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  20, 21 (   data1,   data3) : True, True
+ vv-SWAP  39, 48 ( dummy40,   data5) : False, True      hh-SWAP  41, 40 ( dummy24,   data0) : False, True
+ hh-SWAP  22, 23 (  dummy9,   data8) : False, True      vv-SWAP   6, 15 ( dummy19,  data22) : False, True
+ vv-SWAP   4, 13 ( dummy41,  data11) : False, True      vv-SWAP  45, 54 ( dummy16,  data20) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                                      data11                  data22                        
+1                   data6                  data17                   data9                                    
+2       data7      data13       data1       data3       data8                                                
+3      data18                                                      data16                                    
+4      data14      data21                   data5                   data0      data12                        
+5      data20                   data2                               data4      data15                        
+6                  data10                              data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 18-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  42, 41 (  data12,   data0) : True, True
+ vv-SWAP  11, 20 ( dummy10,   data1) : False, True      vv-SWAP  30, 21 ( dummy31,   data3) : False, True
+ hh-SWAP  38, 39 ( dummy11,   data5) : False, True      hh-SWAP  48, 47 ( dummy40,   data2) : False, True
+ hh-SWAP  13, 14 ( dummy41,   data9) : False, True      hh-SWAP   5,  6 ( dummy20,  data22) : False, True
+ hh-SWAP   3,  4 ( dummy17,  data11) : False, True      vv-SWAP  23, 32 (  dummy9,  data16) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                          data11                  data22                                    
+1                   data6       data1      data17       data9                                                
+2       data7      data13                               data8      data16                                    
+3      data18                               data3                                                            
+4      data14      data21       data5                               data0      data12                        
+5      data20                               data2                   data4      data15                        
+6                  data10                              data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 19-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  20, 19 ( dummy10,  data13) : False, True      vv-SWAP  21, 12 ( dummy31,  data17) : False, True
+ hh-SWAP  40, 41 ( dummy24,   data0) : False, True      hh-SWAP  31, 30 ( dummy29,   data3) : False, True
+ vv-SWAP   2, 11 ( dummy23,   data1) : False, True      hh-SWAP  43, 42 ( dummy44,  data12) : False, True
+ hh-SWAP   4,  5 ( dummy17,  data22) : False, True      vv-SWAP  14, 23 ( dummy41,  data16) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data11      data22                                                
+1                   data6                               data9      data16                                    
+2       data7                  data13      data17       data8                                                
+3      data18                                           data3                                                
+4      data14      data21       data5                   data0                              data12            
+5      data20                               data2                   data4      data15                        
+6                  data10                              data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 20-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  19, 18 ( dummy10,   data7) : False, True      vv-SWAP  29, 20 ( dummy21,  data13) : False, True
+ vv-SWAP  41, 50 ( dummy24,   data4) : False, True      vv-SWAP  30, 21 ( dummy29,  data17) : False, True
+ hh-SWAP  39, 40 ( dummy11,   data0) : False, True      hh-SWAP  11, 10 ( dummy23,   data6) : False, True
+ vv-SWAP  34, 43 ( dummy30,  data12) : False, True      vv-SWAP   5, 14 ( dummy17,  data16) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data11      data22      data16                                    
+1                               data6                   data9                                                
+2                   data7                               data8                                                
+3      data18                  data13      data17       data3                              data12            
+4      data14      data21       data5       data0                   data4                                    
+5      data20                               data2                              data15                        
+6                  data10                              data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 21-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  29, 38 (  data13,   data5) : True, True       vv-CNOT  39, 48 (   data0,   data2) : True, True
+ hh-SWAP  50, 51 ( dummy24,  data15) : False, True      hh-SWAP  20, 19 ( dummy21,   data7) : False, True
+ vv-SWAP  18, 27 ( dummy10,  data18) : False, True      hh-SWAP  21, 22 ( dummy29,   data8) : False, True
+ vv-SWAP  25, 34 ( dummy34,  data12) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data11      data22      data16                                    
+1                               data6                   data9                                                
+2      data18                   data7       data8                                          data12            
+3                              data13      data17       data3                                                
+4      data14      data21       data5       data0                   data4                                    
+5      data20                               data2                  data15                                    
+6                  data10                              data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 22-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  21, 20 (   data8,   data7) : True, True
+ hh-SWAP  49, 50 ( dummy37,  data15) : False, True      hh-SWAP  28, 29 ( dummy35,  data13) : False, True
+ vv-SWAP  27, 36 ( dummy10,  data14) : False, True      hh-SWAP  19, 18 ( dummy21,  data18) : False, True
+ vv-SWAP  22, 13 ( dummy29,   data9) : False, True      hh-SWAP  24, 25 ( dummy15,  data12) : False, True
+ vv-SWAP  57, 48 (  dummy2,   data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data11      data22      data16                                    
+1                               data6                                                                        
+2                  data18       data7       data8       data9                  data12                        
+3      data14      data13                  data17       data3                                                
+4                  data21       data5       data0                   data4                                    
+5      data20                                          data15                                                
+6                  data10                   data2      data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 23-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  19, 20 (  data18,   data7) : True, True
+ vv-SWAP  40, 49 ( dummy11,  data15) : False, True      vv-SWAP  29, 38 ( dummy35,   data5) : False, True
+ vv-SWAP  12, 21 ( dummy31,   data8) : False, True      vv-SWAP  36, 45 ( dummy10,  data20) : False, True
+ vv-SWAP  15, 24 ( dummy19,  data12) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data11      data22      data16                                    
+1                               data6       data8                              data12                        
+2                  data18       data7                   data9                                                
+3      data14      data13       data5      data17       data3                                                
+4      data20      data21                   data0      data15       data4                                    
+5                                                                                                            
+6                  data10                   data2      data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 24-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  40, 31 (  data15,   data3) : True, True       hh-CNOT  11, 12 (   data6,   data8) : True, True
+ hh-SWAP  18, 19 ( dummy21,  data18) : False, True      hh-SWAP  38, 39 ( dummy35,   data0) : False, True
+ hh-SWAP  14, 15 ( dummy17,  data12) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data11      data22      data16                                    
+1                               data6       data8                  data12                                    
+2      data18                   data7                   data9                                                
+3      data14      data13       data5      data17       data3                                                
+4      data20      data21       data0                  data15       data4                                    
+5                                                                                                            
+6                  data10                   data2      data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 25-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  37, 38 (  data21,   data0) : True, True
+ vv-SWAP  39, 30 ( dummy35,  data17) : False, True      hh-SWAP  19, 20 ( dummy21,   data7) : False, True
+ vv-SWAP  21, 12 ( dummy31,   data8) : False, True      vv-SWAP  49, 40 ( dummy11,  data15) : False, True
+ vv-SWAP   9, 18 ( dummy33,  data18) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data11      data22      data16                                    
+1      data18                   data6                              data12                                    
+2                   data7                   data8       data9                                                
+3      data14      data13       data5                   data3                                                
+4      data20      data21       data0      data17                   data4                                    
+5                                                      data15                                                
+6                  data10                   data2      data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 26-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  20, 11 ( dummy21,   data6) : False, True      vv-SWAP  12,  3 ( dummy31,  data11) : False, True
+ vv-SWAP  46, 37 ( dummy28,  data21) : False, True      vv-SWAP  47, 38 ( dummy40,   data0) : False, True
+ hh-SWAP  40, 39 ( dummy11,  data17) : False, True      vv-SWAP  10, 19 ( dummy23,   data7) : False, True
+ hh-SWAP  30, 31 ( dummy35,   data3) : False, True      hh-SWAP  50, 49 ( dummy37,  data15) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1                  data22      data16                                    
+1      data18       data7                  data11                  data12                                    
+2                               data6       data8       data9                                                
+3      data14      data13       data5       data3                                                            
+4      data20                                          data17       data4                                    
+5                  data21       data0                              data15                                    
+6                  data10                   data2      data19                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 27-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  40, 41 (  data17,   data4) : True, True
+ vv-SWAP  37, 28 ( dummy28,  data13) : False, True      hh-SWAP   3,  4 ( dummy31,  data22) : False, True
+ hh-SWAP  11, 12 ( dummy21,  data11) : False, True      vv-SWAP  49, 58 ( dummy37,  data19) : False, True
+ vv-SWAP  39, 30 ( dummy11,   data3) : False, True      hh-SWAP  48, 47 (  dummy2,   data0) : False, True
+ vv-SWAP  59, 50 (  dummy4,  data15) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data22                  data16                                    
+1      data18       data7      data11                              data12                                    
+2                               data6       data8       data9                                                
+3      data14                   data5                                                                        
+4      data20      data13                   data3      data17       data4                                    
+5                  data21                   data0      data19                                                
+6                  data10                   data2                  data15                                    
+7                                                                                                            
+==============================================================================================================
+instructions at 28-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT   3,  2 (  data22,   data1) : True, True
+ hh-SWAP  28, 27 ( dummy28,  data14) : False, True      hh-SWAP  38, 37 ( dummy40,  data13) : False, True
+ vv-SWAP  32, 41 (  dummy9,   data4) : False, True      vv-SWAP  12, 21 ( dummy21,   data8) : False, True
+ hh-SWAP  60, 59 ( dummy32,  data15) : False, True      hh-SWAP  58, 57 ( dummy37,   data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data22                  data16                                    
+1      data18       data7      data11       data8                  data12                                    
+2                               data6                   data9                                                
+3                  data14       data5                               data4                                    
+4      data20                  data13       data3      data17                                                
+5                  data21                   data0      data19                                                
+6                  data10                               data2                  data15                        
+7                                                                                                            
+==============================================================================================================
+instructions at 29-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  27, 36 ( dummy28,  data20) : False, True      vv-SWAP  37, 46 ( dummy40,  data21) : False, True
+ vv-SWAP  19, 28 ( dummy23,  data14) : False, True      vv-SWAP  23, 32 ( dummy41,   data4) : False, True
+ hh-SWAP  13, 12 ( dummy29,   data8) : False, True      hh-SWAP  41, 40 (  dummy9,  data17) : False, True
+ vv-SWAP  47, 38 (  dummy2,  data13) : False, True      vv-SWAP  51, 60 ( dummy24,  data15) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1      data22                  data16                                    
+1      data18       data7      data11                   data8      data12                                    
+2                  data14       data6                   data9       data4                                    
+3      data20                   data5                                                                        
+4                  data21                   data3                  data17                                    
+5                              data13       data0      data19                  data15                        
+6                  data10                               data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 30-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  14, 13 (  data12,   data8) : True, True
+ hh-SWAP  28, 29 ( dummy23,   data5) : False, True      vv-SWAP  46, 55 ( dummy40,  data10) : False, True
+ hh-SWAP  36, 37 ( dummy28,  data21) : False, True      vv-SWAP  12,  3 ( dummy29,  data22) : False, True
+ vv-SWAP  40, 49 (  dummy9,  data19) : False, True      vv-SWAP  32, 41 ( dummy41,  data17) : False, True
+ vv-SWAP  56, 47 ( dummy39,  data13) : False, True      vv-SWAP  42, 51 ( dummy44,  data15) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1                              data16                                    
+1      data18       data7      data11      data22       data8      data12                                    
+2                  data14       data6                   data9       data4                                    
+3      data20       data5                                          data17                                    
+4      data21                               data3      data19                  data15                        
+5                  data10                   data0                                                            
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 31-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  29, 20 ( dummy23,   data6) : False, True      vv-SWAP  37, 46 ( dummy28,  data10) : False, True
+ hh-SWAP  41, 42 ( dummy41,  data15) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1                              data16                                    
+1      data18       data7      data11      data22       data8      data12                                    
+2                  data14                               data9       data4                                    
+3      data20       data5       data6                              data17                                    
+4      data21      data10                   data3      data19      data15                                    
+5                                           data0                                                            
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 32-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  20, 19 ( dummy23,  data14) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1                              data16                                    
+1      data18       data7      data11      data22       data8      data12                                    
+2                              data14                   data9       data4                                    
+3      data20       data5       data6                              data17                                    
+4      data21      data10                   data3      data19      data15                                    
+5                                           data0                                                            
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 33-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  19, 10 ( dummy23,   data7) : False, True      hh-SWAP  21, 20 ( dummy21,  data14) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1                              data16                                    
+1      data18                  data11      data22       data8      data12                                    
+2                   data7                  data14       data9       data4                                    
+3      data20       data5       data6                              data17                                    
+4      data21      data10                   data3      data19      data15                                    
+5                                           data0                                                            
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 34-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  21, 22 (  data14,   data9) : True, True
+ hh-SWAP  10, 11 ( dummy23,  data11) : False, True      hh-SWAP  18, 19 ( dummy33,   data7) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                               data1                              data16                                    
+1      data18      data11                  data22       data8      data12                                    
+2       data7                              data14       data9       data4                                    
+3      data20       data5       data6                              data17                                    
+4      data21      data10                   data3      data19      data15                                    
+5                                           data0                                                            
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 35-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT   9, 10 (  data18,  data11) : True, True
+ vv-SWAP  31, 22 ( dummy35,   data9) : False, True      vv-SWAP  19, 28 ( dummy33,   data5) : False, True
+ vv-SWAP  11,  2 ( dummy23,   data1) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                                                  data16                                    
+1      data18      data11       data1      data22       data8      data12                                    
+2       data7       data5                  data14                   data4                                    
+3      data20                   data6                   data9      data17                                    
+4      data21      data10                   data3      data19      data15                                    
+5                                           data0                                                            
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 36-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  40, 31 (  data19,   data9) : True, True
+ hh-SWAP  28, 27 ( dummy33,  data20) : False, True      vv-SWAP   1, 10 ( dummy25,  data11) : False, True
+ vv-SWAP   0,  9 ( dummy45,  data18) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                               data1      data22       data8      data12                                    
+2       data7       data5                  data14                   data4                                    
+3                  data20       data6                   data9      data17                                    
+4      data21      data10                   data3      data19      data15                                    
+5                                           data0                                                            
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 37-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  28, 29 (  data20,   data6) : True, True
+ hh-SWAP  30, 31 ( dummy11,   data9) : False, True      vv-SWAP  27, 18 ( dummy33,   data7) : False, True
+ vv-SWAP  49, 40 (  dummy9,  data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                               data1      data22       data8      data12                                    
+2                   data5                  data14                   data4                                    
+3       data7      data20       data6       data9                  data17                                    
+4      data21      data10                   data3                  data15                                    
+5                                           data0      data19                                                
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 38-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  49, 48 (  data19,   data0) : True, True
+ vv-SWAP  38, 29 (  dummy2,   data6) : False, True      hh-SWAP  18, 19 ( dummy33,   data5) : False, True
+ hh-SWAP  31, 32 ( dummy11,  data17) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                               data1      data22       data8      data12                                    
+2       data5                              data14                   data4                                    
+3       data7      data20                   data9      data17                                                
+4      data21      data10       data6       data3                  data15                                    
+5                                           data0      data19                                                
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 39-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  29, 30 (  dummy2,   data9) : False, True      vv-SWAP  19, 28 ( dummy33,  data20) : False, True
+ hh-SWAP  47, 48 ( dummy39,   data0) : False, True      hh-SWAP  50, 49 (  dummy4,  data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                               data1      data22       data8      data12                                    
+2       data5      data20                  data14                   data4                                    
+3       data7                   data9                  data17                                                
+4      data21      data10       data6       data3                  data15                                    
+5                               data0                              data19                                    
+6                              data13                   data2                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 40-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  28, 27 ( dummy33,   data7) : False, True      vv-SWAP  30, 21 (  dummy2,  data14) : False, True
+ hh-SWAP  20, 19 ( dummy21,  data20) : False, True      vv-SWAP  49, 58 (  dummy4,   data2) : False, True
+ vv-SWAP  59, 50 ( dummy32,  data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                               data1      data22       data8      data12                                    
+2       data5                  data20                               data4                                    
+3                   data7       data9      data14      data17                                                
+4      data21      data10       data6       data3                  data15                                    
+5                               data0                   data2                                                
+6                              data13                              data19                                    
+7                                                                                                            
+==============================================================================================================
+instructions at 41-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  28, 37 (   data7,  data10) : True, True       vv-CNOT  20, 11 (  data20,   data1) : True, True
+ vv-SWAP  21, 12 (  dummy2,  data22) : False, True      vv-SWAP  27, 36 ( dummy33,  data21) : False, True
+ hh-SWAP  19, 18 ( dummy21,   data5) : False, True      hh-SWAP  60, 59 ( dummy24,  data19) : False, True
+ vv-SWAP  50, 41 ( dummy32,  data15) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                               data1                   data8      data12                                    
+2                   data5      data20      data22                   data4                                    
+3      data21       data7       data9      data14      data17                                                
+4                  data10       data6       data3                                                            
+5                               data0                   data2      data15                                    
+6                              data13                                          data19                        
+7                                                                                                            
+==============================================================================================================
+instructions at 42-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  22, 21 ( dummy35,  data22) : False, True      hh-SWAP  12, 13 (  dummy2,   data8) : False, True
+ vv-SWAP  10, 19 ( dummy25,   data5) : False, True      vv-SWAP  46, 37 ( dummy28,  data10) : False, True
+ vv-SWAP  51, 60 ( dummy44,  data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                   data5       data1       data8                  data12                                    
+2                              data20                  data22       data4                                    
+3      data21       data7       data9      data14      data17                                                
+4                               data6       data3                                                            
+5                  data10       data0                   data2      data15      data19                        
+6                              data13                                                                        
+7                                                                                                            
+==============================================================================================================
+instructions at 43-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  22, 23 (  data22,   data4) : True, True
+ hh-SWAP  13, 14 (  dummy2,  data12) : False, True      hh-SWAP  37, 38 ( dummy28,   data6) : False, True
+ vv-SWAP  21, 12 ( dummy35,   data8) : False, True      hh-SWAP  19, 20 ( dummy25,  data20) : False, True
+ vv-SWAP  55, 46 ( dummy40,  data10) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                   data5       data1                  data12                                                
+2                  data20                   data8      data22       data4                                    
+3      data21       data7       data9      data14      data17                                                
+4                   data6                   data3                                                            
+5                               data0                   data2      data15      data19                        
+6                  data10      data13                                                                        
+7                                                                                                            
+==============================================================================================================
+instructions at 44-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  38, 39 ( dummy28,   data3) : False, True      hh-SWAP  36, 37 ( dummy33,   data6) : False, True
+ hh-SWAP  12, 13 ( dummy35,  data12) : False, True      vv-SWAP  20, 11 ( dummy25,   data1) : False, True
+ hh-SWAP  18, 19 ( dummy21,  data20) : False, True      hh-SWAP  24, 23 ( dummy19,   data4) : False, True
+ hh-SWAP  46, 47 ( dummy40,   data0) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                   data5                  data12                                                            
+2      data20                   data1       data8      data22                   data4                        
+3      data21       data7       data9      data14      data17                                                
+4       data6                   data3                                                                        
+5                   data0                               data2      data15      data19                        
+6                  data10      data13                                                                        
+7                                                                                                            
+==============================================================================================================
+instructions at 45-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  37, 38 ( dummy33,   data3) : False, True      hh-SWAP  11, 12 ( dummy25,  data12) : False, True
+ vv-SWAP  19, 28 ( dummy21,   data7) : False, True      vv-SWAP  33, 24 ( dummy43,   data4) : False, True
+ hh-SWAP  23, 22 ( dummy19,  data22) : False, True      vv-SWAP  47, 56 ( dummy40,  data13) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                   data5      data12                                                                        
+2      data20       data7       data1       data8                  data22                                    
+3      data21                   data9      data14      data17                   data4                        
+4       data6       data3                                                                                    
+5                   data0      data13                   data2      data15      data19                        
+6                  data10                                                                                    
+7                                                                                                            
+==============================================================================================================
+instructions at 46-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  11, 10 (  data12,   data5) : True, True
+ vv-SWAP  12, 21 ( dummy25,   data8) : False, True      hh-SWAP  28, 27 ( dummy21,  data21) : False, True
+ hh-SWAP  34, 33 ( dummy34,   data4) : False, True      hh-SWAP  56, 55 ( dummy40,  data10) : False, True
+ vv-SWAP  14, 23 (  dummy2,  data22) : False, True      hh-SWAP  48, 47 ( dummy39,  data13) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11                                          data16                                    
+1                   data5      data12       data8                  data22                                    
+2      data20       data7       data1                                                                        
+3                  data21       data9      data14      data17                               data4            
+4       data6       data3                                                                                    
+5                   data0                  data13       data2      data15      data19                        
+6                              data10                                                                        
+7                                                                                                            
+==============================================================================================================
+instructions at 47-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  28, 29 (  data21,   data9) : True, True
+ hh-SWAP  21, 20 ( dummy25,   data1) : False, True      vv-SWAP  27, 36 ( dummy21,   data6) : False, True
+ vv-SWAP   2, 11 ( dummy23,  data12) : False, True      hh-SWAP   9, 10 ( dummy45,   data5) : False, True
+ hh-SWAP  15, 14 ( dummy17,  data22) : False, True      hh-SWAP  57, 56 ( dummy37,  data10) : False, True
+ hh-SWAP  47, 46 ( dummy39,   data0) : False, True      hh-SWAP  13, 12 ( dummy35,   data8) : False, True
+ vv-SWAP  25, 34 ( dummy15,   data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18      data11      data12                              data16                                    
+1       data5                                           data8                  data22                        
+2      data20       data7                   data1                                           data4            
+3       data6      data21       data9      data14      data17                                                
+4                   data3                                                                                    
+5                               data0      data13       data2      data15      data19                        
+6                                          data10                                                            
+7                                                                                                            
+==============================================================================================================
+instructions at 48-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  20, 19 ( dummy25,   data7) : False, True      vv-SWAP  38, 29 ( dummy33,   data9) : False, True
+ vv-SWAP  10,  1 ( dummy45,  data11) : False, True      hh-SWAP   3,  2 ( dummy29,  data12) : False, True
+ hh-SWAP  58, 57 (  dummy4,  data10) : False, True      vv-SWAP  14,  5 ( dummy17,  data16) : False, True
+ vv-SWAP  56, 47 ( dummy37,   data0) : False, True      vv-SWAP   6, 15 ( dummy20,  data22) : False, True
+ vv-SWAP  16, 25 ( dummy38,   data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0      data18                              data12                              data22                        
+1       data5      data11                               data8      data16                   data4            
+2      data20                   data7       data1                                                            
+3       data6      data21                  data14      data17                                                
+4                   data3       data9                                                                        
+5                                          data13       data2      data15      data19                        
+6                               data0                  data10                                                
+7                                                                                                            
+==============================================================================================================
+instructions at 49-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  29, 30 ( dummy33,  data14) : False, True      hh-SWAP  39, 38 ( dummy28,   data9) : False, True
+ vv-SWAP  19, 28 ( dummy25,  data21) : False, True      hh-SWAP   1,  0 ( dummy45,  data18) : False, True
+ hh-SWAP   4,  3 ( dummy31,  data12) : False, True      hh-SWAP  59, 58 ( dummy24,  data10) : False, True
+ vv-SWAP  23, 14 (  dummy2,  data16) : False, True      vv-SWAP  65, 56 ( dummy14,   data0) : False, True
+ vv-SWAP   7, 16 ( dummy26,   data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                  data18                              data12                  data22       data4            
+1       data5      data11                               data8                                                
+2      data20      data21       data7       data1                  data16                                    
+3       data6                  data14                  data17                                                
+4                   data3                   data9                                                            
+5                                          data13       data2      data15      data19                        
+6                                                                  data10                                    
+7                               data0                                                                        
+==============================================================================================================
+instructions at 50-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  29, 20 (  data14,   data7) : True, True
+ hh-SWAP  30, 31 ( dummy33,  data17) : False, True      vv-SWAP   0,  9 ( dummy45,   data5) : False, True
+ hh-SWAP   2,  1 ( dummy29,  data18) : False, True      hh-SWAP  14, 13 (  dummy2,   data8) : False, True
+ hh-SWAP   5,  4 ( dummy17,  data12) : False, True      vv-SWAP  68, 59 ( dummy46,  data10) : False, True
+ hh-SWAP   8,  7 (  dummy1,   data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0       data5                  data18                              data12      data22                   data4
+1                  data11                                           data8                                    
+2      data20      data21       data7       data1                  data16                                    
+3       data6                  data14      data17                                                            
+4                   data3                   data9                                                            
+5                                          data13       data2      data15      data19                        
+6                                                                                                            
+7                               data0                              data10                                    
+==============================================================================================================
+instructions at 51-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  38, 29 ( dummy28,  data14) : False, True      hh-SWAP   9, 10 ( dummy45,  data11) : False, True
+ hh-SWAP   1,  0 ( dummy29,   data5) : False, True      hh-SWAP  67, 68 ( dummy36,  data10) : False, True
+ vv-SWAP  17,  8 ( dummy18,   data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                   data5      data18                              data12      data22                        
+1      data11                                                       data8                               data4
+2      data20      data21       data7       data1                  data16                                    
+3       data6                              data17                                                            
+4                   data3      data14       data9                                                            
+5                                          data13       data2      data15      data19                        
+6                                                                                                            
+7                               data0                  data10                                                
+==============================================================================================================
+instructions at 52-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  29, 30 ( dummy28,  data17) : False, True      vv-SWAP  10, 19 ( dummy45,  data21) : False, True
+ vv-SWAP  58, 67 ( dummy24,  data10) : False, True      vv-SWAP  26, 17 (  dummy0,   data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                   data5      data18                              data12      data22                        
+1      data11      data21                                           data8                                    
+2      data20                   data7       data1                  data16                               data4
+3       data6                  data17                                                                        
+4                   data3      data14       data9                                                            
+5                                          data13       data2      data15      data19                        
+6                                                      data10                                                
+7                               data0                                                                        
+==============================================================================================================
+instructions at 53-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  29, 20 (  data17,   data7) : True, True
+ hh-SWAP  19, 18 ( dummy45,  data20) : False, True      hh-SWAP  11, 10 ( dummy23,  data21) : False, True
+ vv-SWAP  35, 26 ( dummy12,   data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                   data5      data18                              data12      data22                        
+1      data11                  data21                               data8                                    
+2                  data20       data7       data1                  data16                                    
+3       data6                  data17                                                                   data4
+4                   data3      data14       data9                                                            
+5                                          data13       data2      data15      data19                        
+6                                                      data10                                                
+7                               data0                                                                        
+==============================================================================================================
+instructions at 54-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  30, 29 ( dummy28,  data17) : False, True      hh-SWAP  12, 11 ( dummy35,  data21) : False, True
+ vv-SWAP  10,  1 ( dummy23,   data5) : False, True      vv-SWAP  18,  9 ( dummy45,  data11) : False, True
+ vv-SWAP  44, 35 ( dummy22,   data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data18                              data12      data22                        
+1                   data5                  data21                   data8                                    
+2      data11      data20       data7       data1                  data16                                    
+3       data6                              data17                                                            
+4                   data3      data14       data9                                                       data4
+5                                          data13       data2      data15      data19                        
+6                                                      data10                                                
+7                               data0                                                                        
+==============================================================================================================
+instructions at 55-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  29, 38 ( dummy28,  data14) : False, True      hh-SWAP  31, 30 ( dummy33,  data17) : False, True
+ vv-SWAP  11, 20 ( dummy35,   data7) : False, True      hh-SWAP  43, 44 ( dummy30,   data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data18                              data12      data22                        
+1                   data5       data7      data21                   data8                                    
+2      data11      data20                   data1                  data16                                    
+3       data6                  data14                  data17                                                
+4                   data3                   data9                                           data4            
+5                                          data13       data2      data15      data19                        
+6                                                      data10                                                
+7                               data0                                                                        
+==============================================================================================================
+instructions at 56-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  28, 29 ( dummy25,  data14) : False, True      vv-SWAP  30, 39 ( dummy33,   data9) : False, True
+ vv-SWAP  22, 31 ( dummy19,  data17) : False, True      hh-SWAP  20, 19 ( dummy35,  data20) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data18                              data12      data22                        
+1                   data5       data7      data21                   data8                                    
+2      data11                  data20       data1      data17      data16                                    
+3       data6      data14                   data9                                                            
+4                   data3                                                                   data4            
+5                                          data13       data2      data15      data19                        
+6                                                      data10                                                
+7                               data0                                                                        
+==============================================================================================================
+instructions at 57-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-CNOT  28, 27 (  data14,   data6) : True, True
+ vv-SWAP  39, 48 ( dummy33,  data13) : False, True      hh-SWAP  31, 30 ( dummy19,   data9) : False, True
+ vv-SWAP  13, 22 (  dummy2,  data17) : False, True      vv-SWAP  19, 10 ( dummy35,   data5) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data18                              data12      data22                        
+1                               data7      data21      data17       data8                                    
+2      data11       data5      data20       data1                  data16                                    
+3       data6      data14                               data9                                                
+4                   data3                  data13                                           data4            
+5                                                       data2      data15      data19                        
+6                                                      data10                                                
+7                               data0                                                                        
+==============================================================================================================
+instructions at 58-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  36, 27 ( dummy21,   data6) : False, True      hh-SWAP  38, 39 ( dummy28,  data13) : False, True
+ hh-SWAP  32, 31 ( dummy11,   data9) : False, True      hh-SWAP  48, 49 ( dummy33,   data2) : False, True
+ vv-SWAP  30, 21 ( dummy19,   data1) : False, True      vv-SWAP   4, 13 ( dummy17,  data17) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data18                  data17      data12      data22                        
+1                               data7      data21                   data8                                    
+2      data11       data5      data20                              data16                                    
+3                  data14                   data1                   data9                                    
+4       data6       data3      data13                                                       data4            
+5                                           data2                  data15      data19                        
+6                                                      data10                                                
+7                               data0                                                                        
+==============================================================================================================
+instructions at 59-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  33, 32 ( dummy34,   data9) : False, True      hh-SWAP  21, 20 ( dummy19,  data20) : False, True
+ vv-SWAP  47, 38 ( dummy37,  data13) : False, True      hh-SWAP  13, 12 ( dummy17,  data21) : False, True
+ vv-SWAP  27, 18 ( dummy21,  data11) : False, True      hh-SWAP  31, 30 ( dummy11,   data1) : False, True
+ vv-SWAP  57, 48 (  dummy4,   data2) : False, True      hh-SWAP  49, 50 ( dummy33,  data15) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data18                  data17      data12      data22                        
+1                               data7                  data21       data8                                    
+2                   data5                  data20                  data16                                    
+3      data11      data14                               data1                   data9                        
+4       data6       data3                                                                   data4            
+5                              data13                  data15                  data19                        
+6                                           data2      data10                                                
+7                               data0                                                                        
+==============================================================================================================
+instructions at 60-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  38, 37 ( dummy37,   data3) : False, True      vv-SWAP  56, 47 ( dummy14,  data13) : False, True
+ hh-SWAP  12, 11 ( dummy17,   data7) : False, True      vv-SWAP  30, 21 ( dummy11,  data20) : False, True
+ vv-SWAP  32, 23 ( dummy34,  data16) : False, True      hh-SWAP  20, 19 ( dummy19,   data5) : False, True
+ vv-SWAP  66, 57 ( dummy48,   data2) : False, True      vv-SWAP  40, 31 (  dummy9,   data1) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data18                  data17      data12      data22                        
+1                                           data7      data21       data8                                    
+2                               data5                                                                        
+3      data11      data14                  data20                  data16       data9                        
+4       data6                   data3                   data1                               data4            
+5                                                      data15                  data19                        
+6                              data13                  data10                                                
+7                               data0       data2                                                            
+==============================================================================================================
+instructions at 61-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  37, 36 ( dummy37,   data6) : False, True      vv-SWAP  47, 38 ( dummy14,   data3) : False, True
+ vv-SWAP  23, 14 ( dummy34,   data8) : False, True      vv-SWAP  11,  2 ( dummy17,  data18) : False, True
+ vv-SWAP   3, 12 ( dummy31,   data7) : False, True      vv-SWAP  39, 30 ( dummy28,  data20) : False, True
+ hh-SWAP  21, 20 ( dummy11,   data5) : False, True      vv-SWAP  19, 28 ( dummy19,  data14) : False, True
+ vv-SWAP  41, 32 ( dummy32,  data16) : False, True      hh-SWAP  67, 66 ( dummy24,   data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17      data12      data22                        
+1                              data18                  data21                                                
+2                  data14                   data5                   data8                                    
+3      data11                                                                   data9                        
+4                   data6                  data20       data1      data16                   data4            
+5                               data3                  data15                  data19                        
+6                              data13                  data10                                                
+7                               data0                   data2                                                
+==============================================================================================================
+instructions at 62-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  38, 37 ( dummy14,   data6) : False, True      vv-SWAP  14,  5 ( dummy34,  data12) : False, True
+ hh-SWAP  48, 47 (  dummy4,   data3) : False, True      hh-SWAP  24, 23 ( dummy43,   data8) : False, True
+ vv-SWAP  20, 11 ( dummy11,  data18) : False, True      hh-SWAP  28, 27 ( dummy19,  data11) : False, True
+ hh-SWAP  22, 21 (  dummy2,   data5) : False, True      vv-SWAP  10, 19 ( dummy35,  data14) : False, True
+ hh-SWAP  42, 41 ( dummy41,  data16) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                  data22                        
+1                  data14                              data21      data12                                    
+2                              data18                   data5                   data8                        
+3                  data11                                                       data9                        
+4                               data6      data20       data1                  data16       data4            
+5                                           data3      data15                  data19                        
+6                              data13                  data10                                                
+7                               data0                   data2                                                
+==============================================================================================================
+instructions at 63-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  29, 38 ( dummy25,   data6) : False, True      vv-SWAP  47, 56 (  dummy4,  data13) : False, True
+ vv-SWAP  23, 14 ( dummy43,  data12) : False, True      vv-SWAP  15, 24 ( dummy20,   data8) : False, True
+ hh-SWAP  19, 20 ( dummy35,  data18) : False, True      vv-SWAP  31, 22 (  dummy9,   data5) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                  data22                        
+1                  data14                              data21                   data8                        
+2                  data18                                          data12                                    
+3                  data11       data6                   data5                   data9                        
+4                                          data20       data1                  data16       data4            
+5                              data13       data3      data15                  data19                        
+6                                                      data10                                                
+7                               data0                   data2                                                
+==============================================================================================================
+instructions at 64-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  56, 65 (  dummy4,   data0) : False, True      vv-SWAP  38, 47 ( dummy25,  data13) : False, True
+ hh-SWAP  30, 29 ( dummy28,   data6) : False, True      vv-SWAP  32, 23 ( dummy32,  data12) : False, True
+ vv-SWAP  24, 33 ( dummy20,   data9) : False, True      hh-SWAP  18, 19 ( dummy21,  data18) : False, True
+ hh-SWAP  14, 13 ( dummy43,  data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                  data22                        
+1                  data14                                          data21       data8                        
+2      data18                                                                   data9                        
+3                  data11                   data6       data5      data12                                    
+4                              data13      data20       data1                  data16       data4            
+5                                           data3      data15                  data19                        
+6                               data0                  data10                                                
+7                                                       data2                                                
+==============================================================================================================
+instructions at 65-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  29, 38 ( dummy28,  data13) : False, True      vv-SWAP  21, 30 (  dummy2,   data6) : False, True
+ vv-SWAP  47, 56 ( dummy25,   data0) : False, True      vv-SWAP  41, 32 ( dummy41,  data12) : False, True
+ vv-SWAP  33, 42 ( dummy20,  data16) : False, True      vv-SWAP  19, 28 ( dummy21,  data11) : False, True
+ vv-SWAP  27, 18 ( dummy19,  data18) : False, True      vv-SWAP  23, 14 ( dummy32,  data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                  data22                        
+1                  data14                                                       data8                        
+2                  data11                   data6                  data21       data9                        
+3      data18                  data13                   data5                  data16                        
+4                                          data20       data1      data12                   data4            
+5                               data0       data3      data15                  data19                        
+6                                                      data10                                                
+7                                                       data2                                                
+==============================================================================================================
+instructions at 66-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  30, 39 (  dummy2,  data20) : False, True      vv-SWAP  20, 29 ( dummy35,  data13) : False, True
+ vv-SWAP  38, 47 ( dummy28,   data0) : False, True      hh-SWAP  32, 31 ( dummy41,   data5) : False, True
+ vv-SWAP  50, 41 ( dummy33,  data12) : False, True      hh-SWAP  22, 21 (  dummy9,   data6) : False, True
+ vv-SWAP  36, 27 ( dummy37,  data18) : False, True      hh-SWAP  14, 15 ( dummy32,   data8) : False, True
+ vv-SWAP  42, 51 ( dummy20,  data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                  data22                        
+1                  data14                                           data8                                    
+2                  data11      data13                   data6      data21       data9                        
+3                                          data20                   data5      data16                        
+4      data18                   data0                   data1                  data19       data4            
+5                                           data3      data15      data12                                    
+6                                                      data10                                                
+7                                                       data2                                                
+==============================================================================================================
+instructions at 67-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  39, 48 (  dummy2,   data3) : False, True      vv-SWAP  29, 38 ( dummy35,   data0) : False, True
+ vv-SWAP  11, 20 ( dummy11,  data13) : False, True      vv-SWAP  59, 50 ( dummy46,  data12) : False, True
+ vv-SWAP  41, 32 ( dummy33,   data5) : False, True      hh-SWAP  37, 36 ( dummy14,  data18) : False, True
+ vv-SWAP  31, 22 ( dummy41,   data6) : False, True      vv-SWAP  15,  6 ( dummy32,  data22) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                                                
+1                  data14      data13                               data8      data22                        
+2                  data11                                          data21       data9                        
+3                               data0      data20       data6                  data16                        
+4                  data18                   data3       data1       data5      data19       data4            
+5                                                      data15                                                
+6                                                      data10      data12                                    
+7                                                       data2                                                
+==============================================================================================================
+instructions at 68-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  20, 29 ( dummy11,   data0) : False, True      hh-SWAP  48, 49 (  dummy2,  data15) : False, True
+ vv-SWAP  50, 41 ( dummy46,   data5) : False, True      hh-SWAP  60, 59 ( dummy44,  data12) : False, True
+ vv-SWAP   2, 11 ( dummy17,  data13) : False, True      hh-SWAP  32, 33 ( dummy33,  data16) : False, True
+ hh-SWAP  22, 23 ( dummy41,  data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data13       data7      data17                                                
+1                  data14                                           data8      data22                        
+2                  data11       data0                  data21                   data9                        
+3                                          data20       data6      data16                                    
+4                  data18                   data3       data1                  data19       data4            
+5                                          data15                   data5                                    
+6                                                      data10                  data12                        
+7                                                       data2                                                
+==============================================================================================================
+instructions at 69-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  29, 30 ( dummy11,  data20) : False, True      hh-SWAP  11, 10 ( dummy17,  data14) : False, True
+ hh-SWAP  59, 58 ( dummy44,  data10) : False, True      hh-SWAP  41, 42 ( dummy46,  data19) : False, True
+ hh-SWAP  51, 50 ( dummy20,   data5) : False, True      vv-SWAP  33, 24 ( dummy33,   data9) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data13       data7      data17                                                
+1                              data14                               data8      data22                        
+2                  data11       data0                  data21                                                
+3                              data20                   data6      data16       data9                        
+4                  data18                   data3       data1      data19                   data4            
+5                                          data15                               data5                        
+6                                                                  data10      data12                        
+7                                                       data2                                                
+==============================================================================================================
+instructions at 70-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  30, 39 ( dummy11,   data3) : False, True      vv-SWAP  38, 29 ( dummy35,  data20) : False, True
+ hh-SWAP  12, 11 ( dummy31,  data14) : False, True      vv-SWAP  58, 67 ( dummy44,   data2) : False, True
+ vv-SWAP  50, 41 ( dummy20,  data19) : False, True      vv-SWAP  68, 59 ( dummy36,  data10) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                              data13       data7      data17                                                
+1                                          data14                   data8      data22                        
+2                  data11       data0                  data21                                                
+3                                           data3       data6      data16       data9                        
+4                  data18      data20                   data1                               data4            
+5                                          data15                  data19       data5                        
+6                                                       data2                  data12                        
+7                                                                  data10                                    
+==============================================================================================================
+instructions at 71-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  39, 40 ( dummy11,   data1) : False, True      hh-SWAP  29, 30 ( dummy35,   data3) : False, True
+ vv-SWAP  47, 38 ( dummy28,  data20) : False, True      vv-SWAP  49, 58 (  dummy2,   data2) : False, True
+ vv-SWAP  11,  2 ( dummy31,  data13) : False, True      vv-SWAP  59, 50 ( dummy36,  data19) : False, True
+ hh-SWAP  13, 12 ( dummy43,  data14) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                                                
+1                              data13                  data14       data8      data22                        
+2                  data11       data0                  data21                                                
+3                               data3                   data6      data16       data9                        
+4                  data18                   data1                                           data4            
+5                              data20      data15       data2                   data5                        
+6                                                                  data19      data12                        
+7                                                                  data10                                    
+==============================================================================================================
+instructions at 72-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  56, 47 ( dummy25,  data20) : False, True      hh-SWAP  38, 39 ( dummy28,   data1) : False, True
+ hh-SWAP  30, 31 ( dummy35,   data6) : False, True      hh-SWAP  58, 59 (  dummy2,  data19) : False, True
+ hh-SWAP  50, 51 ( dummy36,   data5) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                                                
+1                              data13                  data14       data8      data22                        
+2                  data11       data0                  data21                                                
+3                               data3       data6                  data16       data9                        
+4                  data18       data1                                                       data4            
+5                                          data15       data2       data5                                    
+6                              data20                  data19                  data12                        
+7                                                                  data10                                    
+==============================================================================================================
+instructions at 73-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  57, 56 ( dummy48,  data20) : False, True      vv-SWAP  39, 48 ( dummy28,  data15) : False, True
+ vv-SWAP  21, 30 (  dummy9,   data6) : False, True      vv-SWAP  59, 68 (  dummy2,  data10) : False, True
+ vv-SWAP  31, 22 ( dummy35,  data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                                                
+1                              data13                  data14       data8      data22                        
+2                  data11       data0       data6                                                            
+3                               data3                  data21      data16       data9                        
+4                  data18       data1      data15                                           data4            
+5                                                       data2       data5                                    
+6                                          data20      data19      data10      data12                        
+7                                                                                                            
+==============================================================================================================
+instructions at 74-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  40, 39 ( dummy11,  data15) : False, True      hh-SWAP  30, 29 (  dummy9,   data3) : False, True
+ vv-SWAP  22, 13 ( dummy35,  data14) : False, True      vv-SWAP  12, 21 ( dummy43,   data6) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7      data17                                                
+1                              data13       data6                   data8      data22                        
+2                  data11       data0                  data14                                                
+3                                           data3      data21      data16       data9                        
+4                  data18       data1                  data15                               data4            
+5                                                       data2       data5                                    
+6                                          data20      data19      data10      data12                        
+7                                                                                                            
+==============================================================================================================
+instructions at 75-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  21, 22 ( dummy43,  data14) : False, True      vv-SWAP  39, 30 ( dummy11,   data3) : False, True
+ vv-SWAP  13,  4 ( dummy35,  data17) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7                                                            
+1                              data13       data6      data17       data8      data22                        
+2                  data11       data0      data14                                                            
+3                                                      data21      data16       data9                        
+4                  data18       data1       data3      data15                               data4            
+5                                                       data2       data5                                    
+6                                          data20      data19      data10      data12                        
+7                                                                                                            
+==============================================================================================================
+instructions at 76-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  30, 21 ( dummy11,  data14) : False, True      vv-SWAP  22, 31 ( dummy43,  data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7                                                            
+1                              data13       data6      data17       data8      data22                        
+2                  data11       data0                  data21                                                
+3                                          data14                  data16       data9                        
+4                  data18       data1       data3      data15                               data4            
+5                                                       data2       data5                                    
+6                                          data20      data19      data10      data12                        
+7                                                                                                            
+==============================================================================================================
+instructions at 77-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  31, 30 ( dummy43,  data14) : False, True      vv-SWAP  21, 12 ( dummy11,   data6) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7                                                            
+1                              data13                  data17       data8      data22                        
+2                  data11       data0       data6      data21                                                
+3                                                      data14      data16       data9                        
+4                  data18       data1       data3      data15                               data4            
+5                                                       data2       data5                                    
+6                                          data20      data19      data10      data12                        
+7                                                                                                            
+==============================================================================================================
+instructions at 78-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  30, 39 ( dummy43,   data3) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5           6           7           8
+0                                           data7                                                            
+1                              data13                  data17       data8      data22                        
+2                  data11       data0       data6      data21                                                
+3                                           data3      data14      data16       data9                        
+4                  data18       data1                  data15                               data4            
+5                                                       data2       data5                                    
+6                                          data20      data19      data10      data12                        
+7                                                                                                            
+==============================================================================================================
