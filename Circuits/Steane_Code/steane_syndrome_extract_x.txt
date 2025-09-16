@@ -1,0 +1,89 @@
+==============================================================================================================
+Initial Mapping: 
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3                               data0       data2            
+1                ancilla3       data6       data4                        
+2                   data5    ancilla6                ancilla0    ancilla2
+3                               data1    ancilla5    ancilla4            
+4                                                                ancilla1
+==============================================================================================================
+instructions at 0-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT   8, 14 (   data6,ancilla6) : True, True
+vv-SWAP  10, 16 (  dummy3,ancilla0) : False, True       hh-SWAP   5,  4 (  dummy8,   data2) : False, True
+vv-SWAP  15,  9 ( dummy14,   data4) : False, True       vv-SWAP  11, 17 (  dummy1,ancilla2) : False, True
+vv-SWAP   1,  7 (  dummy6,ancilla3) : False, True       vv-SWAP  19, 13 ( dummy11,   data5) : False, True
+vv-SWAP  26, 20 (  dummy7,   data1) : False, True       hh-SWAP  28, 29 (  dummy5,ancilla1) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3    ancilla3                   data0                   data2
+1                               data6                ancilla0    ancilla2
+2                            ancilla6       data4                        
+3                   data5                ancilla5    ancilla4            
+4                               data1                ancilla1            
+==============================================================================================================
+instructions at 1-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasZ  14 (ancilla6) : False
+vv-CNOT   5, 11 (   data2,ancilla2) : True, True        hh-CNOT   0,  1 (   data3,ancilla3) : True, True
+vv-SWAP   4, 10 (  dummy8,ancilla0) : False, True       hh-SWAP  16, 15 (  dummy3,   data4) : False, True
+hh-SWAP  20, 19 (  dummy7,   data5) : False, True       hh-SWAP  27, 26 (  dummy4,   data1) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3    ancilla3                   data0    ancilla0       data2
+1                               data6                            ancilla2
+2                            ancilla6                   data4            
+3                               data5    ancilla5    ancilla4            
+4                                           data1    ancilla1            
+==============================================================================================================
+instructions at 2-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasZ  11 (ancilla2) : False                            MeasZ   1 (ancilla3) : False
+hh-CNOT   3,  4 (   data0,ancilla0) : True, True        vv-CNOT  16, 22 (   data4,ancilla4) : True, True
+hh-CNOT  20, 21 (   data5,ancilla5) : True, True        hh-CNOT  27, 28 (   data1,ancilla1) : True, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3    ancilla3                   data0    ancilla0       data2
+1                               data6                            ancilla2
+2                            ancilla6                   data4            
+3                               data5    ancilla5    ancilla4            
+4                                           data1    ancilla1            
+==============================================================================================================
+instructions at 3-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasZ   4 (ancilla0) : False                            MeasZ  22 (ancilla4) : False
+MeasZ  21 (ancilla5) : False                            MeasZ  28 (ancilla1) : False
+vv-SWAP  11,  5 (ancilla2,   data2) : False, True       hh-SWAP  15, 16 (  dummy3,   data4) : False, True
+vv-SWAP  14, 20 (ancilla6,   data5) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3    ancilla3                   data0    ancilla0    ancilla2
+1                               data6                               data2
+2                               data5       data4                        
+3                            ancilla6    ancilla5    ancilla4            
+4                                           data1    ancilla1            
+==============================================================================================================
+instructions at 4-th index : 
+--------------------------------------------------------------------------------------------------------------
+hh-SWAP  10, 11 (  dummy8,   data2) : False, True       vv-SWAP  21, 27 (ancilla5,   data1) : False, True
+vv-SWAP   9, 15 ( dummy14,   data4) : False, True       hh-SWAP  13, 14 ( dummy11,   data5) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3    ancilla3                   data0    ancilla0    ancilla2
+1                               data6       data4       data2            
+2                   data5                                                
+3                            ancilla6       data1    ancilla4            
+4                                        ancilla5    ancilla1            
+==============================================================================================================
+instructions at 5-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP   4, 10 (ancilla0,   data2) : False, True       hh-SWAP  20, 21 (ancilla6,   data1) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3    ancilla3                   data0       data2    ancilla2
+1                               data6       data4    ancilla0            
+2                   data5                                                
+3                               data1    ancilla6    ancilla4            
+4                                        ancilla5    ancilla1            
+==============================================================================================================

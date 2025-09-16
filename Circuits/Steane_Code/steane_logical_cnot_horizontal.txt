@@ -1,0 +1,337 @@
+=================================================================================================================================================
+Initial Mapping: 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data0   LQ1-data2               LQ2-data3                           LQ2-data0   LQ2-data2            
+1                           LQ1-data6   LQ1-data4                                                   LQ2-data6   LQ2-data4                        
+2               LQ1-data5                                                               LQ2-data5                                                
+3                           LQ1-data1                                                               LQ2-data1                                    
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 0-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP  16, 15 ( dummy13,LQ1-data4) : False, True              hh-SWAP   8,  9 ( dummy24,LQ2-data0) : False, True
+hh-SWAP  19, 20 ( dummy10,LQ2-data6) : False, True              hh-SWAP  39, 38 ( dummy42,LQ1-data1) : False, True
+hh-SWAP  43, 44 ( dummy12,LQ2-data1) : False, True              hh-SWAP  30, 31 ( dummy33,LQ2-data5) : False, True
+hh-SWAP  26, 25 ( dummy30,LQ1-data5) : False, True              vv-SWAP  33, 21 (  dummy3,LQ2-data4) : False, True
+hh-SWAP   5,  4 ( dummy11,LQ1-data2) : False, True              hh-SWAP   1,  0 (  dummy7,LQ1-data3) : False, True
+vv-SWAP  18,  6 ( dummy14,LQ2-data3) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0               LQ1-data3               LQ1-data0               LQ1-data2                           LQ2-data0               LQ2-data2            
+1                           LQ1-data6               LQ1-data4               LQ2-data3   LQ2-data6                                                
+2                           LQ1-data5                                       LQ2-data5                           LQ2-data4                        
+3                                       LQ1-data1                                       LQ2-data1                                                
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 1-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP  40, 39 (  dummy2,LQ1-data1) : False, True              hh-SWAP  42, 43 (  dummy5,LQ2-data1) : False, True
+hh-SWAP  29, 30 (  dummy0,LQ2-data5) : False, True              hh-SWAP  32, 33 ( dummy44,LQ2-data4) : False, True
+hh-SWAP  27, 26 ( dummy27,LQ1-data5) : False, True              hh-SWAP   9, 10 ( dummy24,LQ2-data2) : False, True
+hh-SWAP  15, 14 ( dummy13,LQ1-data6) : False, True              vv-SWAP  13,  1 ( dummy37,LQ1-data3) : False, True
+hh-SWAP   7,  8 ( dummy15,LQ2-data0) : False, True              hh-SWAP   6,  5 ( dummy14,LQ1-data2) : False, True
+hh-SWAP  17, 18 ( dummy32,LQ2-data3) : False, True              vv-SWAP   4, 16 ( dummy11,LQ1-data4) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0                                       LQ1-data0   LQ1-data4               LQ1-data2   LQ2-data0               LQ2-data2                        
+1               LQ1-data3               LQ1-data6               LQ2-data3               LQ2-data6                                                
+2                                       LQ1-data5               LQ2-data5                           LQ2-data4                                    
+3                                                   LQ1-data1               LQ2-data1                                                            
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 2-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP  41, 40 ( dummy41,LQ1-data1) : False, True              vv-SWAP  20, 32 ( dummy10,LQ2-data4) : False, True
+hh-SWAP  28, 27 ( dummy17,LQ1-data5) : False, True              hh-SWAP  18, 19 ( dummy32,LQ2-data6) : False, True
+hh-SWAP   8,  9 ( dummy15,LQ2-data2) : False, True              hh-SWAP   5,  4 ( dummy14,LQ1-data4) : False, True
+hh-SWAP  14, 13 ( dummy13,LQ1-data3) : False, True              hh-SWAP  16, 17 ( dummy11,LQ2-data3) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0                                       LQ1-data0               LQ1-data4   LQ1-data2   LQ2-data0   LQ2-data2                                    
+1                           LQ1-data3   LQ1-data6   LQ2-data3               LQ2-data6               LQ2-data4                                    
+2                                                   LQ1-data5   LQ2-data5                                                                        
+3                                                               LQ1-data1   LQ2-data1                                                            
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 3-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-CNOT  41, 42 (LQ1-data1,LQ2-data1) : True, True              hh-CNOT  28, 29 (LQ1-data5,LQ2-data5) : True, True
+hh-SWAP  19, 20 ( dummy32,LQ2-data4) : False, True              vv-SWAP  27, 15 ( dummy17,LQ1-data6) : False, True
+vv-SWAP  30, 18 (  dummy0,LQ2-data6) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0                                       LQ1-data0               LQ1-data4   LQ1-data2   LQ2-data0   LQ2-data2                                    
+1                           LQ1-data3               LQ2-data3                           LQ2-data4                                                
+2                                       LQ1-data6   LQ1-data5   LQ2-data5   LQ2-data6                                                            
+3                                                               LQ1-data1   LQ2-data1                                                            
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 4-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+vv-SWAP  40, 28 ( dummy41,LQ1-data5) : False, True              vv-SWAP  54, 42 (  dummy1,LQ2-data1) : False, True
+hh-SWAP  18, 19 (  dummy0,LQ2-data4) : False, True              vv-SWAP  20,  8 ( dummy32,LQ2-data2) : False, True
+hh-SWAP  15, 14 ( dummy17,LQ1-data3) : False, True              vv-SWAP  53, 41 ( dummy43,LQ1-data1) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0                                       LQ1-data0               LQ1-data4   LQ1-data2   LQ2-data0                                                
+1                                       LQ1-data3   LQ2-data3               LQ2-data4               LQ2-data2                                    
+2                                       LQ1-data6               LQ2-data5   LQ2-data6                                                            
+3                                                   LQ1-data5                                                                                    
+4                                                               LQ1-data1   LQ2-data1                                                            
+=================================================================================================================================================
+instructions at 5-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-CNOT  15, 16 (LQ1-data3,LQ2-data3) : True, True
+hh-SWAP  28, 27 ( dummy41,LQ1-data6) : False, True              vv-SWAP  52, 40 (  dummy4,LQ1-data5) : False, True
+hh-SWAP  19, 20 (  dummy0,LQ2-data2) : False, True              hh-SWAP  17, 18 ( dummy11,LQ2-data4) : False, True
+vv-SWAP  42, 30 (  dummy1,LQ2-data6) : False, True              hh-SWAP  55, 54 (  dummy6,LQ2-data1) : False, True
+hh-SWAP   8,  7 ( dummy32,LQ2-data0) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0                                       LQ1-data0               LQ1-data4   LQ1-data2               LQ2-data0                                    
+1                                       LQ1-data3   LQ2-data3   LQ2-data4               LQ2-data2                                                
+2                                                   LQ1-data6   LQ2-data5                                                                        
+3                                                                           LQ2-data6                                                            
+4                                                   LQ1-data5   LQ1-data1               LQ2-data1                                                
+=================================================================================================================================================
+instructions at 6-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+vv-CNOT   5, 17 (LQ1-data4,LQ2-data4) : True, True
+hh-SWAP  18, 19 ( dummy11,LQ2-data2) : False, True              vv-SWAP  27, 15 ( dummy41,LQ1-data3) : False, True
+vv-SWAP  40, 28 (  dummy4,LQ1-data6) : False, True              vv-SWAP  43, 55 (  dummy5,LQ2-data1) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0                                       LQ1-data0               LQ1-data4   LQ1-data2               LQ2-data0                                    
+1                                                   LQ2-data3   LQ2-data4   LQ2-data2                                                            
+2                                       LQ1-data3               LQ2-data5                                                                        
+3                                                   LQ1-data6               LQ2-data6   LQ2-data1                                                
+4                                                   LQ1-data5   LQ1-data1                                                                        
+=================================================================================================================================================
+instructions at 7-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+vv-CNOT   6, 18 (LQ1-data2,LQ2-data2) : True, True
+hh-SWAP   4,  5 ( dummy14,LQ1-data4) : False, True              hh-SWAP  15, 16 ( dummy41,LQ2-data3) : False, True
+hh-SWAP  41, 40 ( dummy43,LQ1-data6) : False, True              hh-SWAP  44, 43 ( dummy12,LQ2-data1) : False, True
+hh-SWAP  26, 27 ( dummy27,LQ1-data3) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0                                       LQ1-data0   LQ1-data4               LQ1-data2               LQ2-data0                                    
+1                                       LQ2-data3               LQ2-data4   LQ2-data2                                                            
+2                           LQ1-data3                           LQ2-data5                                                                        
+3                                                               LQ1-data6   LQ2-data6               LQ2-data1                                    
+4                                                   LQ1-data5   LQ1-data1                                                                        
+=================================================================================================================================================
+instructions at 8-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-CNOT  41, 42 (LQ1-data6,LQ2-data6) : True, True
+vv-SWAP  16,  4 ( dummy41,LQ1-data4) : False, True              hh-SWAP   7,  6 ( dummy32,LQ1-data2) : False, True
+vv-SWAP  30, 18 (  dummy1,LQ2-data2) : False, True              vv-SWAP  40, 52 ( dummy43,LQ1-data5) : False, True
+vv-SWAP  27, 15 ( dummy27,LQ2-data3) : False, True              vv-SWAP  32, 44 ( dummy10,LQ2-data1) : False, True
+vv-SWAP  14, 26 ( dummy17,LQ1-data3) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0                                       LQ1-data0                                       LQ1-data2   LQ2-data0                                    
+1                           LQ1-data3               LQ1-data4   LQ2-data4                                                                        
+2                                       LQ2-data3               LQ2-data5   LQ2-data2               LQ2-data1                                    
+3                                                   LQ1-data5   LQ1-data6   LQ2-data6                                                            
+4                                                               LQ1-data1                                                                        
+=================================================================================================================================================
+instructions at 9-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP   4,  3 ( dummy41,LQ1-data0) : False, True              vv-SWAP  19,  7 ( dummy11,LQ1-data2) : False, True
+hh-SWAP  52, 53 ( dummy43,LQ1-data1) : False, True              vv-SWAP  28, 40 (  dummy4,LQ1-data5) : False, True
+hh-SWAP  18, 17 (  dummy1,LQ2-data4) : False, True              hh-SWAP  15, 16 ( dummy27,LQ1-data4) : False, True
+vv-SWAP  20, 32 (  dummy0,LQ2-data1) : False, True              vv-SWAP  54, 42 (  dummy6,LQ2-data6) : False, True
+vv-SWAP   2, 14 ( dummy25,LQ1-data3) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0                           LQ1-data3               LQ1-data0                                       LQ2-data0                                    
+1                                       LQ1-data4                           LQ2-data4   LQ1-data2   LQ2-data1                                    
+2                                       LQ2-data3   LQ1-data5   LQ2-data5   LQ2-data2                                                            
+3                                                               LQ1-data6                                                                        
+4                                                   LQ1-data1               LQ2-data6                                                            
+=================================================================================================================================================
+instructions at 10-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP   5,  4 ( dummy14,LQ1-data0) : False, True              hh-SWAP   7,  8 ( dummy11,LQ2-data0) : False, True
+vv-SWAP  17, 29 (  dummy1,LQ2-data5) : False, True              vv-SWAP  31, 19 ( dummy33,LQ1-data2) : False, True
+vv-SWAP  40, 52 (  dummy4,LQ1-data1) : False, True              vv-SWAP  16, 28 ( dummy27,LQ1-data5) : False, True
+hh-SWAP  21, 20 (  dummy3,LQ2-data1) : False, True              hh-SWAP   1,  2 ( dummy37,LQ1-data3) : False, True
+vv-SWAP   3, 15 ( dummy41,LQ1-data4) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0               LQ1-data3               LQ1-data4               LQ1-data0               LQ2-data0                                                
+1                                                   LQ1-data5   LQ2-data5   LQ2-data4                           LQ2-data1                        
+2                                       LQ2-data3                           LQ2-data2   LQ1-data2                                                
+3                                                   LQ1-data1   LQ1-data6                                                                        
+4                                                                           LQ2-data6                                                            
+=================================================================================================================================================
+instructions at 11-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP   6,  5 ( dummy32,LQ1-data0) : False, True              vv-SWAP  29, 41 (  dummy1,LQ1-data6) : False, True
+hh-SWAP  19, 18 ( dummy33,LQ2-data4) : False, True              hh-SWAP  28, 27 ( dummy27,LQ2-data3) : False, True
+vv-SWAP  43, 31 ( dummy12,LQ1-data2) : False, True              hh-SWAP  39, 40 (  dummy2,LQ1-data1) : False, True
+vv-SWAP   9, 21 ( dummy15,LQ2-data1) : False, True              hh-SWAP   0,  1 (  dummy7,LQ1-data3) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data4                           LQ1-data0   LQ2-data0               LQ2-data1                        
+1                                                   LQ1-data5   LQ2-data5               LQ2-data4                                                
+2                                                   LQ2-data3   LQ1-data6   LQ2-data2                                                            
+3                                       LQ1-data1                                       LQ1-data2                                                
+4                                                                           LQ2-data6                                                            
+=================================================================================================================================================
+instructions at 12-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-CNOT   6,  7 (LQ1-data0,LQ2-data0) : True, True
+hh-SWAP  18, 17 ( dummy33,LQ2-data5) : False, True              hh-SWAP  31, 30 ( dummy12,LQ2-data2) : False, True
+hh-SWAP  20, 19 (  dummy3,LQ2-data4) : False, True              hh-SWAP  42, 43 (  dummy6,LQ1-data2) : False, True
+hh-SWAP  38, 39 ( dummy42,LQ1-data1) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data4                           LQ1-data0   LQ2-data0               LQ2-data1                        
+1                                                   LQ1-data5               LQ2-data5               LQ2-data4                                    
+2                                                   LQ2-data3   LQ1-data6               LQ2-data2                                                
+3                           LQ1-data1                                       LQ1-data2                                                            
+4                                                                           LQ2-data6                                                            
+=================================================================================================================================================
+instructions at 13-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+vv-SWAP  30, 18 ( dummy12,LQ2-data5) : False, True              vv-SWAP  17, 29 ( dummy33,LQ1-data6) : False, True
+hh-SWAP  41, 42 (  dummy1,LQ1-data2) : False, True              hh-SWAP  32, 31 (  dummy0,LQ2-data2) : False, True
+hh-SWAP   5,  6 ( dummy32,LQ1-data0) : False, True              hh-SWAP  21, 20 ( dummy15,LQ2-data4) : False, True
+hh-SWAP   8,  7 ( dummy11,LQ2-data0) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data4               LQ1-data0                           LQ2-data0   LQ2-data1                        
+1                                                   LQ1-data5   LQ1-data6                                       LQ2-data4                        
+2                                                   LQ2-data3               LQ2-data5               LQ2-data2                                    
+3                           LQ1-data1                           LQ1-data2                                                                        
+4                                                                           LQ2-data6                                                            
+=================================================================================================================================================
+instructions at 14-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP  29, 28 ( dummy33,LQ2-data3) : False, True              hh-SWAP  31, 30 (  dummy0,LQ2-data5) : False, True
+vv-SWAP  42, 54 (  dummy1,LQ2-data6) : False, True              vv-SWAP  20, 32 ( dummy15,LQ2-data2) : False, True
+hh-SWAP   4,  5 ( dummy14,LQ1-data0) : False, True              vv-SWAP  33, 21 ( dummy44,LQ2-data4) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data4   LQ1-data0                                       LQ2-data0   LQ2-data1                        
+1                                                   LQ1-data5   LQ1-data6                           LQ2-data2                                    
+2                                                               LQ2-data3               LQ2-data5               LQ2-data4                        
+3                           LQ1-data1                           LQ1-data2   LQ2-data6                                                            
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 15-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+vv-SWAP  28, 16 ( dummy33,LQ1-data5) : False, True              hh-SWAP  30, 29 (  dummy0,LQ2-data3) : False, True
+vv-SWAP  19, 31 (  dummy3,LQ2-data5) : False, True              vv-SWAP  21,  9 ( dummy44,LQ2-data1) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data4   LQ1-data0                                       LQ2-data0                                    
+1                                                               LQ1-data6               LQ2-data5   LQ2-data2   LQ2-data1                        
+2                                                   LQ1-data5               LQ2-data3                           LQ2-data4                        
+3                           LQ1-data1                           LQ1-data2   LQ2-data6                                                            
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 16-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP  27, 28 ( dummy27,LQ1-data5) : False, True              hh-SWAP  16, 17 ( dummy33,LQ1-data6) : False, True
+vv-SWAP  29, 41 (  dummy0,LQ1-data2) : False, True              vv-SWAP  18, 30 ( dummy12,LQ2-data3) : False, True
+hh-SWAP   9,  8 ( dummy44,LQ2-data0) : False, True              vv-SWAP   7, 19 ( dummy11,LQ2-data5) : False, True
+hh-SWAP  22, 21 ( dummy34,LQ2-data1) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data4   LQ1-data0                           LQ2-data5               LQ2-data0                        
+1                                                   LQ1-data6               LQ2-data3               LQ2-data2               LQ2-data1            
+2                                       LQ1-data5               LQ1-data2                                       LQ2-data4                        
+3                           LQ1-data1                                       LQ2-data6                                                            
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 17-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP  26, 27 ( dummy17,LQ1-data5) : False, True              vv-SWAP  30, 42 ( dummy12,LQ2-data6) : False, True
+hh-SWAP  15, 16 ( dummy41,LQ1-data6) : False, True              vv-SWAP  17, 29 ( dummy33,LQ1-data2) : False, True
+vv-SWAP   6, 18 ( dummy32,LQ2-data3) : False, True              vv-SWAP   8, 20 ( dummy44,LQ2-data2) : False, True
+hh-SWAP  10,  9 ( dummy24,LQ2-data0) : False, True              vv-SWAP  34, 22 ( dummy35,LQ2-data1) : False, True
+vv-SWAP  21, 33 ( dummy34,LQ2-data4) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data4   LQ1-data0               LQ2-data3   LQ2-data5   LQ2-data2               LQ2-data0            
+1                                       LQ1-data6               LQ1-data2                                       LQ2-data4                        
+2                           LQ1-data5                                       LQ2-data6                                       LQ2-data1            
+3                           LQ1-data1                                                                                                            
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 18-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP  25, 26 ( dummy30,LQ1-data5) : False, True              hh-SWAP  14, 15 ( dummy25,LQ1-data6) : False, True
+vv-SWAP  18, 30 ( dummy32,LQ2-data6) : False, True              vv-SWAP   5, 17 ( dummy14,LQ1-data2) : False, True
+hh-SWAP   9,  8 ( dummy24,LQ2-data2) : False, True              hh-SWAP  11, 10 ( dummy40,LQ2-data0) : False, True
+vv-SWAP  46, 34 ( dummy29,LQ2-data1) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data4   LQ1-data0   LQ1-data2   LQ2-data3   LQ2-data5               LQ2-data2               LQ2-data0
+1                           LQ1-data6                                       LQ2-data6                           LQ2-data4                        
+2               LQ1-data5                                                                                                                        
+3                           LQ1-data1                                                                                       LQ2-data1            
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 19-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP  19, 18 ( dummy11,LQ2-data6) : False, True              vv-SWAP  15,  3 ( dummy25,LQ1-data4) : False, True
+hh-SWAP  10,  9 ( dummy40,LQ2-data2) : False, True              hh-SWAP  45, 46 ( dummy20,LQ2-data1) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                                       LQ1-data0   LQ1-data2   LQ2-data3   LQ2-data5                           LQ2-data2   LQ2-data0
+1                           LQ1-data6   LQ1-data4                                       LQ2-data6               LQ2-data4                        
+2               LQ1-data5                                                                                                                        
+3                           LQ1-data1                                                                           LQ2-data1                        
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 20-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP  20, 19 ( dummy44,LQ2-data6) : False, True              hh-SWAP   3,  4 ( dummy25,LQ1-data0) : False, True
+hh-SWAP  44, 45 ( dummy10,LQ2-data1) : False, True              vv-SWAP  22, 10 ( dummy35,LQ2-data2) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data0               LQ1-data2   LQ2-data3   LQ2-data5                                       LQ2-data0
+1                           LQ1-data6   LQ1-data4                                                   LQ2-data6   LQ2-data4   LQ2-data2            
+2               LQ1-data5                                                                                                                        
+3                           LQ1-data1                                                               LQ2-data1                                    
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 21-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+hh-SWAP   4,  5 ( dummy25,LQ1-data2) : False, True              vv-SWAP  19,  7 ( dummy44,LQ2-data5) : False, True
+hh-SWAP  10, 11 ( dummy35,LQ2-data0) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data0   LQ1-data2               LQ2-data3                                       LQ2-data0            
+1                           LQ1-data6   LQ1-data4                                       LQ2-data5   LQ2-data6   LQ2-data4   LQ2-data2            
+2               LQ1-data5                                                                                                                        
+3                           LQ1-data1                                                               LQ2-data1                                    
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 22-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+vv-SWAP  31, 19 (  dummy3,LQ2-data5) : False, True              hh-SWAP   9, 10 ( dummy40,LQ2-data0) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data0   LQ1-data2               LQ2-data3                           LQ2-data0                        
+1                           LQ1-data6   LQ1-data4                                                   LQ2-data6   LQ2-data4   LQ2-data2            
+2               LQ1-data5                                                               LQ2-data5                                                
+3                           LQ1-data1                                                               LQ2-data1                                    
+4                                                                                                                                                
+=================================================================================================================================================
+instructions at 23-th index : 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+vv-SWAP  10, 22 ( dummy40,LQ2-data2) : False, True
+-------------------------------------------------------------------------------------------------------------------------------------------------
+           0           1           2           3           4           5           6           7           8           9           10          11
+0   LQ1-data3                           LQ1-data0   LQ1-data2               LQ2-data3                           LQ2-data0   LQ2-data2            
+1                           LQ1-data6   LQ1-data4                                                   LQ2-data6   LQ2-data4                        
+2               LQ1-data5                                                               LQ2-data5                                                
+3                           LQ1-data1                                                               LQ2-data1                                    
+4                                                                                                                                                
+=================================================================================================================================================

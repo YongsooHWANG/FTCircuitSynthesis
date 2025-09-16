@@ -1,0 +1,93 @@
+==============================================================================================================
+Initial Mapping: 
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3                               data0       data2            
+1                               data6       data4        cat6            
+2        cat4       data5        cat5                                cat0
+3                               data1                    cat1            
+4                    cat3                    cat2                        
+==============================================================================================================
+instructions at 0-th index : 
+--------------------------------------------------------------------------------------------------------------
+hh-CNOT  14, 13 (    cat5,   data5) : False, True
+vv-SWAP  11, 17 (  dummy8,    cat0) : False, False      vv-SWAP  15,  9 ( dummy11,   data4) : False, True
+hh-SWAP  21, 22 (  dummy4,    cat1) : False, False      hh-SWAP  28, 27 ( dummy12,    cat2) : False, False
+vv-SWAP  19, 25 (  dummy6,    cat3) : False, False      vv-SWAP   6,  0 (  dummy3,   data3) : False, True
+vv-SWAP  10,  4 (    cat6,   data2) : False, True       vv-SWAP   2,  8 (  dummy9,   data6) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0                               data6       data0        cat6            
+1       data3                                           data2        cat0
+2        cat4       data5        cat5       data4                        
+3                    cat3       data1        cat1                        
+4                                                        cat2            
+==============================================================================================================
+instructions at 1-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasX  14 (    cat5) : False
+hh-CNOT  21, 20 (    cat1,   data1) : False, True
+hh-SWAP  13, 12 (   data5,    cat4) : True, False       hh-SWAP   4,  3 (    cat6,   data0) : False, True
+vv-SWAP   5, 11 ( dummy10,    cat0) : False, False      vv-SWAP  22, 28 (  dummy4,    cat2) : False, False
+vv-SWAP  16, 10 (  dummy0,   data2) : False, True       hh-SWAP  18, 19 (  dummy2,    cat3) : False, False
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0                               data6        cat6       data0        cat0
+1       data3                                                            
+2       data5        cat4        cat5       data4       data2            
+3        cat3                   data1        cat1        cat2            
+4                                                                        
+==============================================================================================================
+instructions at 2-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasX  21 (    cat1) : False
+hh-CNOT   3,  2 (    cat6,   data6) : False, True       hh-CNOT   5,  4 (    cat0,   data0) : False, True
+vv-CNOT  22, 16 (    cat2,   data2) : False, True
+hh-SWAP  14, 13 (    cat5,    cat4) : False, False      vv-SWAP  12, 18 (   data5,    cat3) : True, False
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0                               data6        cat6       data0        cat0
+1       data3                                                            
+2        cat3        cat5        cat4       data4       data2            
+3       data5                   data1        cat1        cat2            
+4                                                                        
+==============================================================================================================
+instructions at 3-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasX   3 (    cat6) : False                            MeasX   5 (    cat0) : False
+MeasX  22 (    cat2) : False
+hh-CNOT  14, 15 (    cat4,   data4) : False, True       vv-CNOT  12,  6 (    cat3,   data3) : False, True
+vv-SWAP   8,  2 (  dummy9,   data6) : False, True       hh-SWAP  19, 18 (  dummy2,   data5) : False, True
+vv-SWAP   7, 13 (  dummy7,    cat5) : False, False      vv-SWAP  10, 16 (  dummy0,   data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0                                            cat6       data0        cat0
+1       data3        cat5       data6                   data2            
+2        cat3                    cat4       data4                        
+3                   data5       data1        cat1        cat2            
+4                                                                        
+==============================================================================================================
+instructions at 4-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasX  14 (    cat4) : False                            MeasX  12 (    cat3) : False
+vv-SWAP   9, 15 ( dummy11,   data4) : False, True       vv-SWAP   0,  6 (  dummy3,   data3) : False, True
+hh-SWAP   3,  4 (    cat6,   data0) : False, True       vv-SWAP  13, 19 (  dummy7,   data5) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3                               data0        cat6        cat0
+1                    cat5       data6       data4       data2            
+2        cat3       data5        cat4                                    
+3                               data1        cat1        cat2            
+4                                                                        
+==============================================================================================================
+instructions at 5-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP   4, 10 (    cat6,   data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+            0           1           2           3           4           5
+0       data3                               data0       data2        cat0
+1                    cat5       data6       data4        cat6            
+2        cat3       data5        cat4                                    
+3                               data1        cat1        cat2            
+4                                                                        
+==============================================================================================================
