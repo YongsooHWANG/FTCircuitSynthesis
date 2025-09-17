@@ -1,0 +1,413 @@
+{
+    "mapping_performance":{
+        "memory":{
+            "current":55.123308,
+            "peak":55.566645
+        },
+        "time":48.329697790555656
+    },
+    "msg":"Success",
+    "option":{
+        "allow_swap":true,
+        "allowable_data_interaction":0,
+        "application":"ftqc",
+        "cost_function":"lap",
+        "decay_factor":0.001,
+        "extended_set_weight":0.1,
+        "goal":"system_code",
+        "homebase":{
+            "data0":17,
+            "data1":21,
+            "data2":16,
+            "data3":1,
+            "data4":7,
+            "data5":9,
+            "data6":2
+        },
+        "initial_mapping_option":"random",
+        "iteration":50,
+        "lap_depth":1,
+        "mapper":"SABRE",
+        "moveback":true,
+        "optimal_criterion":"number_locations",
+        "postprocessing":false,
+        "prob_best_swap":0.99,
+        "qubit_connectivity":"user"
+    },
+    "result":{
+        "analysis":{
+            "Circuit Depth":7,
+            "Function List":{},
+            "Interaction":null,
+            "KQ":210,
+            "Locations":66,
+            "Qubit":{
+                "Layout Size":{
+                    "height":5,
+                    "length":1,
+                    "width":6
+                },
+                "Qubit":30
+            },
+            "Total Function":0
+        },
+        "checkup":"mapping result is compatible with the given qubit connectivity.",
+        "qchip":{
+            "architecture":23,
+            "device_name":"file_qchip_5x6.json",
+            "dimension":{
+                "height":5,
+                "length":1,
+                "width":6
+            },
+            "qubit_connectivity":{
+                "0":[
+                    6,
+                    1,
+                    7
+                ],
+                "1":[
+                    7,
+                    0,
+                    2,
+                    8
+                ],
+                "10":[
+                    4,
+                    16,
+                    9,
+                    11,
+                    3,
+                    17
+                ],
+                "11":[
+                    5,
+                    17,
+                    10,
+                    4
+                ],
+                "12":[
+                    6,
+                    18,
+                    13,
+                    19
+                ],
+                "13":[
+                    7,
+                    19,
+                    12,
+                    14,
+                    6,
+                    20
+                ],
+                "14":[
+                    8,
+                    20,
+                    13,
+                    15,
+                    7,
+                    21
+                ],
+                "15":[
+                    9,
+                    21,
+                    14,
+                    16,
+                    8,
+                    22
+                ],
+                "16":[
+                    10,
+                    22,
+                    15,
+                    17,
+                    9,
+                    23
+                ],
+                "17":[
+                    11,
+                    23,
+                    16,
+                    10
+                ],
+                "18":[
+                    12,
+                    24,
+                    19,
+                    25
+                ],
+                "19":[
+                    13,
+                    25,
+                    18,
+                    20,
+                    12,
+                    26
+                ],
+                "2":[
+                    8,
+                    1,
+                    3,
+                    9
+                ],
+                "20":[
+                    14,
+                    26,
+                    19,
+                    21,
+                    13,
+                    27
+                ],
+                "21":[
+                    15,
+                    27,
+                    20,
+                    22,
+                    14,
+                    28
+                ],
+                "22":[
+                    16,
+                    28,
+                    21,
+                    23,
+                    15,
+                    29
+                ],
+                "23":[
+                    17,
+                    29,
+                    22,
+                    16
+                ],
+                "24":[
+                    18,
+                    25
+                ],
+                "25":[
+                    19,
+                    24,
+                    26,
+                    18
+                ],
+                "26":[
+                    20,
+                    25,
+                    27,
+                    19
+                ],
+                "27":[
+                    21,
+                    26,
+                    28,
+                    20
+                ],
+                "28":[
+                    22,
+                    27,
+                    29,
+                    21
+                ],
+                "29":[
+                    23,
+                    28,
+                    22
+                ],
+                "3":[
+                    9,
+                    2,
+                    4,
+                    10
+                ],
+                "4":[
+                    10,
+                    3,
+                    5,
+                    11
+                ],
+                "5":[
+                    11,
+                    4
+                ],
+                "6":[
+                    0,
+                    12,
+                    7,
+                    13
+                ],
+                "7":[
+                    1,
+                    13,
+                    6,
+                    8,
+                    0,
+                    14
+                ],
+                "8":[
+                    2,
+                    14,
+                    7,
+                    9,
+                    1,
+                    15
+                ],
+                "9":[
+                    3,
+                    15,
+                    8,
+                    10,
+                    2,
+                    16
+                ]
+            }
+        },
+        "system_code":{
+            "circuit":{
+                "0":[
+                    "d2-CNOT 21,14",
+                    "vv-CNOT 2,8",
+                    "hh-SWAP 15,16",
+                    "hh-SWAP 23,22",
+                    "vv-SWAP 13,19",
+                    "vv-SWAP 18,24",
+                    "hh-SWAP 26,25",
+                    "hh-SWAP 0,1",
+                    "hh-SWAP 29,28",
+                    "d2-CNOT-Waiting 9",
+                    "d2-CNOT-Waiting 17",
+                    "d2-CNOT-Waiting 7"
+                ],
+                "1":[
+                    "MeasZ 14 -> 14",
+                    "MeasZ 8 -> 8",
+                    "vv-CNOT 17,23",
+                    "vv-CNOT 7,13",
+                    "vv-SWAP 27,21",
+                    "vv-SWAP 20,26",
+                    "vv-SWAP 12,18",
+                    "d2-SWAP 22,29",
+                    "d2-SWAP 16,9",
+                    "MeasX-Waiting 2",
+                    "MeasX-Waiting 0",
+                    "MeasX-Waiting 15"
+                ],
+                "2":[
+                    "MeasZ 23 -> 23",
+                    "MeasZ 13 -> 13",
+                    "vv-SWAP 21,15",
+                    "vv-SWAP 6,12",
+                    "hh-SWAP 28,27",
+                    "MeasX-Waiting 2",
+                    "MeasX-Waiting 16",
+                    "MeasX-Waiting 0",
+                    "MeasX-Waiting 17",
+                    "MeasX-Waiting 7"
+                ],
+                "3":[
+                    "hh-CNOT 21,20",
+                    "hh-SWAP 23,22",
+                    "vv-CNOT 0,6",
+                    "hh-CNOT-Waiting 2",
+                    "hh-CNOT-Waiting 16",
+                    "hh-CNOT-Waiting 17",
+                    "hh-CNOT-Waiting 7",
+                    "hh-CNOT-Waiting 28"
+                ],
+                "4":[
+                    "MeasZ 20 -> 20",
+                    "MeasZ 6 -> 6",
+                    "d2-CNOT 16,23",
+                    "hh-SWAP 1,0",
+                    "vv-SWAP 15,21",
+                    "MeasX-Waiting 2",
+                    "MeasX-Waiting 17",
+                    "MeasX-Waiting 7",
+                    "MeasX-Waiting 28"
+                ],
+                "5":[
+                    "MeasZ 23 -> 23",
+                    "d2-SWAP 21,28",
+                    "d2-SWAP 9,16",
+                    "MeasX-Waiting 2",
+                    "MeasX-Waiting 1",
+                    "MeasX-Waiting 17",
+                    "MeasX-Waiting 7",
+                    "MeasX-Waiting 15"
+                ],
+                "6":[
+                    "hh-SWAP 16,15",
+                    "hh-SWAP-Waiting 2",
+                    "hh-SWAP-Waiting 9",
+                    "hh-SWAP-Waiting 1",
+                    "hh-SWAP-Waiting 17",
+                    "hh-SWAP-Waiting 7",
+                    "hh-SWAP-Waiting 21"
+                ]
+            },
+            "final_mapping":{
+                "ancilla0":22,
+                "ancilla1":14,
+                "ancilla2":20,
+                "ancilla3":6,
+                "ancilla4":13,
+                "ancilla5":23,
+                "ancilla6":8,
+                "data0":17,
+                "data1":21,
+                "data2":16,
+                "data3":1,
+                "data4":7,
+                "data5":9,
+                "data6":2,
+                "dummy0":27,
+                "dummy1":3,
+                "dummy10":15,
+                "dummy11":4,
+                "dummy12":19,
+                "dummy13":10,
+                "dummy14":29,
+                "dummy15":18,
+                "dummy2":11,
+                "dummy3":24,
+                "dummy4":26,
+                "dummy5":0,
+                "dummy6":25,
+                "dummy7":5,
+                "dummy8":12,
+                "dummy9":28
+            },
+            "initial_mapping":{
+                "ancilla0":22,
+                "ancilla1":14,
+                "ancilla2":25,
+                "ancilla3":24,
+                "ancilla4":19,
+                "ancilla5":28,
+                "ancilla6":8,
+                "data0":17,
+                "data1":21,
+                "data2":16,
+                "data3":1,
+                "data4":7,
+                "data5":9,
+                "data6":2,
+                "dummy0":29,
+                "dummy1":3,
+                "dummy10":15,
+                "dummy11":4,
+                "dummy12":13,
+                "dummy13":10,
+                "dummy14":23,
+                "dummy15":12,
+                "dummy2":11,
+                "dummy3":18,
+                "dummy4":20,
+                "dummy5":0,
+                "dummy6":26,
+                "dummy7":5,
+                "dummy8":6,
+                "dummy9":27
+            }
+        }
+    }
+}
