@@ -1,0 +1,531 @@
+{
+    "mapping_performance":{
+        "memory":{
+            "current":55.365281,
+            "peak":56.022165
+        },
+        "time":289.2094684159383
+    },
+    "msg":"Success",
+    "option":{
+        "allow_swap":true,
+        "allowable_data_interaction":0,
+        "application":"ftqc",
+        "cost_function":"lap",
+        "decay_factor":0.001,
+        "extended_set_weight":0.3,
+        "goal":"system_code",
+        "homebase":{
+            "data0":8,
+            "data1":4,
+            "data2":24,
+            "data3":13,
+            "data4":15,
+            "data5":3,
+            "data6":14
+        },
+        "initial_mapping_option":"random",
+        "iteration":100,
+        "lap_depth":1,
+        "mapper":"SABRE",
+        "moveback":false,
+        "optimal_criterion":"number_locations",
+        "postprocessing":false,
+        "prob_best_swap":0.99,
+        "qubit_connectivity":"user"
+    },
+    "result":{
+        "analysis":{
+            "Circuit Depth":9,
+            "Function List":{},
+            "Interaction":null,
+            "KQ":477,
+            "Locations":55,
+            "Qubit":{
+                "Layout Size":{
+                    "height":1,
+                    "length":1,
+                    "width":53
+                },
+                "Qubit":53
+            },
+            "Total Function":0
+        },
+        "checkup":"mapping result is compatible with the given qubit connectivity.",
+        "qchip":{
+            "device_name":"file_qchip_sycamore.json",
+            "dimension":{
+                "height":1,
+                "length":1,
+                "width":53
+            },
+            "qubit_connectivity":{
+                "0":[
+                    1,
+                    3
+                ],
+                "1":[
+                    0,
+                    4
+                ],
+                "10":[
+                    9,
+                    17
+                ],
+                "11":[
+                    12,
+                    20
+                ],
+                "12":[
+                    11,
+                    13,
+                    21
+                ],
+                "13":[
+                    6,
+                    12,
+                    14,
+                    22
+                ],
+                "14":[
+                    7,
+                    13,
+                    15,
+                    23
+                ],
+                "15":[
+                    8,
+                    14,
+                    16,
+                    24
+                ],
+                "16":[
+                    9,
+                    15,
+                    17,
+                    25
+                ],
+                "17":[
+                    10,
+                    16,
+                    18,
+                    26
+                ],
+                "18":[
+                    17,
+                    27
+                ],
+                "19":[
+                    20,
+                    29
+                ],
+                "2":[
+                    3,
+                    6
+                ],
+                "20":[
+                    11,
+                    19,
+                    21,
+                    30
+                ],
+                "21":[
+                    12,
+                    20,
+                    22,
+                    31
+                ],
+                "22":[
+                    13,
+                    21,
+                    23,
+                    32
+                ],
+                "23":[
+                    14,
+                    22,
+                    24,
+                    33
+                ],
+                "24":[
+                    15,
+                    23,
+                    25,
+                    34
+                ],
+                "25":[
+                    16,
+                    24,
+                    26,
+                    35
+                ],
+                "26":[
+                    17,
+                    25,
+                    27,
+                    36
+                ],
+                "27":[
+                    18,
+                    26
+                ],
+                "28":[
+                    29
+                ],
+                "29":[
+                    19,
+                    28,
+                    30,
+                    37
+                ],
+                "3":[
+                    0,
+                    2,
+                    4,
+                    7
+                ],
+                "30":[
+                    20,
+                    29,
+                    31,
+                    38
+                ],
+                "31":[
+                    21,
+                    30,
+                    32,
+                    39
+                ],
+                "32":[
+                    22,
+                    31,
+                    33,
+                    40
+                ],
+                "33":[
+                    23,
+                    32,
+                    34,
+                    41
+                ],
+                "34":[
+                    24,
+                    33,
+                    35,
+                    42
+                ],
+                "35":[
+                    25,
+                    34,
+                    36,
+                    43
+                ],
+                "36":[
+                    26,
+                    35
+                ],
+                "37":[
+                    29,
+                    38
+                ],
+                "38":[
+                    30,
+                    37,
+                    39,
+                    44
+                ],
+                "39":[
+                    31,
+                    38,
+                    40,
+                    45
+                ],
+                "4":[
+                    1,
+                    3,
+                    5,
+                    8
+                ],
+                "40":[
+                    32,
+                    39,
+                    41,
+                    46
+                ],
+                "41":[
+                    33,
+                    40,
+                    42,
+                    47
+                ],
+                "42":[
+                    34,
+                    41,
+                    43,
+                    48
+                ],
+                "43":[
+                    35,
+                    42
+                ],
+                "44":[
+                    38,
+                    45
+                ],
+                "45":[
+                    39,
+                    44,
+                    46,
+                    49
+                ],
+                "46":[
+                    40,
+                    45,
+                    47,
+                    50
+                ],
+                "47":[
+                    41,
+                    46,
+                    48,
+                    51
+                ],
+                "48":[
+                    42,
+                    47
+                ],
+                "49":[
+                    45,
+                    50
+                ],
+                "5":[
+                    4,
+                    9
+                ],
+                "50":[
+                    46,
+                    49,
+                    51,
+                    52
+                ],
+                "51":[
+                    47,
+                    50
+                ],
+                "52":[
+                    50
+                ],
+                "6":[
+                    2,
+                    7,
+                    13
+                ],
+                "7":[
+                    3,
+                    6,
+                    8,
+                    14
+                ],
+                "8":[
+                    4,
+                    7,
+                    9,
+                    15
+                ],
+                "9":[
+                    5,
+                    8,
+                    10,
+                    16
+                ]
+            }
+        },
+        "system_code":{
+            "circuit":{
+                "0":[
+                    "PrepZ 7",
+                    "PrepZ 8",
+                    "PrepZ 16",
+                    "PrepX 3",
+                    "PrepX 25",
+                    "PrepX 9"
+                ],
+                "1":[
+                    "CNOT 3,7",
+                    "CNOT 25,16",
+                    "CNOT 9,8"
+                ],
+                "2":[
+                    "CNOT 9,16",
+                    "SWAP 4,3",
+                    "SWAP 24,25",
+                    "SWAP 14,7",
+                    "PrepZ-Waiting 8",
+                    "PrepZ 5"
+                ],
+                "3":[
+                    "CNOT 4,5",
+                    "SWAP 10,9",
+                    "SWAP 17,16",
+                    "SWAP 23,24",
+                    "CNOT-Waiting 8",
+                    "CNOT-Waiting 14"
+                ],
+                "4":[
+                    "CNOT 4,8",
+                    "CNOT 23,14",
+                    "SWAP 16,17",
+                    "SWAP 9,5",
+                    "PrepZ-Waiting 10",
+                    "PrepZ 15"
+                ],
+                "5":[
+                    "CNOT 14,15",
+                    "CNOT 16,9",
+                    "CNOT-Waiting 8",
+                    "CNOT-Waiting 4",
+                    "CNOT-Waiting 23",
+                    "CNOT-Waiting 10"
+                ],
+                "6":[
+                    "CNOT 8,15",
+                    "CNOT-Waiting 16",
+                    "CNOT-Waiting 4",
+                    "CNOT-Waiting 9",
+                    "CNOT-Waiting 23",
+                    "CNOT-Waiting 14",
+                    "CNOT-Waiting 10"
+                ],
+                "7":[
+                    "CNOT 16,15",
+                    "CNOT-Waiting 9",
+                    "CNOT-Waiting 8",
+                    "CNOT-Waiting 4",
+                    "CNOT-Waiting 23",
+                    "CNOT-Waiting 14",
+                    "CNOT-Waiting 10"
+                ],
+                "8":[
+                    "MeasZ 15 -> 15",
+                    "MeasZ-Waiting 16",
+                    "MeasZ-Waiting 8",
+                    "MeasZ-Waiting 9",
+                    "MeasZ-Waiting 4",
+                    "MeasZ-Waiting 23",
+                    "MeasZ-Waiting 14",
+                    "MeasZ-Waiting 10"
+                ]
+            },
+            "final_mapping":{
+                "checkup0":15,
+                "data0":14,
+                "data1":4,
+                "data2":23,
+                "data3":10,
+                "data4":9,
+                "data5":8,
+                "data6":16,
+                "dummy0":41,
+                "dummy1":5,
+                "dummy10":42,
+                "dummy11":19,
+                "dummy12":1,
+                "dummy13":52,
+                "dummy14":11,
+                "dummy15":38,
+                "dummy16":44,
+                "dummy17":32,
+                "dummy18":31,
+                "dummy19":0,
+                "dummy2":47,
+                "dummy20":34,
+                "dummy21":20,
+                "dummy22":7,
+                "dummy23":22,
+                "dummy24":39,
+                "dummy25":21,
+                "dummy26":51,
+                "dummy27":27,
+                "dummy28":43,
+                "dummy29":45,
+                "dummy3":30,
+                "dummy30":50,
+                "dummy31":28,
+                "dummy32":33,
+                "dummy33":25,
+                "dummy34":3,
+                "dummy35":26,
+                "dummy36":46,
+                "dummy37":18,
+                "dummy38":6,
+                "dummy39":48,
+                "dummy4":49,
+                "dummy40":29,
+                "dummy41":35,
+                "dummy42":37,
+                "dummy43":40,
+                "dummy44":13,
+                "dummy5":2,
+                "dummy6":24,
+                "dummy7":36,
+                "dummy8":17,
+                "dummy9":12
+            },
+            "initial_mapping":{
+                "checkup0":15,
+                "data0":7,
+                "data1":3,
+                "data2":25,
+                "data3":9,
+                "data4":5,
+                "data5":8,
+                "data6":16,
+                "dummy0":41,
+                "dummy1":10,
+                "dummy10":42,
+                "dummy11":19,
+                "dummy12":1,
+                "dummy13":52,
+                "dummy14":11,
+                "dummy15":38,
+                "dummy16":44,
+                "dummy17":32,
+                "dummy18":31,
+                "dummy19":0,
+                "dummy2":47,
+                "dummy20":34,
+                "dummy21":20,
+                "dummy22":14,
+                "dummy23":22,
+                "dummy24":39,
+                "dummy25":21,
+                "dummy26":51,
+                "dummy27":27,
+                "dummy28":43,
+                "dummy29":45,
+                "dummy3":30,
+                "dummy30":50,
+                "dummy31":28,
+                "dummy32":33,
+                "dummy33":24,
+                "dummy34":4,
+                "dummy35":26,
+                "dummy36":46,
+                "dummy37":18,
+                "dummy38":6,
+                "dummy39":48,
+                "dummy4":49,
+                "dummy40":29,
+                "dummy41":35,
+                "dummy42":37,
+                "dummy43":40,
+                "dummy44":13,
+                "dummy5":2,
+                "dummy6":23,
+                "dummy7":36,
+                "dummy8":17,
+                "dummy9":12
+            }
+        }
+    }
+}
