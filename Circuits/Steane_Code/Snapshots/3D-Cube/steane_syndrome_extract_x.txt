@@ -1,0 +1,21 @@
+==============================================================================================================
+instructions at 0-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  12,  3 (   data3,ancilla3) : True, True			vv-CNOT  10,  1 (   data4,ancilla4) : True, True
+vv-CNOT  30, 21 (   data5,ancilla5) : True, True			vv-CNOT  22, 13 (   data6,ancilla6) : True, True
+hl-SWAP  20, 23 ( dummy15,   data1) : False, True			hl-SWAP  35, 32 (  dummy9,ancilla0) : False, True
+hl-SWAP  17, 14 (  dummy0,ancilla2) : False, True
+==============================================================================================================
+instructions at 1-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasZ   3 (ancilla3) : False								MeasZ   1 (ancilla4) : False
+MeasZ  21 (ancilla5) : False								MeasZ  13 (ancilla6) : False
+vv-CNOT  20, 11 (   data1,ancilla1) : True, True			hw-CNOT  34, 35 (   data0,ancilla0) : True, True
+hw-CNOT  16, 17 (   data2,ancilla2) : True, True
+==============================================================================================================
+instructions at 2-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasZ  11 (ancilla1) : False								MeasZ  35 (ancilla0) : False
+MeasZ  17 (ancilla2) : False
+hl-SWAP  23, 20 ( dummy15,   data1) : False, True
+==============================================================================================================

@@ -1,0 +1,49 @@
+==============================================================================================================
+instructions at 0-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-SWAP  68, 67 ( dummy40,LQ1-data0) : False, True			hw-SWAP  69, 70 ( dummy50,LQ2-data0) : False, True
+hw-SWAP  45, 44 ( dummy28,LQ1-data1) : False, True			hw-SWAP  26, 27 (  dummy2,LQ2-data3) : False, True
+hw-SWAP  62, 63 (  dummy5,LQ2-data5) : False, True			hw-SWAP  32, 31 ( dummy37,LQ1-data2) : False, True
+hw-SWAP  33, 34 ( dummy38,LQ2-data2) : False, True			hw-SWAP  25, 24 ( dummy42,LQ1-data3) : False, True
+hw-SWAP  20, 19 (  dummy1,LQ1-data4) : False, True			hw-SWAP  21, 22 (  dummy0,LQ2-data4) : False, True
+hw-SWAP  61, 60 ( dummy10,LQ1-data5) : False, True			vv-SWAP  29, 47 (  dummy9,LQ2-data1) : False, True
+==============================================================================================================
+instructions at 1-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT  68, 69 (LQ1-data0,LQ2-data0) : True, True			hw-CNOT  32, 33 (LQ1-data2,LQ2-data2) : True, True
+hw-CNOT  25, 26 (LQ1-data3,LQ2-data3) : True, True			hw-CNOT  20, 21 (LQ1-data4,LQ2-data4) : True, True
+hw-CNOT  61, 62 (LQ1-data5,LQ2-data5) : True, True
+vv-SWAP  27, 45 (  dummy2,LQ1-data1) : False, True			hw-SWAP  44, 43 ( dummy28,LQ1-data6) : False, True
+==============================================================================================================
+instructions at 2-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-SWAP  28, 27 ( dummy48,LQ1-data1) : False, True			hw-SWAP  45, 46 (  dummy2,LQ2-data6) : False, True
+hw-SWAP  63, 62 (  dummy5,LQ2-data5) : False, True			hw-SWAP  67, 68 ( dummy40,LQ1-data0) : False, True
+hw-SWAP  70, 69 ( dummy50,LQ2-data0) : False, True			hw-SWAP  31, 32 ( dummy37,LQ1-data2) : False, True
+hw-SWAP  19, 20 (  dummy1,LQ1-data4) : False, True			hw-SWAP  34, 33 ( dummy38,LQ2-data2) : False, True
+hw-SWAP  24, 25 ( dummy42,LQ1-data3) : False, True			hw-SWAP  22, 21 (  dummy0,LQ2-data4) : False, True
+hw-SWAP  60, 61 ( dummy10,LQ1-data5) : False, True
+==============================================================================================================
+instructions at 3-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT  28, 29 (LQ1-data1,LQ2-data1) : True, True			hw-CNOT  44, 45 (LQ1-data6,LQ2-data6) : True, True
+hw-SWAP  27, 26 ( dummy48,LQ2-data3) : False, True
+==============================================================================================================
+instructions at 4-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-SWAP  43, 44 ( dummy28,LQ1-data6) : False, True			vv-SWAP  46, 28 (  dummy2,LQ1-data1) : False, True
+vv-SWAP   9, 27 ( dummy21,LQ2-data3) : False, True			vv-SWAP  47, 29 (  dummy9,LQ2-data1) : False, True
+==============================================================================================================
+instructions at 5-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  27, 45 ( dummy21,LQ2-data6) : False, True
+==============================================================================================================
+instructions at 6-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-SWAP  45, 46 ( dummy21,LQ1-data1) : False, True			hw-SWAP  28, 27 (  dummy2,LQ2-data6) : False, True
+==============================================================================================================
+instructions at 7-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-SWAP  44, 45 ( dummy28,LQ1-data1) : False, True			vv-SWAP  46, 28 ( dummy21,LQ2-data6) : False, True
+vv-SWAP  27,  9 (  dummy2,LQ2-data3) : False, True
+==============================================================================================================

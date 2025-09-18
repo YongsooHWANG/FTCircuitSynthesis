@@ -1,0 +1,73 @@
+==============================================================================================================
+instructions at 0-th index : 
+--------------------------------------------------------------------------------------------------------------
+PrepX  11 (ancilla0) : True									PrepX   9 (ancilla5) : True
+PrepX   3 (ancilla6) : True									PrepZ   2 (ancilla1) : True
+PrepZ  14 (ancilla2) : True									PrepZ   0 (ancilla3) : True
+PrepX  26 (checkup0) : True
+vv-SWAP  21, 12 (  dummy2,   data3) : False, True			vv-SWAP  19, 10 (  dummy5,   data4) : False, True
+vv-SWAP  32, 23 (  dummy3,   data1) : False, True			vv-SWAP  13, 22 ( dummy16,   data6) : False, True
+vv-SWAP   7, 16 ( dummy12,   data2) : False, True			hl-SWAP  31, 34 (  dummy8,   data0) : False, True
+hl-SWAP  27, 30 (  dummy4,   data5) : False, True
+==============================================================================================================
+instructions at 1-th index : 
+--------------------------------------------------------------------------------------------------------------
+PrepX   1 (ancilla4) : True
+vv-CNOT  11,  2 (ancilla0,ancilla1) : True, True			vv-CNOT   9,  0 (ancilla5,ancilla3) : True, True
+vv-SWAP   5, 14 (  dummy0,ancilla2) : False, True			hw-SWAP   4,  3 ( dummy15,ancilla6) : False, True
+vv-SWAP  17, 26 ( dummy19,checkup0) : False, True			vv-SWAP  12, 21 (  dummy2,   data3) : False, True
+vv-SWAP  28, 19 (  dummy6,   data4) : False, True			hl-SWAP  16, 13 ( dummy12,   data6) : False, True
+hl-SWAP  34, 31 (  dummy8,   data0) : False, True			hl-SWAP  30, 27 (  dummy4,   data5) : False, True
+hl-SWAP  29, 32 ( dummy17,   data1) : False, True			hw-SWAP   6,  7 ( dummy18,   data2) : False, True
+==============================================================================================================
+instructions at 2-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT   1,  2 (ancilla4,ancilla1) : True, True			hw-CNOT   4,  5 (ancilla6,ancilla2) : True, True
+vv-SWAP  20, 11 (  dummy7,ancilla0) : False, True			vv-SWAP  18,  9 ( dummy13,ancilla5) : False, True
+hl-SWAP   3,  0 ( dummy15,ancilla3) : False, True			vv-SWAP  26, 17 ( dummy19,checkup0) : False, True
+vv-SWAP  19, 28 (  dummy6,   data4) : False, True			vv-SWAP  15,  6 ( dummy11,   data2) : False, True
+==============================================================================================================
+instructions at 3-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT   4,  3 (ancilla6,ancilla3) : True, True
+vv-SWAP  11,  2 (  dummy7,ancilla1) : False, True			hl-SWAP  23, 20 (  dummy3,ancilla0) : False, True
+vv-SWAP   9, 18 ( dummy13,ancilla5) : False, True			vv-SWAP  14,  5 (  dummy0,ancilla2) : False, True
+==============================================================================================================
+instructions at 4-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  23, 14 (ancilla0,ancilla2) : True, True			hl-CNOT   1,  4 (ancilla4,ancilla6) : True, True
+hw-SWAP  10, 11 (  dummy5,ancilla1) : False, True			vv-SWAP  20, 29 (  dummy3,   data1) : False, True
+==============================================================================================================
+instructions at 5-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT   9, 10 (ancilla5,ancilla1) : True, True			hl-CNOT  26, 23 (checkup0,ancilla0) : True, True
+vv-SWAP  13,  4 ( dummy12,ancilla6) : False, True
+==============================================================================================================
+instructions at 6-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  18,  9 ( dummy13,ancilla5) : False, True			hw-SWAP  25, 26 (  dummy9,checkup0) : False, True
+hw-SWAP  11, 10 (  dummy5,ancilla1) : False, True			vv-SWAP  32, 23 ( dummy17,ancilla0) : False, True
+==============================================================================================================
+instructions at 7-th index : 
+--------------------------------------------------------------------------------------------------------------
+hl-SWAP  21, 18 (  dummy2,ancilla5) : False, True			hl-SWAP  22, 25 ( dummy16,checkup0) : False, True
+vv-SWAP  10, 19 (  dummy5,   data4) : False, True			hl-SWAP  23, 20 ( dummy17,   data1) : False, True
+==============================================================================================================
+instructions at 8-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT  22, 21 (checkup0,ancilla5) : True, True
+vv-SWAP  25, 16 ( dummy16,   data6) : False, True
+==============================================================================================================
+instructions at 9-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  22, 13 (checkup0,ancilla6) : True, True
+hw-SWAP  16, 15 ( dummy16,   data2) : False, True
+==============================================================================================================
+instructions at 10-th index : 
+--------------------------------------------------------------------------------------------------------------
+MeasX  22 (checkup0) : False
+==============================================================================================================
+instructions at 11-th index : 
+--------------------------------------------------------------------------------------------------------------
+hl-SWAP  22, 25 (checkup0,   data6) : False, True
+==============================================================================================================
