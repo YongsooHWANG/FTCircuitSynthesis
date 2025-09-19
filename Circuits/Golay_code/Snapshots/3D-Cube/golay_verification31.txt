@@ -1,0 +1,344 @@
+==============================================================================================================
+instructions at 0-th index : 
+--------------------------------------------------------------------------------------------------------------
+hl-SWAP  27, 23 (LQ1-data8,LQ1-data0) : True, True			vv-SWAP 104,120 ( dummy32,LQ2-data0) : False, True
+vv-SWAP  92,108 ( dummy16,LQ2-data13) : False, True			vv-SWAP  57, 41 ( dummy63,LQ1-data1) : False, True
+vv-SWAP  69, 53 (  dummy9,LQ1-data9) : False, True			vv-SWAP 113,129 (  dummy8,LQ2-data1) : False, True
+hw-SWAP 105,106 ( dummy75,LQ2-data9) : False, True			hw-SWAP 119,118 (  dummy2,LQ2-data8) : False, True
+hl-SWAP 117,121 ( dummy56,LQ2-data15) : False, True			vv-SWAP  25,  9 ( dummy23,LQ1-data3) : False, True
+hl-SWAP 138,134 ( dummy29,LQ2-data3) : False, True			hw-SWAP  21, 22 (dummy101,LQ1-data17) : False, True
+hw-SWAP   1,  2 ( dummy40,LQ1-data15) : False, True			hl-SWAP  14, 10 ( dummy20,LQ1-data16) : False, True
+hl-SWAP  11,  7 ( dummy42,LQ1-data7) : False, True			vv-SWAP  34, 18 ( dummy44,LQ1-data6) : False, True
+hw-SWAP  39, 38 ( dummy50,LQ1-data19) : False, True			hw-SWAP 125,124 ( dummy77,LQ2-data17) : False, True
+hl-SWAP 136,140 ( dummy25,LQ2-data6) : False, True			vv-SWAP  73, 89 ( dummy36,LQ2-data7) : False, True
+vv-SWAP  65, 49 ( dummy60,LQ1-data10) : False, True			vv-SWAP  91,107 ( dummy98,LQ2-data10) : False, True
+vv-SWAP  74, 90 ( dummy72,LQ2-data12) : False, True			vv-SWAP  58, 42 ( dummy79,LQ1-data11) : False, True
+vv-SWAP  70, 54 ( dummy89,LQ1-data13) : False, True			hw-SWAP  45, 44 ( dummy64,LQ1-data21) : False, True
+vv-SWAP  76, 60 ( dummy52,LQ1-data12) : False, True			vv-SWAP  56, 40 (dummy109,LQ1-data14) : False, True
+hw-SWAP  97, 98 ( dummy24,LQ2-data14) : False, True			hl-SWAP 137,133 ( dummy73,LQ2-data21) : False, True
+hl-SWAP  24, 28 ( dummy15,LQ1-data18) : False, True			vv-SWAP 112,128 ( dummy21,LQ2-data18) : False, True
+hw-SWAP  29, 30 ( dummy99,LQ1-data2) : False, True			hw-SWAP 123,122 ( dummy91,LQ2-data2) : False, True
+hw-SWAP   5,  6 ( dummy70,LQ1-data5) : False, True			hl-SWAP  99,103 (dummy100,LQ2-data19) : False, True
+hw-SWAP  85, 86 (dummy103,LQ2-data20) : False, True			vv-SWAP  62, 46 (dummy105,LQ1-data22) : False, True
+vv-SWAP  94,110 ( dummy51,LQ2-data16) : False, True			vv-SWAP  64, 48 (dummy110,LQ1-data4) : False, True
+==============================================================================================================
+instructions at 1-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-SWAP  10, 11 ( dummy20,LQ1-data7) : False, True			vv-SWAP  43, 27 ( dummy97,LQ1-data0) : False, True
+vv-SWAP  55, 39 ( dummy47,LQ1-data19) : False, True			vv-SWAP  88,104 ( dummy82,LQ2-data0) : False, True
+hw-SWAP  93, 92 ( dummy55,LQ2-data13) : False, True			hl-SWAP  53, 57 (  dummy9,LQ1-data1) : False, True
+vv-SWAP  81, 97 ( dummy13,LQ2-data14) : False, True			vv-SWAP  61, 45 (  dummy6,LQ1-data21) : False, True
+vv-SWAP 107,123 ( dummy98,LQ2-data2) : False, True			vv-SWAP  75, 91 ( dummy88,LQ2-data10) : False, True
+vv-SWAP  41, 25 ( dummy63,LQ1-data3) : False, True			vv-SWAP 122,138 ( dummy91,LQ2-data3) : False, True
+vv-SWAP  86, 70 (dummy103,LQ1-data13) : False, True			vv-SWAP  37, 21 ( dummy53,LQ1-data17) : False, True
+vv-SWAP  50, 34 ( dummy67,LQ1-data6) : False, True			vv-SWAP 120,136 ( dummy32,LQ2-data6) : False, True
+vv-SWAP  42, 26 ( dummy79,LQ1-data20) : False, True			hl-SWAP  78, 74 ( dummy31,LQ2-data12) : False, True
+vv-SWAP  83, 99 ( dummy54,LQ2-data19) : False, True			vv-SWAP  89,105 ( dummy36,LQ2-data9) : False, True
+vv-SWAP 109,125 ( dummy49,LQ2-data17) : False, True			hw-SWAP  77, 76 ( dummy43,LQ1-data12) : False, True
+vv-SWAP  72, 56 ( dummy80,LQ1-data14) : False, True			vv-SWAP  17,  1 (  dummy4,LQ1-data15) : False, True
+vv-SWAP  40, 24 (dummy109,LQ1-data18) : False, True			vv-SWAP  96,112 ( dummy90,LQ2-data18) : False, True
+hw-SWAP  68, 69 (dummy102,LQ1-data9) : False, True			hl-SWAP  54, 58 ( dummy89,LQ1-data11) : False, True
+vv-SWAP 133,117 ( dummy73,LQ2-data15) : False, True			vv-SWAP 103,119 (dummy100,LQ2-data8) : False, True
+hw-SWAP  63, 62 ( dummy69,LQ1-data22) : False, True			vv-SWAP  98, 82 ( dummy24,LQ2-data4) : False, True
+vv-SWAP  30, 14 ( dummy99,LQ1-data16) : False, True			vv-SWAP 121,137 ( dummy56,LQ2-data21) : False, True
+==============================================================================================================
+instructions at 2-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT  77, 78 (LQ1-data12,LQ2-data12) : True, True
+vv-SWAP  21,  5 ( dummy53,LQ1-data5) : False, True			hl-SWAP  38, 42 ( dummy50,LQ1-data20) : False, True
+hw-SWAP  74, 73 ( dummy31,LQ2-data7) : False, True			hl-SWAP  69, 65 (dummy102,LQ1-data10) : False, True
+vv-SWAP  59, 43 ( dummy74,LQ1-data0) : False, True			hl-SWAP  71, 75 ( dummy87,LQ2-data10) : False, True
+hl-SWAP  51, 55 (dummy106,LQ1-data19) : False, True			hl-SWAP  49, 53 ( dummy60,LQ1-data1) : False, True
+vv-SWAP  66, 50 ( dummy46,LQ1-data6) : False, True			hl-SWAP  57, 61 (  dummy9,LQ1-data21) : False, True
+vv-SWAP  91,107 ( dummy88,LQ2-data2) : False, True			vv-SWAP 106,122 ( dummy75,LQ2-data3) : False, True
+vv-SWAP  84, 68 ( dummy33,LQ1-data9) : False, True			hl-SWAP  90, 86 ( dummy72,LQ1-data13) : False, True
+vv-SWAP  67, 83 (dummy111,LQ2-data19) : False, True			vv-SWAP 104,120 ( dummy82,LQ2-data6) : False, True
+hl-SWAP 105,109 ( dummy36,LQ2-data17) : False, True			hl-SWAP 129,133 (  dummy8,LQ2-data15) : False, True
+vv-SWAP  56, 40 ( dummy80,LQ1-data18) : False, True			hl-SWAP  92, 88 ( dummy55,LQ2-data0) : False, True
+vv-SWAP  45, 29 (  dummy6,LQ1-data2) : False, True			vv-SWAP  80, 96 (dummy112,LQ2-data18) : False, True
+vv-SWAP  26, 10 ( dummy79,LQ1-data7) : False, True			vv-SWAP  97,113 ( dummy13,LQ2-data1) : False, True
+vv-SWAP 114, 98 ( dummy12,LQ2-data4) : False, True			vv-SWAP  33, 17 ( dummy95,LQ1-data15) : False, True
+vv-SWAP  39, 23 ( dummy47,LQ1-data8) : False, True
+==============================================================================================================
+instructions at 3-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  51, 67 (LQ1-data19,LQ2-data19) : True, True
+hw-SWAP  73, 72 ( dummy31,LQ1-data14) : False, True			hw-SWAP  70, 69 (dummy103,LQ1-data10) : False, True
+vv-SWAP  65, 81 (dummy102,LQ2-data14) : False, True			hw-SWAP  42, 41 ( dummy50,LQ1-data3) : False, True
+hw-SWAP  86, 87 ( dummy72,LQ2-data5) : False, True			hw-SWAP  22, 21 (dummy101,LQ1-data5) : False, True
+vv-SWAP  58, 74 ( dummy89,LQ2-data7) : False, True			hl-SWAP 122,126 ( dummy75,LQ2-data11) : False, True
+hw-SWAP  76, 77 ( dummy43,LQ1-data12) : False, True			hw-SWAP  88, 89 ( dummy55,LQ2-data9) : False, True
+hl-SWAP  34, 38 ( dummy67,LQ1-data20) : False, True			vv-SWAP  75, 59 ( dummy87,LQ1-data0) : False, True
+hl-SWAP  95, 91 ( dummy71,LQ2-data2) : False, True			hl-SWAP 101,105 ( dummy59,LQ2-data17) : False, True
+hl-SWAP 100,104 ( dummy11,LQ2-data6) : False, True			hl-SWAP 110,106 ( dummy51,LQ2-data3) : False, True
+vv-SWAP  53, 37 ( dummy60,LQ1-data17) : False, True			hw-SWAP  48, 49 (dummy110,LQ1-data1) : False, True
+hw-SWAP 113,114 ( dummy13,LQ2-data4) : False, True
+==============================================================================================================
+instructions at 4-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT  70, 71 (LQ1-data10,LQ2-data10) : True, True		hl-CNOT  84, 88 (LQ1-data9,LQ2-data9) : True, True
+hw-SWAP  77, 78 ( dummy43,LQ2-data12) : False, True			hl-SWAP  89, 93 ( dummy55,LQ2-data13) : False, True
+hl-SWAP  69, 65 (dummy103,LQ2-data14) : False, True			hl-SWAP  81, 85 (dummy102,LQ2-data20) : False, True
+hl-SWAP 118,122 (  dummy2,LQ2-data11) : False, True			vv-SWAP  72, 56 ( dummy31,LQ1-data18) : False, True
+vv-SWAP  60, 76 ( dummy52,LQ1-data12) : False, True			vv-SWAP  83, 67 (dummy111,LQ2-data19) : False, True
+vv-SWAP  35, 51 ( dummy37,LQ1-data19) : False, True			hl-SWAP  46, 42 (dummy105,LQ1-data3) : False, True
+vv-SWAP  91, 75 ( dummy71,LQ1-data0) : False, True			vv-SWAP  79, 95 ( dummy61,LQ2-data2) : False, True
+hl-SWAP  59, 63 ( dummy87,LQ1-data22) : False, True			hl-SWAP 106,102 ( dummy51,LQ2-data22) : False, True
+vv-SWAP  50, 34 ( dummy46,LQ1-data20) : False, True			vv-SWAP  49, 33 (dummy110,LQ1-data15) : False, True
+==============================================================================================================
+instructions at 5-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT  90, 89 (LQ1-data13,LQ2-data13) : True, True		hl-CNOT  73, 69 (LQ1-data14,LQ2-data14) : True, True
+vv-SWAP  78, 94 ( dummy43,LQ2-data16) : False, True			vv-SWAP  87, 71 ( dummy72,LQ2-data10) : False, True
+vv-SWAP  68, 84 ( dummy33,LQ1-data9) : False, True			vv-SWAP 104, 88 ( dummy11,LQ2-data9) : False, True
+hw-SWAP  67, 66 (dummy111,LQ1-data6) : False, True			vv-SWAP  65, 81 (dummy103,LQ2-data20) : False, True
+vv-SWAP  85,101 (dummy102,LQ2-data17) : False, True			vv-SWAP  62, 46 ( dummy69,LQ1-data3) : False, True
+vv-SWAP  99, 83 ( dummy54,LQ2-data19) : False, True			vv-SWAP  19, 35 (  dummy1,LQ1-data19) : False, True
+hl-SWAP  95, 91 ( dummy61,LQ1-data0) : False, True			vv-SWAP  63, 79 ( dummy87,LQ2-data2) : False, True
+hw-SWAP  93, 92 ( dummy55,LQ2-data0) : False, True			vv-SWAP  42, 58 (dummy105,LQ2-data7) : False, True
+vv-SWAP  75, 59 ( dummy71,LQ1-data22) : False, True			hw-SWAP 107,106 ( dummy88,LQ2-data22) : False, True
+vv-SWAP 102,118 ( dummy51,LQ2-data11) : False, True			vv-SWAP  44, 60 ( dummy64,LQ1-data12) : False, True
+==============================================================================================================
+instructions at 6-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  26, 42 (LQ1-data7,LQ2-data7) : True, True
+hl-SWAP  66, 70 (dummy111,LQ1-data10) : False, True			hw-SWAP  46, 45 ( dummy69,LQ1-data2) : False, True
+hl-SWAP  71, 67 ( dummy72,LQ1-data6) : False, True			vv-SWAP  84,100 ( dummy33,LQ2-data6) : False, True
+vv-SWAP  88, 72 ( dummy11,LQ1-data18) : False, True			vv-SWAP  52, 68 ( dummy18,LQ1-data9) : False, True
+hl-SWAP  83, 87 ( dummy54,LQ2-data10) : False, True			hw-SWAP  94, 95 ( dummy43,LQ1-data0) : False, True
+vv-SWAP  91, 75 ( dummy61,LQ1-data22) : False, True			vv-SWAP 105, 89 ( dummy59,LQ2-data13) : False, True
+vv-SWAP  28, 44 ( dummy15,LQ1-data12) : False, True			hl-SWAP  23, 19 ( dummy47,LQ1-data19) : False, True
+==============================================================================================================
+instructions at 7-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT  94, 93 (LQ1-data0,LQ2-data0) : True, True			vv-CNOT  91,107 (LQ1-data22,LQ2-data22) : True, True
+vv-SWAP  70, 86 (dummy111,LQ2-data5) : False, True			hw-SWAP  72, 73 ( dummy11,LQ1-data14) : False, True
+vv-SWAP  82, 66 ( dummy24,LQ1-data10) : False, True			hw-SWAP  47, 46 ( dummy28,LQ1-data2) : False, True
+vv-SWAP  68, 84 ( dummy18,LQ2-data6) : False, True			vv-SWAP  10, 26 ( dummy79,LQ1-data7) : False, True
+vv-SWAP  36, 52 ( dummy92,LQ1-data9) : False, True			vv-SWAP  67, 83 ( dummy72,LQ2-data10) : False, True
+hl-SWAP  38, 42 ( dummy67,LQ2-data7) : False, True			vv-SWAP  55, 71 (dummy106,LQ1-data6) : False, True
+vv-SWAP  87,103 ( dummy54,LQ2-data8) : False, True			hl-SWAP 109,105 ( dummy36,LQ2-data13) : False, True
+vv-SWAP  12, 28 ( dummy62,LQ1-data12) : False, True
+==============================================================================================================
+instructions at 8-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  47, 63 (LQ1-data2,LQ2-data2) : True, True
+hl-SWAP  73, 69 ( dummy11,LQ2-data14) : False, True			vv-SWAP  56, 72 ( dummy31,LQ1-data14) : False, True
+hw-SWAP  66, 65 ( dummy24,LQ2-data20) : False, True			hl-SWAP  84, 80 ( dummy18,LQ2-data18) : False, True
+vv-SWAP  46, 62 ( dummy28,LQ1-data3) : False, True			vv-SWAP  52, 68 ( dummy92,LQ2-data6) : False, True
+hl-SWAP  26, 30 ( dummy79,LQ1-data16) : False, True			hl-SWAP   6, 10 ( dummy70,LQ1-data7) : False, True
+vv-SWAP  51, 67 ( dummy37,LQ2-data10) : False, True			vv-SWAP  86,102 (dummy111,LQ2-data11) : False, True
+hw-SWAP  83, 82 ( dummy72,LQ1-data10) : False, True			hw-SWAP  95, 94 ( dummy43,LQ1-data0) : False, True
+hw-SWAP  37, 38 ( dummy60,LQ2-data7) : False, True			vv-SWAP  75, 91 ( dummy61,LQ1-data22) : False, True
+vv-SWAP 105,121 ( dummy36,LQ2-data21) : False, True			hl-SWAP 103,107 ( dummy54,LQ2-data22) : False, True
+hw-SWAP 108,109 ( dummy16,LQ2-data13) : False, True
+==============================================================================================================
+instructions at 9-th index : 
+--------------------------------------------------------------------------------------------------------------
+hl-CNOT  88, 84 (LQ1-data18,LQ2-data18) : True, True		vv-CNOT  50, 66 (LQ1-data20,LQ2-data20) : True, True
+vv-SWAP  69, 53 ( dummy11,LQ1-data17) : False, True			vv-SWAP  80, 64 ( dummy18,LQ1-data4) : False, True
+hw-SWAP  72, 73 ( dummy31,LQ2-data14) : False, True			vv-SWAP  40, 56 ( dummy80,LQ1-data14) : False, True
+vv-SWAP  62, 78 ( dummy28,LQ2-data16) : False, True			vv-SWAP  42, 26 ( dummy67,LQ1-data16) : False, True
+vv-SWAP  38, 22 ( dummy60,LQ1-data5) : False, True			vv-SWAP  31, 47 ( dummy78,LQ1-data2) : False, True
+vv-SWAP  67, 83 ( dummy37,LQ1-data10) : False, True			vv-SWAP  79, 63 ( dummy87,LQ2-data2) : False, True
+hl-SWAP  91, 95 ( dummy61,LQ1-data0) : False, True			hl-SWAP  41, 37 ( dummy50,LQ2-data7) : False, True
+hw-SWAP 102,103 (dummy111,LQ2-data22) : False, True			hw-SWAP   7,  6 ( dummy42,LQ1-data7) : False, True
+==============================================================================================================
+instructions at 10-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  69, 85 (LQ1-data17,LQ2-data17) : True, True
+hl-SWAP  58, 62 (dummy105,LQ2-data16) : False, True			vv-SWAP  64, 48 ( dummy18,LQ1-data1) : False, True
+vv-SWAP  96, 80 (dummy112,LQ1-data4) : False, True			hw-SWAP  65, 66 ( dummy24,LQ2-data20) : False, True
+vv-SWAP  34, 50 ( dummy46,LQ1-data20) : False, True			vv-SWAP  73, 57 ( dummy31,LQ1-data21) : False, True
+hl-SWAP  92, 88 ( dummy55,LQ1-data18) : False, True			hw-SWAP  30, 31 ( dummy79,LQ1-data2) : False, True
+vv-SWAP 100, 84 ( dummy33,LQ2-data18) : False, True			vv-SWAP  24, 40 (dummy109,LQ1-data14) : False, True
+hl-SWAP 103, 99 (dummy111,LQ2-data19) : False, True			vv-SWAP  95, 79 ( dummy61,LQ2-data2) : False, True
+hw-SWAP  37, 36 ( dummy50,LQ1-data9) : False, True
+==============================================================================================================
+instructions at 11-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  62, 46 (dummy105,LQ1-data3) : False, True			hw-SWAP  59, 58 ( dummy71,LQ2-data16) : False, True
+vv-SWAP  80, 64 (dummy112,LQ1-data1) : False, True			vv-SWAP 112, 96 ( dummy90,LQ1-data4) : False, True
+vv-SWAP 101, 85 (dummy102,LQ2-data17) : False, True			vv-SWAP  81, 65 (dummy103,LQ2-data20) : False, True
+vv-SWAP  89, 73 ( dummy59,LQ1-data21) : False, True			vv-SWAP  76, 92 ( dummy52,LQ1-data18) : False, True
+vv-SWAP  18, 34 ( dummy44,LQ1-data20) : False, True			vv-SWAP  88, 72 ( dummy55,LQ2-data14) : False, True
+hw-SWAP  68, 69 ( dummy92,LQ1-data17) : False, True			vv-SWAP 116,100 ( dummy30,LQ2-data18) : False, True
+vv-SWAP  57, 41 ( dummy31,LQ2-data7) : False, True			vv-SWAP 111, 95 ( dummy14,LQ2-data2) : False, True
+vv-SWAP   8, 24 ( dummy39,LQ1-data14) : False, True
+==============================================================================================================
+instructions at 12-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT 112,113 (LQ1-data4,LQ2-data4) : True, True			vv-CNOT  89,105 (LQ1-data21,LQ2-data21) : True, True
+hl-SWAP  58, 54 ( dummy71,LQ1-data11) : False, True			vv-SWAP  78, 62 ( dummy28,LQ1-data3) : False, True
+vv-SWAP  43, 59 ( dummy74,LQ2-data16) : False, True			vv-SWAP  96, 80 ( dummy90,LQ1-data1) : False, True
+vv-SWAP  65, 49 (dummy103,LQ1-data15) : False, True			hl-SWAP  85, 81 (dummy102,LQ2-data20) : False, True
+vv-SWAP  60, 76 ( dummy64,LQ1-data18) : False, True			hw-SWAP  92, 93 ( dummy52,LQ2-data0) : False, True
+hl-SWAP  84, 88 ( dummy33,LQ2-data14) : False, True			vv-SWAP 132,116 ( dummy68,LQ2-data18) : False, True
+vv-SWAP 127,111 ( dummy38,LQ2-data2) : False, True
+==============================================================================================================
+instructions at 13-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT  42, 43 (LQ1-data16,LQ2-data16) : True, True		hw-CNOT  96, 97 (LQ1-data1,LQ2-data1) : True, True
+vv-SWAP  54, 70 ( dummy71,LQ2-data5) : False, True			vv-SWAP  74, 58 ( dummy89,LQ1-data11) : False, True
+hl-SWAP 117,113 ( dummy73,LQ2-data4) : False, True			vv-SWAP  94, 78 ( dummy43,LQ1-data3) : False, True
+vv-SWAP  81, 65 (dummy102,LQ1-data15) : False, True			vv-SWAP  59, 75 ( dummy74,LQ1-data22) : False, True
+vv-SWAP  44, 60 ( dummy15,LQ1-data18) : False, True			vv-SWAP  93, 77 ( dummy52,LQ2-data12) : False, True
+vv-SWAP  73, 89 ( dummy59,LQ1-data21) : False, True			hl-SWAP  88, 92 ( dummy33,LQ2-data0) : False, True
+vv-SWAP 121,105 ( dummy36,LQ2-data21) : False, True			vv-SWAP 100, 84 ( dummy30,LQ2-data14) : False, True
+hl-SWAP 128,132 ( dummy21,LQ2-data18) : False, True			hl-SWAP 123,127 ( dummy98,LQ2-data2) : False, True
+==============================================================================================================
+instructions at 14-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  38, 54 (LQ1-data5,LQ2-data5) : True, True			vv-CNOT  94,110 (LQ1-data3,LQ2-data3) : True, True
+vv-SWAP 113,129 ( dummy73,LQ2-data15) : False, True			vv-SWAP  70, 86 ( dummy71,LQ2-data11) : False, True
+hw-SWAP  98, 97 ( dummy12,LQ2-data1) : False, True			vv-SWAP  26, 42 ( dummy67,LQ1-data16) : False, True
+hl-SWAP  47, 43 ( dummy78,LQ2-data16) : False, True			vv-SWAP  75, 91 ( dummy74,LQ1-data0) : False, True
+vv-SWAP  80, 96 ( dummy90,LQ1-data1) : False, True			hl-SWAP  89, 93 ( dummy59,LQ2-data12) : False, True
+hl-SWAP  77, 73 ( dummy52,LQ1-data21) : False, True			hw-SWAP 105,104 ( dummy36,LQ2-data9) : False, True
+vv-SWAP 137,121 ( dummy56,LQ2-data21) : False, True			vv-SWAP 144,128 ( dummy85,LQ2-data18) : False, True
+hw-SWAP 122,123 (  dummy2,LQ2-data2) : False, True			hl-SWAP  40, 44 (dummy109,LQ1-data18) : False, True
+==============================================================================================================
+instructions at 15-th index : 
+--------------------------------------------------------------------------------------------------------------
+hl-CNOT  74, 70 (LQ1-data11,LQ2-data11) : True, True
+hl-SWAP  50, 54 ( dummy46,LQ2-data5) : False, True			vv-SWAP  22, 38 ( dummy60,LQ1-data5) : False, True
+vv-SWAP  97,113 ( dummy12,LQ2-data15) : False, True			vv-SWAP 126,110 ( dummy75,LQ2-data3) : False, True
+vv-SWAP  78, 94 ( dummy43,LQ1-data3) : False, True			vv-SWAP  43, 59 ( dummy78,LQ1-data22) : False, True
+vv-SWAP  63, 47 ( dummy87,LQ2-data16) : False, True			vv-SWAP  10, 26 ( dummy70,LQ1-data16) : False, True
+vv-SWAP 104, 88 ( dummy36,LQ2-data0) : False, True			vv-SWAP  96,112 ( dummy90,LQ1-data4) : False, True
+vv-SWAP  64, 80 (dummy112,LQ1-data1) : False, True			hw-SWAP 106,105 ( dummy88,LQ2-data9) : False, True
+hl-SWAP 133,137 (  dummy8,LQ2-data21) : False, True			hw-SWAP  76, 77 ( dummy64,LQ1-data21) : False, True
+vv-SWAP  73, 57 ( dummy52,LQ2-data7) : False, True			vv-SWAP  24, 40 ( dummy39,LQ1-data18) : False, True
+hl-SWAP 148,144 ( dummy84,LQ2-data18) : False, True
+==============================================================================================================
+instructions at 16-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  81, 97 (LQ1-data15,LQ2-data15) : True, True
+hw-SWAP  54, 55 ( dummy46,LQ1-data6) : False, True			vv-SWAP  66, 50 ( dummy24,LQ2-data5) : False, True
+vv-SWAP  58, 74 ( dummy89,LQ1-data11) : False, True			hl-SWAP 113,117 ( dummy12,LQ2-data4) : False, True
+vv-SWAP  86, 70 ( dummy71,LQ2-data11) : False, True			vv-SWAP   6, 22 ( dummy42,LQ1-data5) : False, True
+vv-SWAP 142,126 (dummy104,LQ2-data3) : False, True			hl-SWAP  47, 43 ( dummy87,LQ1-data22) : False, True
+vv-SWAP  79, 63 ( dummy61,LQ2-data16) : False, True			vv-SWAP  62, 78 ( dummy28,LQ1-data3) : False, True
+vv-SWAP  80, 96 (dummy112,LQ1-data4) : False, True			vv-SWAP 120,104 ( dummy82,LQ2-data0) : False, True
+vv-SWAP  48, 64 ( dummy18,LQ1-data1) : False, True			vv-SWAP 132,148 ( dummy21,LQ2-data18) : False, True
+vv-SWAP  60, 76 ( dummy15,LQ1-data21) : False, True
+==============================================================================================================
+instructions at 17-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-SWAP  53, 54 ( dummy11,LQ1-data6) : False, True			vv-SWAP  55, 39 ( dummy46,LQ1-data8) : False, True
+vv-SWAP  82, 66 ( dummy72,LQ2-data5) : False, True			vv-SWAP  74, 90 ( dummy89,LQ1-data13) : False, True
+vv-SWAP  42, 58 ( dummy67,LQ1-data11) : False, True			hw-SWAP 114,113 ( dummy13,LQ2-data4) : False, True
+vv-SWAP 117,101 ( dummy12,LQ2-data17) : False, True			hl-SWAP  22, 18 ( dummy42,LQ1-data20) : False, True
+hl-SWAP 138,142 ( dummy91,LQ2-data3) : False, True			vv-SWAP  95, 79 ( dummy14,LQ2-data16) : False, True
+hw-SWAP  46, 47 (dummy105,LQ1-data22) : False, True			hw-SWAP  61, 62 (  dummy9,LQ1-data3) : False, True
+hl-SWAP  96,100 (dummy112,LQ2-data14) : False, True			vv-SWAP  64, 80 ( dummy18,LQ1-data4) : False, True
+vv-SWAP  32, 48 (dummy113,LQ1-data1) : False, True			vv-SWAP  65, 81 (dummy102,LQ1-data15) : False, True
+vv-SWAP 136,120 ( dummy32,LQ2-data0) : False, True
+==============================================================================================================
+instructions at 18-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-CNOT  53, 52 (LQ1-data6,LQ2-data6) : True, True
+vv-SWAP  71, 55 (dummy106,LQ1-data8) : False, True			hw-SWAP  66, 67 ( dummy72,LQ1-data10) : False, True
+vv-SWAP 113, 97 ( dummy13,LQ2-data15) : False, True			vv-SWAP  39, 23 ( dummy46,LQ1-data19) : False, True
+hl-SWAP  90, 86 ( dummy89,LQ2-data11) : False, True			hl-SWAP 121,117 ( dummy56,LQ2-data17) : False, True
+hl-SWAP 134,138 ( dummy29,LQ2-data3) : False, True			hl-SWAP  26, 22 ( dummy70,LQ1-data20) : False, True
+vv-SWAP 111, 95 ( dummy38,LQ2-data16) : False, True			vv-SWAP  58, 74 ( dummy67,LQ1-data13) : False, True
+vv-SWAP  45, 61 ( dummy69,LQ1-data3) : False, True			hl-SWAP  38, 42 ( dummy60,LQ1-data11) : False, True
+vv-SWAP  48, 64 (dummy113,LQ1-data4) : False, True			vv-SWAP 152,136 ( dummy19,LQ2-data0) : False, True
+==============================================================================================================
+instructions at 19-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-CNOT  71, 87 (LQ1-data8,LQ2-data8) : True, True
+hl-SWAP  55, 51 (dummy106,LQ2-data10) : False, True			hl-SWAP  56, 52 ( dummy80,LQ2-data6) : False, True
+hw-SWAP  97, 98 ( dummy13,LQ2-data1) : False, True			vv-SWAP  50, 66 ( dummy24,LQ1-data10) : False, True
+hl-SWAP  49, 53 (dummy103,LQ1-data6) : False, True			hw-SWAP  86, 85 ( dummy89,LQ2-data20) : False, True
+hl-SWAP  94, 90 ( dummy43,LQ2-data11) : False, True			hl-SWAP 125,121 ( dummy49,LQ2-data17) : False, True
+hl-SWAP 117,113 ( dummy56,LQ2-data15) : False, True			hl-SWAP  54, 58 ( dummy11,LQ1-data13) : False, True
+vv-SWAP  29, 45 (  dummy6,LQ1-data3) : False, True			hl-SWAP  34, 38 ( dummy44,LQ1-data11) : False, True
+==============================================================================================================
+instructions at 20-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  52, 68 ( dummy80,LQ1-data17) : False, True			hl-SWAP  83, 87 ( dummy37,LQ2-data8) : False, True
+hl-SWAP  59, 55 ( dummy78,LQ2-data10) : False, True			vv-SWAP  98,114 ( dummy13,LQ2-data4) : False, True
+vv-SWAP  72, 56 ( dummy55,LQ2-data6) : False, True			vv-SWAP  66, 82 ( dummy24,LQ2-data5) : False, True
+hw-SWAP  90, 89 ( dummy43,LQ2-data12) : False, True			vv-SWAP  53, 37 (dummy103,LQ1-data9) : False, True
+vv-SWAP  33, 49 (dummy110,LQ1-data6) : False, True			vv-SWAP 113, 97 ( dummy56,LQ2-data1) : False, True
+vv-SWAP 110, 94 ( dummy75,LQ2-data11) : False, True			hw-SWAP 124,125 ( dummy77,LQ2-data17) : False, True
+hw-SWAP  38, 39 ( dummy44,LQ1-data19) : False, True			vv-SWAP  13, 29 (dummy108,LQ1-data3) : False, True
+hl-SWAP 121,117 ( dummy49,LQ2-data15) : False, True
+==============================================================================================================
+instructions at 21-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  36, 52 ( dummy50,LQ1-data17) : False, True			vv-SWAP  55, 71 ( dummy78,LQ1-data8) : False, True
+vv-SWAP  99, 83 (dummy111,LQ2-data8) : False, True			vv-SWAP  88, 72 ( dummy36,LQ2-data6) : False, True
+vv-SWAP  82, 98 ( dummy24,LQ2-data4) : False, True			hl-SWAP  70, 66 ( dummy71,LQ2-data5) : False, True
+vv-SWAP  17, 33 ( dummy95,LQ1-data6) : False, True			hw-SWAP  97, 96 ( dummy56,LQ2-data14) : False, True
+hw-SWAP 112,113 ( dummy90,LQ2-data1) : False, True			hw-SWAP  49, 50 (dummy110,LQ1-data10) : False, True
+vv-SWAP  89, 73 ( dummy43,LQ2-data7) : False, True			vv-SWAP 126,110 (dummy104,LQ2-data11) : False, True
+hl-SWAP   9, 13 ( dummy23,LQ1-data3) : False, True
+==============================================================================================================
+instructions at 22-th index : 
+--------------------------------------------------------------------------------------------------------------
+hl-SWAP  71, 75 ( dummy78,LQ1-data0) : False, True			vv-SWAP  20, 36 ( dummy48,LQ1-data17) : False, True
+vv-SWAP 115, 99 ( dummy17,LQ2-data8) : False, True			vv-SWAP 104, 88 ( dummy82,LQ2-data6) : False, True
+hw-SWAP  98, 97 ( dummy24,LQ2-data14) : False, True			hw-SWAP 110,111 (dummy104,LQ2-data16) : False, True
+hw-SWAP  66, 65 ( dummy71,LQ1-data15) : False, True			vv-SWAP 128,112 ( dummy85,LQ2-data1) : False, True
+hw-SWAP  33, 34 ( dummy95,LQ1-data11) : False, True
+==============================================================================================================
+instructions at 23-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  75, 59 ( dummy78,LQ2-data10) : False, True			hw-SWAP  21, 20 (dummy101,LQ1-data17) : False, True
+hl-SWAP 119,115 (dummy100,LQ2-data8) : False, True			hl-SWAP  36, 32 ( dummy48,LQ1-data1) : False, True
+vv-SWAP 120,104 ( dummy32,LQ2-data6) : False, True			vv-SWAP  50, 66 (dummy110,LQ1-data15) : False, True
+hw-SWAP 129,128 ( dummy73,LQ2-data1) : False, True			hl-SWAP  37, 33 (dummy103,LQ1-data11) : False, True
+==============================================================================================================
+instructions at 24-th index : 
+--------------------------------------------------------------------------------------------------------------
+hl-SWAP  59, 55 ( dummy78,LQ1-data8) : False, True			vv-SWAP  91, 75 ( dummy74,LQ2-data10) : False, True
+hw-SWAP  22, 21 ( dummy70,LQ1-data17) : False, True			hw-SWAP 118,119 ( dummy51,LQ2-data8) : False, True
+hl-SWAP  40, 36 ( dummy39,LQ1-data1) : False, True			hl-SWAP  20, 24 (dummy101,LQ1-data18) : False, True
+vv-SWAP 136,120 ( dummy19,LQ2-data6) : False, True			vv-SWAP  34, 50 ( dummy95,LQ1-data15) : False, True
+hl-SWAP 128,132 ( dummy73,LQ2-data18) : False, True
+==============================================================================================================
+instructions at 25-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  55, 71 ( dummy78,LQ1-data0) : False, True			vv-SWAP 107, 91 ( dummy54,LQ2-data10) : False, True
+vv-SWAP  43, 59 ( dummy87,LQ1-data8) : False, True			hw-SWAP  41, 40 ( dummy31,LQ1-data1) : False, True
+hl-SWAP 140,136 ( dummy25,LQ2-data6) : False, True			vv-SWAP  18, 34 ( dummy42,LQ1-data15) : False, True
+vv-SWAP  24,  8 (dummy101,LQ1-data14) : False, True
+==============================================================================================================
+instructions at 26-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-SWAP  71, 70 ( dummy78,LQ2-data5) : False, True			hl-SWAP  51, 55 (dummy106,LQ1-data0) : False, True
+vv-SWAP  27, 43 ( dummy97,LQ1-data8) : False, True			vv-SWAP   2, 18 ( dummy40,LQ1-data15) : False, True
+vv-SWAP  40, 24 ( dummy31,LQ1-data14) : False, True			hl-SWAP   8, 12 (dummy101,LQ1-data12) : False, True
+vv-SWAP 136,152 ( dummy25,LQ2-data0) : False, True			hl-SWAP  34, 38 ( dummy42,LQ1-data19) : False, True
+==============================================================================================================
+instructions at 27-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  35, 51 (  dummy1,LQ1-data0) : False, True			vv-SWAP  87, 71 ( dummy37,LQ2-data5) : False, True
+vv-SWAP  24,  8 ( dummy31,LQ1-data12) : False, True			vv-SWAP 120,136 ( dummy19,LQ2-data0) : False, True
+hw-SWAP  38, 37 ( dummy42,LQ1-data11) : False, True			hw-SWAP  18, 17 ( dummy40,LQ1-data6) : False, True
+==============================================================================================================
+instructions at 28-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  19, 35 ( dummy47,LQ1-data0) : False, True			hl-SWAP  28, 24 ( dummy62,LQ1-data12) : False, True
+hl-SWAP  42, 38 ( dummy60,LQ1-data11) : False, True
+==============================================================================================================
+instructions at 29-th index : 
+--------------------------------------------------------------------------------------------------------------
+hl-SWAP  23, 19 ( dummy46,LQ1-data0) : False, True			hl-SWAP  24, 20 ( dummy62,LQ1-data18) : False, True
+vv-SWAP  44, 28 (dummy109,LQ1-data12) : False, True			hl-SWAP  38, 34 ( dummy60,LQ1-data19) : False, True
+==============================================================================================================
+instructions at 30-th index : 
+--------------------------------------------------------------------------------------------------------------
+hl-SWAP  28, 24 (dummy109,LQ1-data18) : False, True			hw-SWAP  45, 44 (  dummy6,LQ1-data12) : False, True
+==============================================================================================================
+instructions at 31-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  44, 60 (  dummy6,LQ1-data21) : False, True			vv-SWAP  61, 45 ( dummy69,LQ1-data12) : False, True
+==============================================================================================================
+instructions at 32-th index : 
+--------------------------------------------------------------------------------------------------------------
+hw-SWAP  60, 61 (  dummy6,LQ1-data12) : False, True
+==============================================================================================================

@@ -1,0 +1,1681 @@
+==============================================================================================================
+Initial Mapping: 
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1               LQ1-data21   LQ1-data7              LQ1-data12   LQ1-data8                                    
+2                            LQ1-data0  LQ1-data13   LQ1-data3   LQ1-data9  LQ1-data22                        
+3               LQ1-data10  LQ1-data19  LQ1-data15              LQ1-data16                                    
+4               LQ1-data18   LQ1-data5   LQ1-data2  LQ1-data20  LQ1-data14               LQ1-data4            
+5                                        LQ1-data1                                      LQ1-data11            
+6                                       LQ1-data17   LQ1-data6                                                
+7                                                                                                             
+8                                                                                                             
+9               LQ2-data21   LQ2-data7              LQ2-data12   LQ2-data8                                    
+10                           LQ2-data0  LQ2-data13   LQ2-data3   LQ2-data9  LQ2-data22                        
+11              LQ2-data10  LQ2-data19  LQ2-data15              LQ2-data16                                    
+12              LQ2-data18   LQ2-data5   LQ2-data2  LQ2-data20  LQ2-data14               LQ2-data4            
+13                                       LQ2-data1                                      LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 0-th index : 
+--------------------------------------------------------------------------------------------------------------
+vv-SWAP  19, 10 (  dummy4,LQ1-data21) : False, True         vv-SWAP  74, 83 ( dummy47,LQ2-data7) : False, True
+vv-SWAP  84, 93 ( dummy41,LQ2-data13) : False, True         vv-SWAP  73, 82 (  dummy2,LQ2-data21) : False, True
+vv-SWAP  66, 57 (  dummy8,LQ1-data17) : False, True         vv-SWAP  47, 38 ( dummy80,LQ1-data5) : False, True
+vv-SWAP  67, 58 ( dummy87,LQ1-data6) : False, True          vv-SWAP 121,130 ( dummy66,LQ2-data6) : False, True
+vv-SWAP  49, 40 ( dummy96,LQ1-data20) : False, True         vv-SWAP 103,112 ( dummy17,LQ2-data20) : False, True
+vv-SWAP  31, 22 ( dummy19,LQ1-data3) : False, True          vv-SWAP  50, 41 ( dummy45,LQ1-data14) : False, True
+vv-SWAP  76, 85 ( dummy32,LQ2-data12) : False, True         vv-SWAP  61, 52 ( dummy22,LQ1-data11) : False, True
+vv-SWAP 106,115 (  dummy1,LQ2-data4) : False, True          vv-SWAP  87, 96 ( dummy91,LQ2-data22) : False, True
+vv-SWAP  46, 37 ( dummy16,LQ1-data18) : False, True         vv-SWAP  91,100 ( dummy85,LQ2-data10) : False, True
+vv-SWAP  33, 24 ( dummy73,LQ1-data22) : False, True         vv-SWAP  77, 86 ( dummy74,LQ2-data8) : False, True
+d2-SWAP 119,129 ( dummy44,LQ2-data17) : False, True         d2-SWAP  42, 32 ( dummy23,LQ1-data16) : False, True
+hh-SWAP 105,104 ( dummy79,LQ2-data16) : False, True         d2-SWAP  53, 43 ( dummy40,LQ1-data4) : False, True
+d2-SWAP  99,109 ( dummy26,LQ2-data18) : False, True         hh-SWAP  12, 13 ( dummy35,LQ1-data12) : False, True
+hh-SWAP  27, 28 ( dummy38,LQ1-data10) : False, True         hh-SWAP 125,124 ( dummy67,LQ2-data11) : False, True
+hh-SWAP 114,113 ( dummy83,LQ2-data14) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                            LQ1-data7  LQ1-data12               LQ1-data8                                    
+2               LQ1-data21   LQ1-data0  LQ1-data13               LQ1-data9                                    
+3   LQ1-data10              LQ1-data19  LQ1-data15   LQ1-data3              LQ1-data22                        
+4                                        LQ1-data2                          LQ1-data16                        
+5               LQ1-data18   LQ1-data5   LQ1-data1  LQ1-data20  LQ1-data14                           LQ1-data4
+6                                                                                       LQ1-data11            
+7                                       LQ1-data17   LQ1-data6                                                
+8               LQ2-data21   LQ2-data7              LQ2-data12   LQ2-data8                                    
+9                                       LQ2-data13                          LQ2-data22                        
+10              LQ2-data10   LQ2-data0               LQ2-data3   LQ2-data9                                    
+11  LQ2-data18              LQ2-data19  LQ2-data15  LQ2-data20              LQ2-data16   LQ2-data4            
+12                           LQ2-data5   LQ2-data2                          LQ2-data14                        
+13                          LQ2-data17   LQ2-data1   LQ2-data6                                      LQ2-data11
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 1-th index : 
+--------------------------------------------------------------------------------------------------------------
+hh-SWAP  93, 92 ( dummy41,LQ2-data0) : False, True          vv-SWAP  38, 29 ( dummy80,LQ1-data19) : False, True
+vv-SWAP  28, 19 ( dummy38,LQ1-data21) : False, True         vv-SWAP  75, 84 ( dummy29,LQ2-data13) : False, True
+vv-SWAP  65, 74 ( dummy55,LQ2-data7) : False, True          vv-SWAP  85, 94 ( dummy32,LQ2-data3) : False, True
+vv-SWAP  57, 48 (  dummy8,LQ1-data1) : False, True          vv-SWAP  56, 47 ( dummy86,LQ1-data5) : False, True
+vv-SWAP 112,121 ( dummy17,LQ2-data6) : False, True          vv-SWAP  58, 49 ( dummy87,LQ1-data20) : False, True
+vv-SWAP  40, 31 ( dummy96,LQ1-data3) : False, True          vv-SWAP  86, 95 ( dummy74,LQ2-data9) : False, True
+vv-SWAP  62, 53 ( dummy43,LQ1-data4) : False, True          vv-SWAP  70, 61 ( dummy53,LQ1-data11) : False, True
+vv-SWAP  97,106 ( dummy65,LQ2-data4) : False, True          vv-SWAP  78, 87 ( dummy61,LQ2-data22) : False, True
+vv-SWAP  55, 46 ( dummy63,LQ1-data18) : False, True         vv-SWAP  68, 77 ( dummy97,LQ2-data8) : False, True
+d2-SWAP  22, 12 ( dummy19,LQ1-data12) : False, True         vv-SWAP  32, 23 ( dummy23,LQ1-data9) : False, True
+vv-SWAP  51, 42 (  dummy5,LQ1-data16) : False, True         vv-SWAP  36, 27 (  dummy9,LQ1-data10) : False, True
+vv-SWAP  82, 91 (  dummy2,LQ2-data10) : False, True         vv-SWAP  64, 73 (  dummy0,LQ2-data21) : False, True
+vv-SWAP 116,125 ( dummy57,LQ2-data11) : False, True         vv-SWAP  96,105 ( dummy91,LQ2-data16) : False, True
+d2-SWAP 104,114 ( dummy79,LQ2-data14) : False, True         vv-SWAP  90, 99 ( dummy52,LQ2-data18) : False, True
+d2-SWAP 109,119 ( dummy26,LQ2-data17) : False, True         d2-SWAP 100,110 ( dummy85,LQ2-data5) : False, True
+d2-SWAP  10, 20 (  dummy4,LQ1-data0) : False, True          vv-SWAP 129,120 ( dummy44,LQ2-data1) : False, True
+d2-SWAP 113,103 ( dummy83,LQ2-data20) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                LQ1-data0   LQ1-data7                           LQ1-data8                                    
+2                                       LQ1-data13  LQ1-data12                                                
+3               LQ1-data21              LQ1-data15               LQ1-data9  LQ1-data22                        
+4   LQ1-data10              LQ1-data19   LQ1-data2   LQ1-data3                                                
+5                                                               LQ1-data14  LQ1-data16                        
+6               LQ1-data18   LQ1-data5   LQ1-data1  LQ1-data20                                       LQ1-data4
+7               LQ2-data21   LQ2-data7  LQ1-data17   LQ1-data6   LQ2-data8              LQ1-data11            
+8                                       LQ2-data13  LQ2-data12              LQ2-data22                        
+9               LQ2-data10                           LQ2-data3   LQ2-data9                                    
+10  LQ2-data18                           LQ2-data0                          LQ2-data16   LQ2-data4            
+11               LQ2-data5  LQ2-data19  LQ2-data15              LQ2-data14                                    
+12              LQ2-data17               LQ2-data2   LQ2-data6  LQ2-data20                          LQ2-data11
+13                                                                                                            
+14                                       LQ2-data1                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 2-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  84, 93 ( dummy29,LQ2-data0) : False, True
+ vv-SWAP  47, 38 ( dummy86,LQ1-data19) : False, True
+ vv-SWAP  77, 86 ( dummy97,LQ2-data9) : False, True
+ vv-SWAP  41, 32 ( dummy45,LQ1-data9) : False, True
+ vv-SWAP  42, 33 (  dummy5,LQ1-data22) : False, True
+ hh-SWAP   9, 10 ( dummy14,LQ1-data0) : False, True
+ hh-SWAP 130,129 ( dummy66,LQ2-data1) : False, True
+ hh-SWAP  99,100 ( dummy52,LQ2-data5) : False, True
+ vv-SWAP  37, 28 ( dummy16,LQ1-data21) : False, True
+ vv-SWAP 103,112 ( dummy83,LQ2-data6) : False, True
+ vv-SWAP  92,101 ( dummy41,LQ2-data19) : False, True
+ vv-SWAP  49, 40 ( dummy87,LQ1-data3) : False, True
+ vv-SWAP  71, 62 ( dummy92,LQ1-data4) : False, True
+ vv-SWAP  79, 70 ( dummy93,LQ1-data11) : False, True
+ vv-SWAP  88, 97 ( dummy94,LQ2-data4) : False, True
+ vv-SWAP  69, 78 ( dummy42,LQ2-data22) : False, True
+ hh-SWAP  54, 55 ( dummy11,LQ1-data18) : False, True
+ vv-SWAP  81, 90 ( dummy10,LQ2-data18) : False, True
+ vv-SWAP  59, 68 ( dummy68,LQ2-data8) : False, True
+ vv-SWAP  95,104 ( dummy74,LQ2-data14) : False, True
+ vv-SWAP  20, 11 (  dummy4,LQ1-data7) : False, True
+ vv-SWAP  23, 14 ( dummy23,LQ1-data8) : False, True
+ vv-SWAP  31, 22 ( dummy96,LQ1-data12) : False, True
+ vv-SWAP  60, 51 ( dummy12,LQ1-data16) : False, True
+ vv-SWAP  45, 36 ( dummy62,LQ1-data10) : False, True
+ vv-SWAP  73, 82 (  dummy0,LQ2-data10) : False, True
+ vv-SWAP 107,116 ( dummy24,LQ2-data11) : False, True
+ vv-SWAP  87, 96 ( dummy61,LQ2-data16) : False, True
+ d2-SWAP  46, 56 ( dummy63,LQ1-data5) : False, True
+ hh-SWAP 114,113 ( dummy79,LQ2-data20) : False, True
+ hh-SWAP  29, 30 ( dummy80,LQ1-data15) : False, True
+ vv-SWAP 120,111 ( dummy44,LQ2-data2) : False, True
+ vv-SWAP  12, 21 ( dummy19,LQ1-data13) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1    LQ1-data0                          LQ1-data13                                                            
+2                            LQ1-data7                           LQ1-data8                                    
+3                           LQ1-data15              LQ1-data12                                                
+4               LQ1-data21               LQ1-data2               LQ1-data9  LQ1-data22                        
+5   LQ1-data10   LQ1-data5  LQ1-data19               LQ1-data3  LQ1-data14                                    
+6   LQ1-data18                           LQ1-data1  LQ1-data20   LQ2-data8  LQ1-data16                        
+7               LQ2-data21   LQ2-data7  LQ1-data17   LQ1-data6              LQ2-data22               LQ1-data4
+8               LQ2-data10              LQ2-data13  LQ2-data12   LQ2-data9              LQ1-data11            
+9   LQ2-data18                           LQ2-data0   LQ2-data3              LQ2-data16   LQ2-data4            
+10                          LQ2-data19                          LQ2-data14                                    
+11   LQ2-data5                          LQ2-data15   LQ2-data6                                      LQ2-data11
+12              LQ2-data17                                                  LQ2-data20                        
+13                                       LQ2-data2                                                            
+14                                                   LQ2-data1                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 3-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  18,  9 ( dummy36,LQ1-data0) : False, True
+ d2-SWAP  74, 84 ( dummy55,LQ2-data0) : False, True
+ vv-SWAP 121,130 ( dummy17,LQ2-data1) : False, True
+ vv-SWAP  93,102 ( dummy29,LQ2-data15) : False, True
+ vv-SWAP  55, 64 ( dummy11,LQ2-data21) : False, True
+ vv-SWAP  90, 99 ( dummy10,LQ2-data5) : False, True
+ vv-SWAP  51, 42 ( dummy12,LQ1-data22) : False, True
+ vv-SWAP 100,109 ( dummy52,LQ2-data17) : False, True
+ vv-SWAP  56, 65 ( dummy63,LQ2-data7) : False, True
+ hh-SWAP  86, 85 ( dummy97,LQ2-data3) : False, True
+ hh-SWAP  78, 77 ( dummy42,LQ2-data9) : False, True
+ vv-SWAP  38, 29 ( dummy86,LQ1-data15) : False, True
+ d2-SWAP 110,120 ( dummy85,LQ2-data2) : False, True
+ vv-SWAP   3, 12 ( dummy51,LQ1-data13) : False, True
+ d2-SWAP  68, 58 ( dummy68,LQ1-data20) : False, True
+ vv-SWAP  80, 71 ( dummy50,LQ1-data4) : False, True
+ d2-SWAP  89, 79 ( dummy59,LQ1-data11) : False, True
+ vv-SWAP  72, 81 ( dummy30,LQ2-data18) : False, True
+ vv-SWAP  32, 23 ( dummy45,LQ1-data8) : False, True
+ vv-SWAP  40, 31 ( dummy87,LQ1-data12) : False, True
+ vv-SWAP  63, 54 (  dummy3,LQ1-data18) : False, True
+ vv-SWAP  98,107 ( dummy95,LQ2-data11) : False, True
+ vv-SWAP 105,114 ( dummy91,LQ2-data20) : False, True
+ hh-SWAP 104,103 ( dummy74,LQ2-data6) : False, True
+ d2-SWAP  70, 60 ( dummy93,LQ1-data16) : False, True
+ vv-SWAP  30, 39 ( dummy80,LQ1-data2) : False, True
+ hh-SWAP  48, 47 (  dummy8,LQ1-data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                       LQ1-data13                                                            
+1                                                                                                             
+2    LQ1-data0               LQ1-data7                                                                        
+3                                        LQ1-data2               LQ1-data8                                    
+4               LQ1-data21  LQ1-data15              LQ1-data12   LQ1-data9                                    
+5   LQ1-data10   LQ1-data5              LQ1-data19   LQ1-data3  LQ1-data14  LQ1-data22                        
+6               LQ2-data21   LQ2-data7   LQ1-data1               LQ2-data8                                    
+7   LQ1-data18                          LQ1-data17   LQ1-data6  LQ1-data20  LQ2-data22  LQ1-data16            
+8   LQ2-data18  LQ2-data10   LQ2-data0  LQ2-data13  LQ2-data12               LQ2-data9               LQ1-data4
+9                                                                LQ2-data3  LQ2-data16   LQ2-data4  LQ1-data11
+10   LQ2-data5              LQ2-data19  LQ2-data15              LQ2-data14                          LQ2-data11
+11              LQ2-data17                                       LQ2-data6  LQ2-data20                        
+12                           LQ2-data2                                                                        
+13                                                   LQ2-data1                                                
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 4-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  83, 93 ( dummy47,LQ2-data15) : False, True
+ vv-SWAP  77, 86 ( dummy42,LQ2-data3) : False, True
+ hh-SWAP   2,  3 ( dummy81,LQ1-data13) : False, True
+ vv-SWAP  27, 18 (  dummy9,LQ1-data0) : False, True
+ vv-SWAP  65, 74 ( dummy63,LQ2-data0) : False, True
+ vv-SWAP 112,121 ( dummy83,LQ2-data1) : False, True
+ vv-SWAP  91,100 (  dummy2,LQ2-data17) : False, True
+ vv-SWAP  79, 88 ( dummy59,LQ2-data4) : False, True
+ vv-SWAP  29, 20 ( dummy86,LQ1-data7) : False, True
+ vv-CNOT  63, 72 (LQ1-data18,LQ2-data18) : True, True
+ vv-SWAP  54, 45 (  dummy3,LQ1-data10) : False, True
+ vv-SWAP  64, 73 ( dummy11,LQ2-data10) : False, True
+ vv-CNOT  89, 98 (LQ1-data11,LQ2-data11) : True, True
+ vv-SWAP  60, 69 ( dummy93,LQ2-data22) : False, True
+ vv-SWAP 101,110 ( dummy41,LQ2-data2) : False, True
+ vv-SWAP  58, 49 ( dummy68,LQ1-data3) : False, True
+ hh-SWAP  39, 40 ( dummy80,LQ1-data12) : False, True
+ hh-SWAP  31, 32 ( dummy87,LQ1-data8) : False, True
+ vv-SWAP  47, 56 (  dummy8,LQ2-data7) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                           LQ1-data13                                                                        
+1                                                                                                             
+2                                                                                                             
+3    LQ1-data0               LQ1-data7   LQ1-data2   LQ1-data8                                                
+4               LQ1-data21  LQ1-data15  LQ1-data12               LQ1-data9                                    
+5                LQ1-data5   LQ2-data7  LQ1-data19              LQ1-data14  LQ1-data22                        
+6   LQ1-data10  LQ2-data21               LQ1-data1   LQ1-data3   LQ2-data8  LQ2-data22                        
+7   LQ1-data18  LQ2-data10   LQ2-data0  LQ1-data17   LQ1-data6  LQ1-data20              LQ1-data16            
+8   LQ2-data18                          LQ2-data13  LQ2-data12   LQ2-data3   LQ2-data9   LQ2-data4   LQ1-data4
+9                           LQ2-data15                                      LQ2-data16              LQ1-data11
+10   LQ2-data5  LQ2-data17  LQ2-data19                          LQ2-data14                          LQ2-data11
+11                           LQ2-data2                           LQ2-data6  LQ2-data20                        
+12                                                   LQ2-data1                                                
+13                                                                                                            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 5-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  93, 92 ( dummy47,LQ2-data19) : False, True
+ hh-CNOT  80, 79 (LQ1-data4,LQ2-data4) : True, True
+ hh-SWAP  45, 46 (  dummy3,LQ1-data5) : False, True
+ d2-CNOT  54, 64 (LQ1-data10,LQ2-data10) : True, True
+ vv-SWAP  11,  2 (  dummy4,LQ1-data13) : False, True
+ vv-SWAP  86, 95 ( dummy42,LQ2-data14) : False, True
+ hh-SWAP  88, 87 ( dummy59,LQ2-data16) : False, True
+ vv-CNOT  51, 60 (LQ1-data22,LQ2-data22) : True, True
+ vv-SWAP  69, 78 ( dummy93,LQ2-data9) : False, True
+ vv-SWAP  36, 27 ( dummy62,LQ1-data0) : False, True
+ vv-SWAP 103,112 ( dummy74,LQ2-data1) : False, True
+ vv-SWAP  82, 91 (  dummy0,LQ2-data17) : False, True
+ vv-SWAP  74, 83 ( dummy63,LQ2-data15) : False, True
+ hh-SWAP  28, 29 ( dummy16,LQ1-data7) : False, True
+ vv-SWAP 107, 98 ( dummy95,LQ2-data11) : False, True
+ vv-SWAP  81, 72 ( dummy30,LQ2-data18) : False, True
+ d2-SWAP  49, 39 ( dummy68,LQ1-data12) : False, True
+ hh-SWAP 102,101 ( dummy29,LQ2-data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                           LQ1-data13                                                                        
+2                                                                                                             
+3                LQ1-data7               LQ1-data2   LQ1-data8                                                
+4    LQ1-data0  LQ1-data21  LQ1-data15                           LQ1-data9                                    
+5    LQ1-data5               LQ2-data7  LQ1-data19  LQ1-data12  LQ1-data14  LQ1-data22                        
+6   LQ1-data10  LQ2-data21               LQ1-data1   LQ1-data3   LQ2-data8  LQ2-data22                        
+7   LQ1-data18  LQ2-data10   LQ2-data0  LQ1-data17   LQ1-data6  LQ1-data20   LQ2-data9  LQ1-data16            
+8                           LQ2-data15  LQ2-data13  LQ2-data12   LQ2-data3               LQ2-data4   LQ1-data4
+9   LQ2-data18  LQ2-data17                                      LQ2-data14              LQ2-data16  LQ1-data11
+10   LQ2-data5                          LQ2-data19                                                            
+11                                       LQ2-data2   LQ2-data1   LQ2-data6  LQ2-data20              LQ2-data11
+12                                                                                                            
+13                                                                                                            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 6-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  94, 93 ( dummy32,LQ2-data19) : False, True
+ vv-SWAP  46, 37 (  dummy3,LQ1-data21) : False, True
+ hh-SWAP  52, 51 ( dummy22,LQ1-data22) : False, True
+ d2-SWAP  87, 77 ( dummy59,LQ2-data3) : False, True
+ vv-SWAP  95,104 ( dummy42,LQ2-data6) : False, True
+ d2-SWAP  78, 68 ( dummy93,LQ1-data20) : False, True
+ vv-SWAP  20, 11 ( dummy86,LQ1-data13) : False, True
+ vv-SWAP  73, 64 ( dummy11,LQ2-data10) : False, True
+ vv-SWAP  71, 80 ( dummy50,LQ1-data4) : False, True
+ vv-SWAP  72, 63 ( dummy30,LQ1-data18) : False, True
+ hh-SWAP  29, 30 ( dummy16,LQ1-data2) : False, True
+ vv-SWAP  98, 89 ( dummy95,LQ1-data11) : False, True
+ d2-SWAP  91, 81 (  dummy0,LQ2-data18) : False, True
+ vv-SWAP 116,107 ( dummy24,LQ2-data11) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                                                                                                             
+2                           LQ1-data13                                                                        
+3                LQ1-data7   LQ1-data2               LQ1-data8                                                
+4    LQ1-data0              LQ1-data15                           LQ1-data9                                    
+5    LQ1-data5  LQ1-data21   LQ2-data7  LQ1-data19  LQ1-data12  LQ1-data14              LQ1-data22            
+6   LQ1-data10  LQ2-data21               LQ1-data1   LQ1-data3   LQ2-data8  LQ2-data22                        
+7                            LQ2-data0  LQ1-data17   LQ1-data6               LQ2-data9  LQ1-data16   LQ1-data4
+8   LQ1-data18  LQ2-data10  LQ2-data15  LQ2-data13  LQ2-data12              LQ1-data20   LQ2-data4            
+9               LQ2-data17                                      LQ2-data14   LQ2-data3  LQ2-data16            
+10   LQ2-data5  LQ2-data18                          LQ2-data19   LQ2-data6                          LQ1-data11
+11                                       LQ2-data2   LQ2-data1              LQ2-data20                        
+12                                                                                                  LQ2-data11
+13                                                                                                            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 7-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  85, 94 ( dummy97,LQ2-data19) : False, True
+ vv-CNOT  46, 55 (LQ1-data21,LQ2-data21) : True, True
+ hh-SWAP  51, 50 ( dummy22,LQ1-data14) : False, True
+ d2-SWAP  77, 67 ( dummy59,LQ1-data6) : False, True
+ hh-SWAP  64, 65 ( dummy11,LQ2-data0) : False, True
+ vv-SWAP  43, 52 ( dummy40,LQ1-data22) : False, True
+ d2-SWAP  80, 70 ( dummy50,LQ1-data16) : False, True
+ d2-SWAP  97, 87 ( dummy94,LQ2-data3) : False, True
+ hh-SWAP  19, 20 ( dummy38,LQ1-data13) : False, True
+ vv-SWAP  81, 90 (  dummy0,LQ2-data5) : False, True
+ vv-SWAP  62, 71 ( dummy92,LQ1-data4) : False, True
+ d2-SWAP  39, 29 ( dummy68,LQ1-data2) : False, True
+ vv-SWAP 100, 91 (  dummy2,LQ2-data18) : False, True
+ vv-SWAP 125,116 ( dummy57,LQ2-data11) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                                                                                                             
+2               LQ1-data13                                                                                    
+3                LQ1-data7                           LQ1-data8                                                
+4    LQ1-data0              LQ1-data15   LQ1-data2               LQ1-data9              LQ1-data22            
+5    LQ1-data5  LQ1-data21   LQ2-data7  LQ1-data19  LQ1-data12              LQ1-data14                        
+6   LQ1-data10  LQ2-data21               LQ1-data1   LQ1-data3   LQ2-data8  LQ2-data22               LQ1-data4
+7                LQ2-data0              LQ1-data17                           LQ2-data9                        
+8   LQ1-data18  LQ2-data10  LQ2-data15  LQ2-data13  LQ2-data12   LQ1-data6  LQ1-data20   LQ2-data4  LQ1-data16
+9    LQ2-data5  LQ2-data17                          LQ2-data19  LQ2-data14              LQ2-data16            
+10                                                               LQ2-data6               LQ2-data3  LQ1-data11
+11              LQ2-data18               LQ2-data2   LQ2-data1              LQ2-data20                        
+12                                                                                                            
+13                                                                                                  LQ2-data11
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 8-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  50, 59 ( dummy22,LQ2-data8) : False, True
+ vv-SWAP  37, 46 (  dummy3,LQ1-data21) : False, True
+ hh-SWAP  84, 85 ( dummy55,LQ2-data19) : False, True
+ d2-SWAP  61, 51 ( dummy53,LQ1-data14) : False, True
+ vv-SWAP  70, 79 ( dummy50,LQ2-data4) : False, True
+ d2-SWAP  87, 77 ( dummy94,LQ1-data6) : False, True
+ vv-SWAP  65, 74 ( dummy11,LQ2-data15) : False, True
+ vv-SWAP  67, 58 ( dummy59,LQ1-data3) : False, True
+ vv-SWAP  34, 43 ( dummy31,LQ1-data22) : False, True
+ vv-SWAP  53, 62 ( dummy43,LQ1-data4) : False, True
+ vv-SWAP 109,100 ( dummy52,LQ2-data18) : False, True
+ hh-SWAP 124,125 ( dummy67,LQ2-data11) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                                                                                                             
+2               LQ1-data13                                                                                    
+3                LQ1-data7                           LQ1-data8                          LQ1-data22            
+4    LQ1-data0  LQ1-data21  LQ1-data15   LQ1-data2               LQ1-data9                                    
+5    LQ1-data5               LQ2-data7  LQ1-data19  LQ1-data12   LQ2-data8                           LQ1-data4
+6   LQ1-data10  LQ2-data21               LQ1-data1                          LQ2-data22  LQ1-data14            
+7                LQ2-data0  LQ2-data15  LQ1-data17   LQ1-data3               LQ2-data9   LQ2-data4            
+8   LQ1-data18  LQ2-data10              LQ2-data13  LQ2-data12              LQ1-data20              LQ1-data16
+9    LQ2-data5  LQ2-data17              LQ2-data19              LQ2-data14   LQ1-data6  LQ2-data16            
+10                                                               LQ2-data6               LQ2-data3  LQ1-data11
+11                                       LQ2-data2   LQ2-data1              LQ2-data20                        
+12              LQ2-data18                                                                                    
+13                                                                                      LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 9-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  59, 69 ( dummy22,LQ2-data9) : False, True
+ d2-SWAP  51, 41 ( dummy53,LQ1-data9) : False, True
+ vv-SWAP  79, 88 ( dummy50,LQ2-data16) : False, True
+ hh-SWAP  77, 76 ( dummy94,LQ2-data12) : False, True
+ d2-SWAP  46, 36 (  dummy3,LQ1-data0) : False, True
+ d2-SWAP  27, 37 ( dummy62,LQ1-data21) : False, True
+ hh-SWAP  71, 70 ( dummy92,LQ2-data4) : False, True
+ vv-SWAP  96, 87 ( dummy61,LQ1-data6) : False, True
+ vv-SWAP  52, 61 ( dummy40,LQ1-data14) : False, True
+ vv-SWAP  44, 53 ( dummy56,LQ1-data4) : False, True
+ d2-SWAP  24, 34 ( dummy73,LQ1-data22) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                                                                                                             
+2               LQ1-data13                                                  LQ1-data22                        
+3   LQ1-data21   LQ1-data7                           LQ1-data8                                                
+4                           LQ1-data15   LQ1-data2                                                   LQ1-data4
+5    LQ1-data5   LQ1-data0   LQ2-data7  LQ1-data19  LQ1-data12   LQ2-data8   LQ1-data9  LQ1-data14            
+6   LQ1-data10  LQ2-data21               LQ1-data1               LQ2-data9  LQ2-data22                        
+7                LQ2-data0  LQ2-data15  LQ1-data17   LQ1-data3                                       LQ2-data4
+8   LQ1-data18  LQ2-data10              LQ2-data13              LQ2-data12  LQ1-data20  LQ2-data16  LQ1-data16
+9    LQ2-data5  LQ2-data17              LQ2-data19              LQ2-data14                                    
+10                                                               LQ2-data6   LQ1-data6   LQ2-data3  LQ1-data11
+11                                       LQ2-data2   LQ2-data1              LQ2-data20                        
+12              LQ2-data18                                                                                    
+13                                                                                      LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 10-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  41, 50 ( dummy53,LQ2-data8) : False, True
+ hh-CNOT  80, 79 (LQ1-data16,LQ2-data16) : True, True
+ d2-SWAP  76, 66 ( dummy94,LQ1-data17) : False, True
+ vv-SWAP  68, 77 ( dummy93,LQ2-data12) : False, True
+ d2-SWAP  37, 47 ( dummy62,LQ2-data7) : False, True
+ vv-SWAP  88, 97 ( dummy50,LQ2-data3) : False, True
+ d2-SWAP 106, 96 ( dummy65,LQ1-data6) : False, True
+ vv-SWAP  36, 27 (  dummy3,LQ1-data21) : False, True
+ vv-SWAP  62, 71 ( dummy43,LQ2-data4) : False, True
+ hh-SWAP  43, 44 ( dummy31,LQ1-data4) : False, True
+ vv-SWAP  15, 24 ( dummy78,LQ1-data22) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                                                                           LQ1-data22                        
+2               LQ1-data13                                                                                    
+3                LQ1-data7                           LQ1-data8                                                
+4   LQ1-data21   LQ2-data7  LQ1-data15   LQ1-data2               LQ2-data8               LQ1-data4            
+5    LQ1-data5   LQ1-data0              LQ1-data19  LQ1-data12               LQ1-data9  LQ1-data14            
+6   LQ1-data10  LQ2-data21               LQ1-data1               LQ2-data9  LQ2-data22               LQ2-data4
+7                LQ2-data0  LQ2-data15               LQ1-data3  LQ2-data12                                    
+8   LQ1-data18  LQ2-data10              LQ2-data13  LQ1-data17              LQ1-data20  LQ2-data16  LQ1-data16
+9    LQ2-data5  LQ2-data17              LQ2-data19              LQ2-data14               LQ2-data3            
+10                                                               LQ2-data6                          LQ1-data11
+11                                       LQ2-data2   LQ2-data1              LQ2-data20   LQ1-data6            
+12              LQ2-data18                                                                                    
+13                                                                                      LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 11-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-CNOT  31, 41 (LQ1-data8,LQ2-data8) : True, True
+ d2-SWAP  50, 60 ( dummy53,LQ2-data22) : False, True
+ vv-SWAP  66, 57 ( dummy94,LQ1-data1) : False, True
+ vv-SWAP  85, 76 ( dummy55,LQ1-data17) : False, True
+ vv-CNOT  28, 37 (LQ1-data7,LQ2-data7) : True, True
+ vv-SWAP  47, 38 ( dummy62,LQ1-data15) : False, True
+ hh-SWAP  69, 68 ( dummy22,LQ2-data12) : False, True
+ d2-SWAP  89, 79 ( dummy95,LQ2-data16) : False, True
+ d2-SWAP  96, 86 ( dummy65,LQ2-data14) : False, True
+ vv-SWAP  53, 62 ( dummy56,LQ2-data4) : False, True
+ vv-SWAP  34, 43 ( dummy73,LQ1-data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                                                                           LQ1-data22                        
+2               LQ1-data13                                                                                    
+3                LQ1-data7                           LQ1-data8                           LQ1-data4            
+4   LQ1-data21   LQ2-data7               LQ1-data2               LQ2-data8                                    
+5    LQ1-data5   LQ1-data0  LQ1-data15  LQ1-data19  LQ1-data12  LQ2-data22   LQ1-data9  LQ1-data14   LQ2-data4
+6   LQ1-data10  LQ2-data21                                       LQ2-data9                                    
+7                LQ2-data0  LQ2-data15   LQ1-data1   LQ1-data3              LQ2-data12                        
+8   LQ1-data18  LQ2-data10              LQ2-data13                          LQ1-data20              LQ1-data16
+9    LQ2-data5  LQ2-data17              LQ2-data19  LQ1-data17                           LQ2-data3  LQ2-data16
+10                                                               LQ2-data6  LQ2-data14              LQ1-data11
+11                                       LQ2-data2   LQ2-data1              LQ2-data20   LQ1-data6            
+12              LQ2-data18                                                                                    
+13                                                                                      LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 12-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  94, 85 ( dummy97,LQ1-data17) : False, True
+ vv-SWAP  60, 51 ( dummy53,LQ1-data9) : False, True
+ d2-SWAP  18, 28 (  dummy9,LQ1-data7) : False, True
+ d2-SWAP  40, 50 ( dummy80,LQ2-data22) : False, True
+ hh-SWAP  70, 69 ( dummy92,LQ2-data12) : False, True
+ vv-SWAP  87, 96 ( dummy61,LQ2-data14) : False, True
+ vv-SWAP  56, 47 (  dummy8,LQ1-data15) : False, True
+ vv-SWAP  57, 48 ( dummy94,LQ1-data19) : False, True
+ vv-SWAP  32, 41 ( dummy87,LQ2-data8) : False, True
+ hh-SWAP  68, 67 ( dummy22,LQ1-data3) : False, True
+ vv-SWAP  79, 88 ( dummy95,LQ2-data3) : False, True
+ d2-SWAP  27, 37 (  dummy3,LQ2-data7) : False, True
+ vv-SWAP  22, 31 ( dummy96,LQ1-data8) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                                                                           LQ1-data22                        
+2    LQ1-data7  LQ1-data13                           LQ1-data8                                                
+3    LQ2-data7                                                   LQ2-data8               LQ1-data4            
+4   LQ1-data21                           LQ1-data2  LQ2-data22                                                
+5    LQ1-data5   LQ1-data0                          LQ1-data12                          LQ1-data14   LQ2-data4
+6   LQ1-data10  LQ2-data21  LQ1-data15  LQ1-data19               LQ2-data9   LQ1-data9                        
+7                LQ2-data0  LQ2-data15   LQ1-data1               LQ1-data3              LQ2-data12            
+8   LQ1-data18  LQ2-data10              LQ2-data13                          LQ1-data20   LQ2-data3  LQ1-data16
+9    LQ2-data5  LQ2-data17              LQ2-data19                          LQ2-data14              LQ2-data16
+10                                                  LQ1-data17   LQ2-data6                          LQ1-data11
+11                                       LQ2-data2   LQ2-data1              LQ2-data20   LQ1-data6            
+12              LQ2-data18                                                                                    
+13                                                                                      LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 13-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  93, 94 ( dummy32,LQ1-data17) : False, True
+ hh-CNOT  60, 59 (LQ1-data9,LQ2-data9) : True, True
+ vv-SWAP  61, 70 ( dummy40,LQ2-data12) : False, True
+ vv-CNOT  56, 65 (LQ1-data15,LQ2-data15) : True, True
+ vv-SWAP  28, 19 (  dummy9,LQ1-data13) : False, True
+ hh-SWAP  50, 49 ( dummy80,LQ1-data12) : False, True
+ vv-SWAP  96,105 ( dummy61,LQ2-data20) : False, True
+ d2-SWAP  77, 87 ( dummy93,LQ2-data14) : False, True
+ hh-SWAP  41, 40 ( dummy87,LQ2-data22) : False, True
+ vv-SWAP   9, 18 ( dummy36,LQ1-data7) : False, True
+ hh-SWAP  58, 57 ( dummy59,LQ1-data19) : False, True
+ vv-SWAP  48, 39 ( dummy94,LQ1-data2) : False, True
+ hh-SWAP  37, 36 (  dummy3,LQ1-data21) : False, True
+ vv-SWAP  13, 22 ( dummy35,LQ1-data8) : False, True
+ hh-SWAP  31, 32 ( dummy96,LQ2-data8) : False, True
+ hh-SWAP  88, 89 ( dummy95,LQ2-data16) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1    LQ1-data7                                       LQ1-data8              LQ1-data22                        
+2                                                                                                             
+3    LQ2-data7  LQ1-data13                           LQ2-data8                           LQ1-data4            
+4               LQ1-data21                                      LQ2-data22                                    
+5    LQ1-data5   LQ1-data0               LQ1-data2              LQ1-data12              LQ1-data14   LQ2-data4
+6   LQ1-data10  LQ2-data21  LQ1-data15              LQ1-data19   LQ2-data9   LQ1-data9  LQ2-data12            
+7                LQ2-data0  LQ2-data15   LQ1-data1               LQ1-data3                                    
+8   LQ1-data18  LQ2-data10              LQ2-data13              LQ2-data14  LQ1-data20   LQ2-data3  LQ1-data16
+9    LQ2-data5  LQ2-data17              LQ2-data19                                      LQ2-data16            
+10                                      LQ1-data17               LQ2-data6  LQ2-data20              LQ1-data11
+11                                       LQ2-data2   LQ2-data1                           LQ1-data6            
+12              LQ2-data18                                                                                    
+13                                                                                      LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 14-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  94,103 ( dummy32,LQ2-data1) : False, True
+ hh-SWAP  92, 93 ( dummy47,LQ1-data17) : False, True
+ d2-SWAP  69, 59 ( dummy92,LQ2-data9) : False, True
+ d2-SWAP 105, 95 ( dummy61,LQ2-data6) : False, True
+ vv-SWAP  87, 96 ( dummy93,LQ2-data20) : False, True
+ d2-SWAP  38, 28 ( dummy62,LQ1-data13) : False, True
+ vv-SWAP  47, 56 (  dummy8,LQ1-data15) : False, True
+ hh-SWAP  49, 48 ( dummy80,LQ1-data2) : False, True
+ vv-SWAP  97, 88 ( dummy50,LQ2-data16) : False, True
+ hh-SWAP  14, 13 ( dummy23,LQ1-data8) : False, True
+ vv-SWAP  40, 31 ( dummy87,LQ2-data8) : False, True
+ hh-SWAP  10,  9 ( dummy14,LQ1-data7) : False, True
+ vv-SWAP  36, 27 (  dummy3,LQ2-data7) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                LQ1-data7                                       LQ1-data8  LQ1-data22                        
+2                                                                                                             
+3                                                                                        LQ1-data4            
+4    LQ2-data7  LQ1-data21  LQ1-data13               LQ2-data8  LQ2-data22                                    
+5    LQ1-data5   LQ1-data0  LQ1-data15               LQ1-data2  LQ1-data12              LQ1-data14   LQ2-data4
+6   LQ1-data10  LQ2-data21                          LQ1-data19               LQ1-data9  LQ2-data12            
+7                LQ2-data0  LQ2-data15   LQ1-data1               LQ1-data3   LQ2-data9                        
+8   LQ1-data18  LQ2-data10              LQ2-data13              LQ2-data14  LQ1-data20   LQ2-data3  LQ1-data16
+9    LQ2-data5  LQ2-data17              LQ2-data19                          LQ2-data20                        
+10                          LQ1-data17               LQ2-data1                          LQ2-data16  LQ1-data11
+11                                       LQ2-data2                           LQ2-data6   LQ1-data6            
+12              LQ2-data18                                                                                    
+13                                                                                      LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 15-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-CNOT  92, 82 (LQ1-data17,LQ2-data17) : True, True
+ vv-SWAP  93, 84 ( dummy47,LQ2-data19) : False, True
+ d2-SWAP 104, 94 ( dummy42,LQ2-data1) : False, True
+ hh-SWAP 103,102 ( dummy32,LQ2-data2) : False, True
+ hh-SWAP  70, 69 ( dummy40,LQ2-data9) : False, True
+ hh-SWAP  59, 60 ( dummy92,LQ1-data9) : False, True
+ hh-CNOT 106,105 (LQ1-data6,LQ2-data6) : True, True
+ vv-CNOT  78, 87 (LQ1-data20,LQ2-data20) : True, True
+ d2-SWAP  57, 47 ( dummy59,LQ1-data15) : False, True
+ hh-SWAP  56, 55 (  dummy8,LQ2-data21) : False, True
+ vv-SWAP  28, 37 ( dummy62,LQ1-data21) : False, True
+ d2-SWAP  88, 98 ( dummy50,LQ1-data11) : False, True
+ hh-SWAP  11, 10 ( dummy86,LQ1-data7) : False, True
+ hh-SWAP  39, 40 ( dummy94,LQ2-data8) : False, True
+ vv-SWAP   5, 14 ( dummy18,LQ1-data8) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                LQ1-data8                                    
+1                            LQ1-data7                                      LQ1-data22                        
+2                                                                                                             
+3               LQ1-data21                                                               LQ1-data4            
+4    LQ2-data7              LQ1-data13   LQ2-data8              LQ2-data22                                    
+5    LQ1-data5   LQ1-data0                           LQ1-data2  LQ1-data12              LQ1-data14   LQ2-data4
+6   LQ1-data10              LQ2-data21  LQ1-data15  LQ1-data19   LQ1-data9              LQ2-data12            
+7                LQ2-data0  LQ2-data15   LQ1-data1               LQ1-data3               LQ2-data9            
+8   LQ1-data18  LQ2-data10              LQ2-data13              LQ2-data14  LQ1-data20   LQ2-data3  LQ1-data16
+9    LQ2-data5  LQ2-data17                                                  LQ2-data20  LQ1-data11            
+10                          LQ1-data17  LQ2-data19                                      LQ2-data16            
+11                                                   LQ2-data2   LQ2-data1   LQ2-data6   LQ1-data6            
+12              LQ2-data18                                                                                    
+13                                                                                      LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 16-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  83, 82 ( dummy63,LQ2-data17) : False, True
+ vv-SWAP  84, 75 ( dummy47,LQ2-data13) : False, True
+ hh-SWAP  94, 93 ( dummy42,LQ2-data19) : False, True
+ hh-SWAP  69, 68 ( dummy40,LQ1-data3) : False, True
+ vv-SWAP 101, 92 ( dummy29,LQ1-data17) : False, True
+ hh-SWAP  60, 61 ( dummy92,LQ2-data12) : False, True
+ vv-SWAP 113,104 ( dummy79,LQ2-data1) : False, True
+ vv-SWAP  47, 38 ( dummy59,LQ1-data13) : False, True
+ hh-SWAP  71, 70 ( dummy43,LQ2-data9) : False, True
+ vv-SWAP  55, 46 (  dummy8,LQ1-data0) : False, True
+ hh-SWAP 107,106 ( dummy24,LQ1-data6) : False, True
+ vv-SWAP 114,105 ( dummy91,LQ2-data6) : False, True
+ vv-SWAP  19, 28 (  dummy9,LQ1-data21) : False, True
+ vv-SWAP  48, 39 ( dummy80,LQ2-data8) : False, True
+ vv-SWAP   2, 11 (  dummy4,LQ1-data7) : False, True
+ hh-SWAP  14, 15 ( dummy18,LQ1-data22) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                            LQ1-data7                           LQ1-data8                                    
+1                                                               LQ1-data22                                    
+2               LQ1-data21                                                                                    
+3                                                                                        LQ1-data4            
+4    LQ2-data7                                                  LQ2-data22                                    
+5    LQ1-data5              LQ1-data13   LQ2-data8   LQ1-data2  LQ1-data12              LQ1-data14   LQ2-data4
+6   LQ1-data10   LQ1-data0  LQ2-data21  LQ1-data15  LQ1-data19   LQ1-data9  LQ2-data12                        
+7                LQ2-data0  LQ2-data15   LQ1-data1                           LQ1-data3               LQ2-data9
+8   LQ1-data18  LQ2-data10                                      LQ2-data14  LQ1-data20   LQ2-data3  LQ1-data16
+9    LQ2-data5              LQ2-data17  LQ2-data13                          LQ2-data20  LQ1-data11            
+10                                                  LQ2-data19                          LQ2-data16            
+11                          LQ1-data17               LQ2-data2                                       LQ1-data6
+12              LQ2-data18                                       LQ2-data1   LQ2-data6                        
+13                                                                                      LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 17-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  75, 66 ( dummy47,LQ1-data1) : False, True
+ d2-SWAP  74, 84 ( dummy11,LQ2-data13) : False, True
+ d2-CNOT  69, 79 (LQ1-data3,LQ2-data3) : True, True
+ d2-SWAP  82, 72 ( dummy63,LQ1-data18) : False, True
+ vv-SWAP  92, 83 ( dummy29,LQ2-data17) : False, True
+ d2-CNOT  50, 60 (LQ1-data12,LQ2-data12) : True, True
+ d2-SWAP  68, 58 ( dummy40,LQ1-data19) : False, True
+ d2-SWAP  93,103 ( dummy42,LQ2-data2) : False, True
+ vv-SWAP  85, 94 ( dummy97,LQ2-data19) : False, True
+ vv-SWAP  61, 52 ( dummy92,LQ1-data14) : False, True
+ vv-SWAP  62, 71 ( dummy56,LQ2-data9) : False, True
+ vv-CNOT  55, 64 (LQ1-data0,LQ2-data0) : True, True
+ vv-SWAP 106, 97 ( dummy24,LQ2-data16) : False, True
+ vv-SWAP  98,107 ( dummy50,LQ1-data6) : False, True
+ vv-SWAP 123,114 ( dummy60,LQ2-data6) : False, True
+ vv-SWAP  10, 19 ( dummy86,LQ1-data21) : False, True
+ hh-SWAP   1,  2 ( dummy33,LQ1-data7) : False, True
+ d2-SWAP  24, 14 ( dummy78,LQ1-data22) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                           LQ1-data22                        
+3                                                                                        LQ1-data4            
+4    LQ2-data7                                                  LQ2-data22                                    
+5    LQ1-data5              LQ1-data13   LQ2-data8   LQ1-data2  LQ1-data12                           LQ2-data4
+6   LQ1-data10   LQ1-data0  LQ2-data21  LQ1-data15               LQ1-data9  LQ2-data12  LQ1-data14   LQ2-data9
+7                LQ2-data0  LQ2-data15                          LQ1-data19   LQ1-data3                        
+8               LQ2-data10  LQ2-data13   LQ1-data1              LQ2-data14  LQ1-data20   LQ2-data3  LQ1-data16
+9    LQ2-data5  LQ1-data18                          LQ2-data19              LQ2-data20  LQ1-data11            
+10                          LQ2-data17   LQ2-data2                                                   LQ1-data6
+11                          LQ1-data17                                                  LQ2-data16            
+12              LQ2-data18                                       LQ2-data1                                    
+13                                                                           LQ2-data6  LQ2-data11            
+14                                                                                                            
+15                                                                                                            
+==============================================================================================================
+instructions at 18-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  76, 75 ( dummy55,LQ1-data1) : False, True
+ vv-SWAP  91, 82 (  dummy2,LQ1-data18) : False, True
+ hh-SWAP  67, 68 ( dummy22,LQ1-data19) : False, True
+ hh-SWAP  66, 65 ( dummy47,LQ2-data15) : False, True
+ d2-SWAP 102, 92 ( dummy32,LQ2-data17) : False, True
+ d2-SWAP  70, 60 ( dummy43,LQ2-data12) : False, True
+ hh-SWAP  94, 93 ( dummy97,LQ2-data2) : False, True
+ hh-SWAP  52, 53 ( dummy92,LQ2-data4) : False, True
+ d2-SWAP  97, 87 ( dummy24,LQ2-data20) : False, True
+ hh-SWAP 105,106 ( dummy91,LQ2-data16) : False, True
+ vv-SWAP 132,123 ( dummy69,LQ2-data6) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                           LQ1-data22                        
+3                                                                                        LQ1-data4            
+4    LQ2-data7                                                  LQ2-data22                                    
+5    LQ1-data5              LQ1-data13   LQ2-data8   LQ1-data2  LQ1-data12               LQ2-data4            
+6   LQ1-data10   LQ1-data0  LQ2-data21  LQ1-data15               LQ1-data9              LQ1-data14   LQ2-data9
+7                LQ2-data0              LQ2-data15  LQ1-data19               LQ1-data3  LQ2-data12            
+8               LQ2-data10  LQ2-data13               LQ1-data1  LQ2-data14  LQ1-data20   LQ2-data3  LQ1-data16
+9    LQ2-data5                                      LQ2-data19                          LQ1-data11            
+10              LQ1-data18                           LQ2-data2                          LQ2-data20   LQ1-data6
+11                          LQ1-data17  LQ2-data17                          LQ2-data16                        
+12              LQ2-data18                                       LQ2-data1                                    
+13                                                                                      LQ2-data11            
+14                                                                           LQ2-data6                        
+15                                                                                                            
+==============================================================================================================
+instructions at 19-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  86, 76 ( dummy65,LQ1-data1) : False, True
+ hh-SWAP  82, 81 (  dummy2,LQ2-data5) : False, True
+ hh-SWAP  75, 74 ( dummy55,LQ2-data13) : False, True
+ hh-SWAP  60, 59 ( dummy43,LQ1-data9) : False, True
+ vv-SWAP  65, 56 ( dummy47,LQ2-data21) : False, True
+ vv-SWAP 111,102 ( dummy44,LQ2-data17) : False, True
+ hh-SWAP  71, 70 ( dummy56,LQ2-data12) : False, True
+ vv-SWAP 106, 97 ( dummy91,LQ2-data20) : False, True
+ hh-SWAP  92, 91 ( dummy32,LQ1-data18) : False, True
+ hh-SWAP 131,132 (  dummy6,LQ2-data6) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                           LQ1-data22                        
+3                                                                                        LQ1-data4            
+4    LQ2-data7                                                  LQ2-data22                                    
+5    LQ1-data5              LQ1-data13   LQ2-data8   LQ1-data2  LQ1-data12               LQ2-data4            
+6   LQ1-data10   LQ1-data0              LQ1-data15                           LQ1-data9  LQ1-data14   LQ2-data9
+7                LQ2-data0  LQ2-data21  LQ2-data15  LQ1-data19               LQ1-data3              LQ2-data12
+8               LQ2-data10              LQ2-data13              LQ2-data14  LQ1-data20   LQ2-data3  LQ1-data16
+9                LQ2-data5                          LQ2-data19   LQ1-data1              LQ1-data11            
+10                          LQ1-data18               LQ2-data2                                       LQ1-data6
+11                          LQ1-data17                                      LQ2-data16  LQ2-data20            
+12              LQ2-data18              LQ2-data17               LQ2-data1                                    
+13                                                                                      LQ2-data11            
+14                                                               LQ2-data6                                    
+15                                                                                                            
+==============================================================================================================
+instructions at 20-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  72, 82 ( dummy63,LQ2-data5) : False, True
+ vv-SWAP  76, 67 ( dummy65,LQ1-data19) : False, True
+ vv-SWAP  95, 86 ( dummy61,LQ1-data1) : False, True
+ vv-SWAP  74, 65 ( dummy55,LQ2-data21) : False, True
+ vv-SWAP  59, 50 ( dummy43,LQ1-data12) : False, True
+ vv-SWAP  51, 60 ( dummy53,LQ1-data9) : False, True
+ vv-SWAP  56, 47 ( dummy47,LQ1-data13) : False, True
+ d2-SWAP  70, 80 ( dummy56,LQ1-data16) : False, True
+ hh-SWAP 102,101 ( dummy44,LQ1-data17) : False, True
+ vv-SWAP 120,111 ( dummy85,LQ2-data17) : False, True
+ hh-SWAP  97, 98 ( dummy91,LQ1-data6) : False, True
+ vv-SWAP 115,106 (  dummy1,LQ2-data20) : False, True
+ hh-SWAP 130,131 ( dummy17,LQ2-data6) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                           LQ1-data22                        
+3                                                                                        LQ1-data4            
+4    LQ2-data7                                                  LQ2-data22                                    
+5    LQ1-data5                           LQ2-data8   LQ1-data2               LQ1-data9   LQ2-data4            
+6   LQ1-data10   LQ1-data0  LQ1-data13  LQ1-data15              LQ1-data12              LQ1-data14   LQ2-data9
+7                LQ2-data0              LQ2-data15                           LQ1-data3  LQ1-data16  LQ2-data12
+8    LQ2-data5  LQ2-data10  LQ2-data21  LQ2-data13  LQ1-data19  LQ2-data14  LQ1-data20   LQ2-data3            
+9                                                   LQ2-data19                          LQ1-data11            
+10                          LQ1-data18               LQ2-data2   LQ1-data1               LQ1-data6            
+11                                      LQ1-data17                          LQ2-data16                        
+12              LQ2-data18                                       LQ2-data1              LQ2-data20            
+13                                      LQ2-data17                                      LQ2-data11            
+14                                                   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 21-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  76, 85 (LQ1-data19,LQ2-data19) : True, True
+ d2-SWAP  67, 77 ( dummy65,LQ2-data14) : False, True
+ vv-SWAP 104, 95 ( dummy79,LQ1-data1) : False, True
+ vv-SWAP  83, 74 ( dummy29,LQ2-data21) : False, True
+ vv-SWAP  68, 59 ( dummy22,LQ1-data12) : False, True
+ vv-SWAP  63, 72 ( dummy30,LQ2-data5) : False, True
+ hh-SWAP  60, 61 ( dummy53,LQ1-data14) : False, True
+ d2-SWAP  65, 55 ( dummy55,LQ1-data0) : False, True
+ vv-SWAP  82, 73 ( dummy63,LQ2-data10) : False, True
+ hh-SWAP  80, 79 ( dummy56,LQ2-data3) : False, True
+ hh-SWAP 103,102 ( dummy42,LQ1-data17) : False, True
+ vv-SWAP  42, 51 ( dummy12,LQ1-data9) : False, True
+ vv-SWAP 129,120 ( dummy66,LQ2-data17) : False, True
+ vv-SWAP 101, 92 ( dummy44,LQ1-data18) : False, True
+ vv-SWAP  50, 41 ( dummy43,LQ2-data22) : False, True
+ hh-SWAP 114,115 ( dummy60,LQ2-data20) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                           LQ1-data22                        
+3                                                                                        LQ1-data4            
+4    LQ2-data7                                                               LQ1-data9                        
+5    LQ1-data5                           LQ2-data8   LQ1-data2  LQ2-data22               LQ2-data4            
+6   LQ1-data10              LQ1-data13  LQ1-data15                          LQ1-data14               LQ2-data9
+7    LQ2-data5   LQ2-data0   LQ1-data0  LQ2-data15  LQ2-data14  LQ1-data12   LQ1-data3  LQ1-data16  LQ2-data12
+8                                       LQ2-data13  LQ1-data19              LQ1-data20               LQ2-data3
+9               LQ2-data10  LQ2-data21              LQ2-data19                          LQ1-data11            
+10                                                   LQ2-data2                           LQ1-data6            
+11                          LQ1-data18              LQ1-data17   LQ1-data1  LQ2-data16                        
+12              LQ2-data18                                       LQ2-data1  LQ2-data20                        
+13                                                                                      LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 22-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT 104,113 (LQ1-data1,LQ2-data1) : True, True
+ vv-SWAP  58, 67 ( dummy40,LQ2-data14) : False, True
+ d2-SWAP  95, 85 ( dummy79,LQ2-data19) : False, True
+ d2-SWAP  74, 64 ( dummy29,LQ2-data0) : False, True
+ hh-SWAP  55, 54 ( dummy55,LQ1-data10) : False, True
+ vv-SWAP  79, 88 ( dummy56,LQ1-data11) : False, True
+ vv-SWAP  89, 80 ( dummy95,LQ2-data3) : False, True
+ hh-SWAP  51, 52 ( dummy12,LQ2-data4) : False, True
+ vv-SWAP  33, 42 (  dummy5,LQ1-data9) : False, True
+ vv-SWAP  91, 82 ( dummy32,LQ2-data10) : False, True
+ vv-SWAP  92, 83 ( dummy44,LQ2-data21) : False, True
+ vv-SWAP 123,114 ( dummy69,LQ2-data20) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                           LQ1-data22                        
+3                                                                            LQ1-data9   LQ1-data4            
+4    LQ2-data7                                                                                                
+5    LQ1-data5                           LQ2-data8   LQ1-data2  LQ2-data22   LQ2-data4                        
+6               LQ1-data10  LQ1-data13  LQ1-data15  LQ2-data14              LQ1-data14               LQ2-data9
+7    LQ2-data5               LQ1-data0  LQ2-data15              LQ1-data12   LQ1-data3  LQ1-data16  LQ2-data12
+8                            LQ2-data0  LQ2-data13  LQ1-data19              LQ1-data20  LQ1-data11            
+9                                                                                                    LQ2-data3
+10              LQ2-data10  LQ2-data21               LQ2-data2  LQ2-data19               LQ1-data6            
+11                          LQ1-data18              LQ1-data17   LQ1-data1  LQ2-data16                        
+12              LQ2-data18                                       LQ2-data1                                    
+13                                                                          LQ2-data20  LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 23-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  67, 57 ( dummy40,LQ1-data15) : False, True
+ vv-SWAP  85, 76 ( dummy79,LQ1-data19) : False, True
+ hh-SWAP  59, 58 ( dummy22,LQ2-data14) : False, True
+ hh-SWAP  96, 95 ( dummy93,LQ2-data19) : False, True
+ vv-SWAP  54, 45 ( dummy55,LQ1-data5) : False, True
+ vv-SWAP 122,113 ( dummy37,LQ2-data1) : False, True
+ hh-SWAP  88, 89 ( dummy56,LQ2-data3) : False, True
+ vv-SWAP  80, 71 ( dummy95,LQ2-data12) : False, True
+ d2-SWAP  52, 62 ( dummy12,LQ2-data9) : False, True
+ vv-SWAP  46, 55 (  dummy8,LQ1-data10) : False, True
+ vv-SWAP  83, 74 ( dummy44,LQ2-data0) : False, True
+ d2-SWAP 102, 92 ( dummy42,LQ2-data21) : False, True
+ d2-SWAP  23, 33 ( dummy45,LQ1-data9) : False, True
+ vv-SWAP 100, 91 ( dummy52,LQ2-data10) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                LQ1-data9  LQ1-data22                        
+3                                                                                        LQ1-data4            
+4    LQ2-data7                                                                                                
+5               LQ1-data10               LQ2-data8   LQ1-data2  LQ2-data22   LQ2-data4   LQ2-data9            
+6    LQ1-data5              LQ1-data13                          LQ2-data14  LQ1-data14                        
+7    LQ2-data5               LQ1-data0  LQ2-data15  LQ1-data15  LQ1-data12   LQ1-data3  LQ1-data16            
+8                                       LQ2-data13                          LQ1-data20  LQ1-data11  LQ2-data12
+9                            LQ2-data0              LQ1-data19                           LQ2-data3            
+10                                                   LQ2-data2              LQ2-data19   LQ1-data6            
+11              LQ2-data10  LQ1-data18  LQ2-data21  LQ1-data17   LQ1-data1  LQ2-data16                        
+12              LQ2-data18                                                                                    
+13                                                               LQ2-data1  LQ2-data20  LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 24-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  76, 66 ( dummy79,LQ2-data15) : False, True
+ hh-CNOT  60, 59 (LQ1-data14,LQ2-data14) : True, True
+ vv-SWAP  58, 49 ( dummy22,LQ1-data2) : False, True
+ hh-SWAP  84, 85 ( dummy11,LQ1-data19) : False, True
+ vv-CNOT  54, 63 (LQ1-data5,LQ2-data5) : True, True
+ vv-SWAP  95,104 ( dummy93,LQ1-data1) : False, True
+ hh-SWAP 121,122 ( dummy83,LQ2-data1) : False, True
+ vv-SWAP  61, 52 ( dummy53,LQ2-data9) : False, True
+ vv-SWAP  37, 46 ( dummy62,LQ1-data10) : False, True
+ vv-SWAP  89, 80 ( dummy56,LQ2-data12) : False, True
+ vv-SWAP  57, 48 ( dummy40,LQ2-data8) : False, True
+ hh-SWAP  71, 70 ( dummy95,LQ1-data16) : False, True
+ d2-SWAP  98, 88 ( dummy91,LQ2-data3) : False, True
+ d2-SWAP 106, 96 (  dummy1,LQ2-data19) : False, True
+ vv-SWAP  92, 83 ( dummy42,LQ2-data0) : False, True
+ vv-SWAP  93,102 ( dummy97,LQ2-data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                LQ1-data9  LQ1-data22                        
+3                                                                                        LQ1-data4            
+4    LQ2-data7  LQ1-data10                                                                                    
+5                                                               LQ2-data22   LQ2-data4                        
+6    LQ1-data5              LQ1-data13   LQ2-data8   LQ1-data2  LQ2-data14  LQ1-data14   LQ2-data9            
+7    LQ2-data5               LQ1-data0              LQ1-data15  LQ1-data12   LQ1-data3              LQ1-data16
+8                                       LQ2-data13  LQ2-data15              LQ1-data20  LQ1-data11            
+9                                       LQ1-data19                                                  LQ2-data12
+10                           LQ2-data0  LQ2-data21   LQ2-data2   LQ1-data1               LQ1-data6   LQ2-data3
+11              LQ2-data10  LQ1-data18              LQ1-data17              LQ2-data16  LQ2-data19            
+12              LQ2-data18                                                                                    
+13                                                   LQ2-data1              LQ2-data20  LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 25-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  77, 76 ( dummy65,LQ2-data15) : False, True
+ vv-SWAP  66, 75 ( dummy79,LQ2-data13) : False, True
+ vv-SWAP  85, 94 ( dummy11,LQ2-data2) : False, True
+ d2-SWAP  73, 63 ( dummy63,LQ2-data5) : False, True
+ hh-SWAP 104,105 ( dummy93,LQ2-data16) : False, True
+ hh-SWAP 120,121 ( dummy66,LQ2-data1) : False, True
+ vv-SWAP  62, 71 ( dummy12,LQ1-data16) : False, True
+ vv-SWAP  88, 79 ( dummy91,LQ1-data11) : False, True
+ hh-SWAP  96, 97 (  dummy1,LQ1-data6) : False, True
+ d2-SWAP  64, 54 ( dummy29,LQ1-data5) : False, True
+ vv-SWAP  70, 61 ( dummy95,LQ2-data9) : False, True
+ hh-SWAP  91, 92 ( dummy52,LQ2-data0) : False, True
+ vv-SWAP  86, 95 ( dummy61,LQ1-data1) : False, True
+ d2-SWAP  46, 36 ( dummy62,LQ2-data7) : False, True
+ vv-SWAP 107, 98 ( dummy50,LQ2-data3) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                LQ1-data9  LQ1-data22                        
+3                                                                                        LQ1-data4            
+4               LQ1-data10                                                                                    
+5                LQ2-data7                                      LQ2-data22   LQ2-data4                        
+6                           LQ1-data13   LQ2-data8   LQ1-data2  LQ2-data14  LQ1-data14              LQ1-data16
+7                LQ1-data5   LQ1-data0  LQ2-data13  LQ1-data15  LQ1-data12   LQ1-data3   LQ2-data9            
+8                LQ2-data5                                      LQ2-data15  LQ1-data20                        
+9                                       LQ1-data19   LQ2-data2   LQ1-data1              LQ1-data11  LQ2-data12
+10               LQ2-data0              LQ2-data21                           LQ1-data6                        
+11              LQ2-data10  LQ1-data18              LQ1-data17  LQ2-data16              LQ2-data19   LQ2-data3
+12              LQ2-data18                                                                                    
+13                                       LQ2-data1                          LQ2-data20  LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 26-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-CNOT  56, 66 (LQ1-data13,LQ2-data13) : True, True
+ vv-SWAP  76, 67 ( dummy65,LQ1-data15) : False, True
+ hh-SWAP  72, 73 ( dummy30,LQ2-data5) : False, True
+ vv-SWAP  53, 62 ( dummy92,LQ1-data16) : False, True
+ d2-SWAP  79, 69 ( dummy91,LQ1-data3) : False, True
+ d2-SWAP  74, 64 ( dummy44,LQ1-data5) : False, True
+ hh-SWAP  90, 91 (  dummy0,LQ2-data0) : False, True
+ vv-SWAP  92,101 ( dummy52,LQ1-data18) : False, True
+ hh-SWAP  87, 86 ( dummy24,LQ1-data1) : False, True
+ hh-SWAP 105,106 ( dummy93,LQ2-data19) : False, True
+ vv-SWAP  98, 89 ( dummy50,LQ2-data12) : False, True
+ vv-SWAP 113,104 ( dummy37,LQ2-data16) : False, True
+ hh-SWAP  36, 37 ( dummy62,LQ1-data10) : False, True
+ vv-SWAP  94,103 ( dummy11,LQ1-data17) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                LQ1-data9  LQ1-data22                        
+3                                                                                        LQ1-data4            
+4   LQ1-data10                                                                                                
+5                LQ2-data7                                      LQ2-data22   LQ2-data4              LQ1-data16
+6                           LQ1-data13   LQ2-data8   LQ1-data2  LQ2-data14  LQ1-data14                        
+7                            LQ1-data0  LQ2-data13              LQ1-data12               LQ2-data9            
+8    LQ2-data5               LQ1-data5              LQ1-data15  LQ2-data15  LQ1-data20   LQ1-data3            
+9                                       LQ1-data19   LQ2-data2               LQ1-data1  LQ1-data11            
+10   LQ2-data0              LQ1-data18  LQ2-data21  LQ1-data17               LQ1-data6              LQ2-data12
+11              LQ2-data10                                                  LQ2-data19               LQ2-data3
+12              LQ2-data18                                      LQ2-data16                                    
+13                                       LQ2-data1                          LQ2-data20  LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 27-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  67, 58 ( dummy65,LQ1-data2) : False, True
+ hh-SWAP  75, 76 ( dummy79,LQ1-data15) : False, True
+ vv-SWAP  47, 56 ( dummy47,LQ1-data13) : False, True
+ d2-SWAP  43, 53 ( dummy73,LQ1-data16) : False, True
+ hh-SWAP  64, 65 ( dummy44,LQ1-data0) : False, True
+ vv-SWAP  81, 72 (  dummy2,LQ2-data5) : False, True
+ vv-SWAP  99, 90 ( dummy10,LQ2-data0) : False, True
+ hh-SWAP  69, 70 ( dummy91,LQ2-data9) : False, True
+ vv-SWAP  83, 92 ( dummy42,LQ1-data18) : False, True
+ hh-SWAP  97, 98 (  dummy1,LQ2-data12) : False, True
+ vv-SWAP  86, 77 ( dummy24,LQ2-data15) : False, True
+ hh-SWAP 104,105 ( dummy37,LQ2-data19) : False, True
+ hh-SWAP 106,107 ( dummy93,LQ2-data3) : False, True
+ hh-SWAP  80, 79 ( dummy56,LQ1-data3) : False, True
+ vv-SWAP 122,113 ( dummy83,LQ2-data16) : False, True
+ vv-SWAP  27, 36 (  dummy3,LQ1-data10) : False, True
+ vv-SWAP  91,100 (  dummy0,LQ2-data10) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2                                                                LQ1-data9  LQ1-data22                        
+3   LQ1-data10                                                                           LQ1-data4            
+4                                                                                       LQ1-data16            
+5                LQ2-data7  LQ1-data13                          LQ2-data22   LQ2-data4                        
+6                                        LQ2-data8              LQ2-data14  LQ1-data14                        
+7                LQ1-data0              LQ2-data13   LQ1-data2  LQ1-data12   LQ2-data9                        
+8                            LQ1-data5  LQ1-data15                          LQ1-data20               LQ1-data3
+9    LQ2-data5              LQ1-data18  LQ1-data19   LQ2-data2  LQ2-data15   LQ1-data1  LQ1-data11            
+10              LQ2-data10              LQ2-data21  LQ1-data17               LQ1-data6  LQ2-data12            
+11   LQ2-data0                                                  LQ2-data19               LQ2-data3            
+12              LQ2-data18                                                                                    
+13                                       LQ2-data1              LQ2-data16  LQ2-data20  LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 28-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  76, 85 ( dummy79,LQ2-data2) : False, True
+ hh-SWAP  42, 43 (  dummy5,LQ1-data16) : False, True
+ vv-SWAP  65, 74 ( dummy44,LQ1-data5) : False, True
+ hh-SWAP  63, 64 ( dummy63,LQ1-data0) : False, True
+ vv-SWAP  38, 47 ( dummy59,LQ1-data13) : False, True
+ hh-SWAP  92, 93 ( dummy42,LQ2-data21) : False, True
+ vv-SWAP  95, 86 ( dummy61,LQ2-data15) : False, True
+ vv-SWAP  90, 81 ( dummy10,LQ2-data5) : False, True
+ vv-SWAP  79, 88 ( dummy56,LQ1-data11) : False, True
+ vv-SWAP  71, 80 ( dummy12,LQ1-data3) : False, True
+ hh-SWAP 105,106 ( dummy37,LQ2-data3) : False, True
+ d2-SWAP  77, 87 ( dummy24,LQ1-data1) : False, True
+ d2-SWAP 113,123 ( dummy83,LQ2-data20) : False, True
+ vv-SWAP 131,122 ( dummy17,LQ2-data16) : False, True
+ vv-SWAP  18, 27 ( dummy36,LQ1-data10) : False, True
+ vv-SWAP  82, 91 ( dummy32,LQ2-data10) : False, True
+ d2-SWAP 114,104 ( dummy69,LQ2-data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1               LQ1-data21                                                                                    
+2   LQ1-data10                                                   LQ1-data9  LQ1-data22                        
+3                                                                                        LQ1-data4            
+4                           LQ1-data13                                      LQ1-data16                        
+5                LQ2-data7                                      LQ2-data22   LQ2-data4                        
+6                                        LQ2-data8              LQ2-data14  LQ1-data14                        
+7    LQ1-data0               LQ1-data5  LQ2-data13   LQ1-data2  LQ1-data12   LQ2-data9               LQ1-data3
+8                                       LQ1-data15   LQ2-data2   LQ1-data1  LQ1-data20  LQ1-data11            
+9               LQ2-data10  LQ1-data18  LQ1-data19                                                            
+10   LQ2-data5              LQ2-data21              LQ1-data17  LQ2-data15   LQ1-data6  LQ2-data12            
+11   LQ2-data0                                                               LQ2-data3                        
+12              LQ2-data18                                      LQ2-data20  LQ2-data19                        
+13                                       LQ2-data1                                      LQ2-data11            
+14                                      LQ2-data17   LQ2-data6  LQ2-data16                                    
+15                                                                                                            
+==============================================================================================================
+instructions at 29-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-CNOT  67, 76 (LQ1-data2,LQ2-data2) : True, True
+ d2-SWAP  32, 42 ( dummy96,LQ1-data16) : False, True
+ d2-SWAP  74, 84 ( dummy44,LQ1-data19) : False, True
+ vv-SWAP  56, 65 ( dummy47,LQ1-data5) : False, True
+ vv-SWAP  54, 63 ( dummy29,LQ1-data0) : False, True
+ vv-SWAP  29, 38 ( dummy68,LQ1-data13) : False, True
+ d2-SWAP 100, 90 (  dummy0,LQ2-data5) : False, True
+ hh-SWAP  80, 79 ( dummy12,LQ1-data11) : False, True
+ vv-SWAP  88, 97 ( dummy56,LQ2-data12) : False, True
+ vv-SWAP 104, 95 ( dummy69,LQ2-data15) : False, True
+ vv-SWAP  62, 71 ( dummy92,LQ1-data3) : False, True
+ hh-SWAP 112,113 ( dummy74,LQ2-data20) : False, True
+ vv-SWAP   9, 18 ( dummy14,LQ1-data10) : False, True
+ hh-SWAP 132,131 (  dummy6,LQ2-data16) : False, True
+ vv-SWAP  43, 34 (  dummy5,LQ1-data4) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1   LQ1-data10  LQ1-data21                                                                                    
+2                                                                LQ1-data9  LQ1-data22                        
+3                           LQ1-data13                          LQ1-data16                                    
+4                                                                                        LQ1-data4            
+5                LQ2-data7                                      LQ2-data22   LQ2-data4                        
+6    LQ1-data0               LQ1-data5   LQ2-data8              LQ2-data14  LQ1-data14               LQ1-data3
+7                                       LQ2-data13   LQ1-data2  LQ1-data12   LQ2-data9                        
+8                           LQ1-data19  LQ1-data15   LQ2-data2   LQ1-data1  LQ1-data20              LQ1-data11
+9               LQ2-data10  LQ1-data18                                                  LQ2-data12            
+10                          LQ2-data21              LQ1-data17               LQ1-data6                        
+11   LQ2-data0   LQ2-data5                                      LQ2-data15   LQ2-data3                        
+12              LQ2-data18                          LQ2-data20              LQ2-data19                        
+13                                       LQ2-data1                                      LQ2-data11            
+14                                      LQ2-data17   LQ2-data6              LQ2-data16                        
+15                                                                                                            
+==============================================================================================================
+instructions at 30-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  42, 51 ( dummy96,LQ2-data4) : False, True
+ vv-SWAP  58, 67 ( dummy65,LQ1-data2) : False, True
+ vv-SWAP  85, 76 ( dummy79,LQ2-data2) : False, True
+ vv-SWAP  47, 56 ( dummy59,LQ1-data5) : False, True
+ hh-SWAP  55, 54 (  dummy8,LQ1-data0) : False, True
+ d2-SWAP  64, 74 ( dummy63,LQ1-data19) : False, True
+ vv-SWAP  20, 29 ( dummy38,LQ1-data13) : False, True
+ hh-SWAP  87, 88 ( dummy24,LQ2-data12) : False, True
+ hh-SWAP 103,104 ( dummy11,LQ2-data15) : False, True
+ hh-SWAP 113,114 ( dummy74,LQ2-data19) : False, True
+ d2-SWAP  95,105 ( dummy69,LQ2-data3) : False, True
+ d2-SWAP 110,100 ( dummy41,LQ2-data5) : False, True
+ d2-SWAP  22, 32 ( dummy35,LQ1-data16) : False, True
+ vv-SWAP 121,112 ( dummy66,LQ2-data20) : False, True
+ vv-SWAP  90, 99 (  dummy0,LQ2-data0) : False, True
+ vv-SWAP 123,132 ( dummy83,LQ2-data16) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1   LQ1-data10  LQ1-data21                                                                                    
+2                           LQ1-data13              LQ1-data16   LQ1-data9  LQ1-data22                        
+3                                                                                                             
+4                                                                            LQ2-data4   LQ1-data4            
+5                LQ2-data7   LQ1-data5                          LQ2-data22                                    
+6                LQ1-data0               LQ2-data8   LQ1-data2  LQ2-data14  LQ1-data14               LQ1-data3
+7               LQ1-data19              LQ2-data13              LQ1-data12   LQ2-data9                        
+8                                       LQ1-data15               LQ1-data1  LQ1-data20              LQ1-data11
+9               LQ2-data10  LQ1-data18               LQ2-data2              LQ2-data12                        
+10   LQ2-data0              LQ2-data21              LQ1-data17   LQ2-data3   LQ1-data6                        
+11                                                  LQ2-data15                                                
+12              LQ2-data18   LQ2-data5                          LQ2-data19                                    
+13                                       LQ2-data1  LQ2-data20              LQ2-data16  LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 31-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  51, 60 ( dummy96,LQ1-data14) : False, True
+ d2-SWAP  52, 42 ( dummy53,LQ2-data4) : False, True
+ hh-SWAP  48, 47 ( dummy40,LQ1-data5) : False, True
+ hh-SWAP  84, 85 ( dummy44,LQ2-data2) : False, True
+ vv-SWAP  49, 58 ( dummy22,LQ1-data2) : False, True
+ hh-SWAP  65, 64 ( dummy47,LQ1-data19) : False, True
+ d2-SWAP  45, 55 ( dummy55,LQ1-data0) : False, True
+ d2-SWAP  76, 66 ( dummy79,LQ2-data13) : False, True
+ hh-SWAP  74, 75 ( dummy63,LQ1-data15) : False, True
+ d2-SWAP  67, 77 ( dummy65,LQ1-data1) : False, True
+ hh-SWAP  21, 20 ( dummy19,LQ1-data13) : False, True
+ hh-SWAP  86, 87 ( dummy61,LQ2-data12) : False, True
+ vv-SWAP  13, 22 ( dummy23,LQ1-data16) : False, True
+ vv-SWAP 104, 95 ( dummy11,LQ2-data3) : False, True
+ vv-SWAP  32, 23 ( dummy35,LQ1-data9) : False, True
+ hh-SWAP 122,121 ( dummy17,LQ2-data20) : False, True
+ vv-SWAP  81, 90 ( dummy10,LQ2-data0) : False, True
+ vv-SWAP 114,123 ( dummy74,LQ2-data16) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1   LQ1-data10  LQ1-data21                          LQ1-data16                                                
+2                                       LQ1-data13                          LQ1-data22                        
+3                                                                LQ1-data9                                    
+4                                                                                        LQ1-data4            
+5    LQ1-data0   LQ2-data7               LQ1-data5   LQ1-data2  LQ2-data22  LQ1-data14   LQ2-data4            
+6                                        LQ2-data8              LQ2-data14                           LQ1-data3
+7                           LQ1-data19               LQ1-data1  LQ1-data12   LQ2-data9                        
+8                           LQ1-data15              LQ2-data13              LQ1-data20              LQ1-data11
+9    LQ2-data0  LQ2-data10  LQ1-data18   LQ2-data2              LQ2-data12                                    
+10                          LQ2-data21              LQ1-data17               LQ1-data6                        
+11                                                  LQ2-data15   LQ2-data3                                    
+12              LQ2-data18   LQ2-data5                          LQ2-data19  LQ2-data16                        
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 32-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  39, 48 ( dummy80,LQ1-data5) : False, True
+ vv-SWAP  61, 52 ( dummy95,LQ2-data4) : False, True
+ d2-SWAP  41, 51 ( dummy43,LQ1-data14) : False, True
+ d2-SWAP  60, 50 ( dummy96,LQ2-data22) : False, True
+ d2-SWAP  58, 68 ( dummy22,LQ1-data12) : False, True
+ hh-SWAP  73, 74 ( dummy30,LQ1-data15) : False, True
+ vv-SWAP  56, 65 ( dummy59,LQ1-data19) : False, True
+ vv-SWAP  93, 84 ( dummy42,LQ2-data2) : False, True
+ vv-SWAP  66, 57 ( dummy79,LQ2-data8) : False, True
+ vv-SWAP  85, 76 ( dummy44,LQ2-data13) : False, True
+ vv-SWAP  36, 45 (  dummy3,LQ1-data0) : False, True
+ vv-SWAP  40, 49 ( dummy94,LQ1-data2) : False, True
+ vv-SWAP  12, 21 ( dummy51,LQ1-data13) : False, True
+ vv-SWAP   4, 13 ( dummy15,LQ1-data16) : False, True
+ vv-SWAP  95, 86 ( dummy11,LQ2-data12) : False, True
+ vv-SWAP  87, 96 ( dummy61,LQ1-data6) : False, True
+ d2-SWAP  91, 81 ( dummy32,LQ2-data0) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                          LQ1-data16   LQ1-data8                                    
+1   LQ1-data10  LQ1-data21              LQ1-data13                                                            
+2                                                                           LQ1-data22                        
+3                                                                LQ1-data9                                    
+4    LQ1-data0                           LQ1-data5   LQ1-data2  LQ1-data14               LQ1-data4            
+5                LQ2-data7                                                                                    
+6                           LQ1-data19              LQ1-data12  LQ2-data14  LQ2-data22   LQ2-data4   LQ1-data3
+7                                        LQ2-data8   LQ1-data1               LQ2-data9                        
+8               LQ1-data15                                                  LQ1-data20              LQ1-data11
+9               LQ2-data10  LQ1-data18              LQ2-data13               LQ1-data6                        
+10               LQ2-data0  LQ2-data21   LQ2-data2  LQ1-data17  LQ2-data12                                    
+11                                                  LQ2-data15   LQ2-data3                                    
+12              LQ2-data18   LQ2-data5                          LQ2-data19  LQ2-data16                        
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 33-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  38, 39 ( dummy68,LQ1-data5) : False, True
+ d2-SWAP  48, 58 ( dummy80,LQ1-data12) : False, True
+ vv-SWAP  70, 61 ( dummy91,LQ2-data4) : False, True
+ hh-SWAP  68, 69 ( dummy22,LQ2-data9) : False, True
+ vv-SWAP  74, 83 ( dummy30,LQ1-data18) : False, True
+ vv-SWAP  64, 73 ( dummy47,LQ1-data15) : False, True
+ hh-SWAP  42, 41 ( dummy53,LQ1-data14) : False, True
+ vv-SWAP  47, 56 ( dummy40,LQ1-data19) : False, True
+ d2-SWAP  76, 66 ( dummy44,LQ2-data8) : False, True
+ vv-SWAP 102, 93 ( dummy97,LQ2-data2) : False, True
+ hh-SWAP  84, 85 ( dummy42,LQ2-data13) : False, True
+ d2-SWAP  57, 67 ( dummy79,LQ1-data1) : False, True
+ vv-SWAP  27, 36 ( dummy36,LQ1-data0) : False, True
+ d2-SWAP  52, 62 ( dummy95,LQ1-data3) : False, True
+ d2-SWAP  14,  4 ( dummy78,LQ1-data16) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1   LQ1-data10  LQ1-data21              LQ1-data13              LQ1-data16                                    
+2                                                                           LQ1-data22                        
+3    LQ1-data0                                                   LQ1-data9                                    
+4                            LQ1-data5               LQ1-data2              LQ1-data14   LQ1-data4            
+5                LQ2-data7  LQ1-data19  LQ1-data12                                       LQ1-data3            
+6                                        LQ1-data1              LQ2-data14  LQ2-data22                        
+7               LQ1-data15                                       LQ2-data9               LQ2-data4            
+8                           LQ1-data18               LQ2-data8              LQ1-data20              LQ1-data11
+9               LQ2-data10              LQ2-data13                           LQ1-data6                        
+10               LQ2-data0  LQ2-data21              LQ1-data17  LQ2-data12                                    
+11                                       LQ2-data2  LQ2-data15   LQ2-data3                                    
+12              LQ2-data18   LQ2-data5                          LQ2-data19  LQ2-data16                        
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 34-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  58, 59 ( dummy80,LQ2-data14) : False, True
+ vv-SWAP  39, 48 ( dummy68,LQ1-data12) : False, True
+ vv-SWAP  29, 38 ( dummy38,LQ1-data5) : False, True
+ vv-SWAP  79, 70 ( dummy12,LQ2-data4) : False, True
+ vv-SWAP  65, 74 ( dummy59,LQ1-data18) : False, True
+ vv-SWAP  55, 64 ( dummy55,LQ1-data15) : False, True
+ d2-SWAP  56, 46 ( dummy40,LQ2-data7) : False, True
+ vv-SWAP  73, 82 ( dummy47,LQ2-data10) : False, True
+ vv-SWAP  33, 42 ( dummy45,LQ1-data14) : False, True
+ vv-SWAP  85, 94 ( dummy42,LQ1-data17) : False, True
+ vv-SWAP 111,102 ( dummy85,LQ2-data2) : False, True
+ vv-SWAP  18, 27 ( dummy14,LQ1-data0) : False, True
+ vv-SWAP  69, 78 ( dummy22,LQ1-data20) : False, True
+ vv-SWAP  77, 68 ( dummy65,LQ2-data9) : False, True
+ vv-SWAP  41, 32 ( dummy53,LQ1-data9) : False, True
+ vv-SWAP  23, 14 ( dummy35,LQ1-data16) : False, True
+ vv-SWAP  93, 84 ( dummy97,LQ2-data13) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                       LQ1-data8                                    
+1   LQ1-data10  LQ1-data21              LQ1-data13                                                            
+2    LQ1-data0                                                  LQ1-data16  LQ1-data22                        
+3                            LQ1-data5                                      LQ1-data14                        
+4                                       LQ1-data12   LQ1-data2   LQ1-data9               LQ1-data4            
+5                           LQ1-data19                                                   LQ1-data3            
+6               LQ1-data15   LQ2-data7   LQ1-data1  LQ2-data14              LQ2-data22                        
+7                           LQ1-data18                                      LQ1-data20                        
+8               LQ2-data10                           LQ2-data8   LQ2-data9               LQ2-data4  LQ1-data11
+9                                                   LQ1-data17               LQ1-data6                        
+10               LQ2-data0  LQ2-data21  LQ2-data13              LQ2-data12                                    
+11                                                  LQ2-data15   LQ2-data3                                    
+12              LQ2-data18   LQ2-data5   LQ2-data2              LQ2-data19  LQ2-data16                        
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 35-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  70, 80 ( dummy12,LQ1-data11) : False, True
+ vv-SWAP  30, 39 ( dummy16,LQ1-data12) : False, True
+ vv-SWAP  20, 29 ( dummy19,LQ1-data5) : False, True
+ vv-SWAP  88, 79 ( dummy24,LQ2-data4) : False, True
+ vv-SWAP  46, 55 ( dummy40,LQ1-data15) : False, True
+ d2-SWAP  82, 92 ( dummy47,LQ2-data21) : False, True
+ d2-SWAP  75, 85 ( dummy63,LQ1-data17) : False, True
+ vv-SWAP  67, 58 ( dummy79,LQ2-data14) : False, True
+ vv-SWAP  38, 47 ( dummy38,LQ1-data19) : False, True
+ vv-SWAP  48, 57 ( dummy68,LQ1-data1) : False, True
+ hh-SWAP 102,103 ( dummy85,LQ2-data15) : False, True
+ d2-SWAP  66, 56 ( dummy44,LQ2-data7) : False, True
+ hh-SWAP  64, 65 ( dummy55,LQ1-data18) : False, True
+ hh-SWAP  72, 73 (  dummy2,LQ2-data10) : False, True
+ d2-SWAP  42, 52 ( dummy45,LQ1-data3) : False, True
+ d2-SWAP  94,104 ( dummy42,LQ2-data3) : False, True
+ hh-SWAP  19, 18 ( dummy86,LQ1-data0) : False, True
+ d2-SWAP 101,111 ( dummy52,LQ2-data2) : False, True
+ vv-SWAP  78, 87 ( dummy22,LQ1-data6) : False, True
+ vv-SWAP  14,  5 ( dummy35,LQ1-data8) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                                                                    
+1   LQ1-data10  LQ1-data21              LQ1-data13               LQ1-data8                                    
+2                LQ1-data0   LQ1-data5                          LQ1-data16  LQ1-data22                        
+3                                       LQ1-data12                          LQ1-data14                        
+4                           LQ1-data19               LQ1-data2   LQ1-data9   LQ1-data3   LQ1-data4            
+5               LQ1-data15               LQ1-data1                                                            
+6                                                                           LQ2-data22                        
+7               LQ1-data18               LQ2-data7  LQ2-data14              LQ1-data20  LQ1-data11            
+8   LQ2-data10                          LQ1-data17   LQ2-data8   LQ2-data9   LQ1-data6                        
+9               LQ2-data21                                                               LQ2-data4            
+10               LQ2-data0              LQ2-data13   LQ2-data3  LQ2-data12                                    
+11                           LQ2-data2  LQ2-data15                                                            
+12              LQ2-data18   LQ2-data5                          LQ2-data19  LQ2-data16                        
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 36-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  39, 40 ( dummy16,LQ1-data2) : False, True
+ vv-SWAP  61, 70 ( dummy91,LQ1-data11) : False, True
+ hh-SWAP  31, 30 ( dummy87,LQ1-data12) : False, True
+ d2-SWAP 103,113 ( dummy85,LQ2-data19) : False, True
+ vv-SWAP  85, 76 ( dummy63,LQ2-data8) : False, True
+ vv-SWAP  97, 88 ( dummy56,LQ2-data4) : False, True
+ vv-SWAP  55, 64 ( dummy40,LQ1-data18) : False, True
+ vv-SWAP  37, 46 ( dummy62,LQ1-data15) : False, True
+ hh-SWAP  65, 66 ( dummy55,LQ2-data7) : False, True
+ vv-SWAP  11, 20 (  dummy4,LQ1-data5) : False, True
+ vv-SWAP 111,102 ( dummy52,LQ2-data15) : False, True
+ d2-SWAP  32, 42 ( dummy53,LQ1-data3) : False, True
+ vv-SWAP  92,101 ( dummy47,LQ2-data2) : False, True
+ d2-SWAP  68, 78 ( dummy65,LQ1-data6) : False, True
+ d2-SWAP  87, 77 ( dummy22,LQ2-data9) : False, True
+ vv-SWAP  81, 72 ( dummy32,LQ2-data10) : False, True
+ vv-SWAP  18,  9 ( dummy86,LQ1-data10) : False, True
+ vv-SWAP  73, 82 (  dummy2,LQ2-data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                                                                    
+1               LQ1-data21   LQ1-data5  LQ1-data13               LQ1-data8                                    
+2   LQ1-data10   LQ1-data0                                      LQ1-data16  LQ1-data22                        
+3                                                   LQ1-data12   LQ1-data3  LQ1-data14                        
+4               LQ1-data15  LQ1-data19   LQ1-data2               LQ1-data9               LQ1-data4            
+5                                        LQ1-data1                                                            
+6               LQ1-data18                                                  LQ2-data22  LQ1-data11            
+7                            LQ2-data7              LQ2-data14   LQ1-data6  LQ1-data20                        
+8               LQ2-data21              LQ1-data17                                                            
+9   LQ2-data10                                       LQ2-data8               LQ2-data9                        
+10               LQ2-data0   LQ2-data2  LQ2-data13   LQ2-data3  LQ2-data12               LQ2-data4            
+11                                                  LQ2-data19                                                
+12              LQ2-data18   LQ2-data5  LQ2-data15                          LQ2-data16                        
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 37-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  70, 60 ( dummy91,LQ2-data22) : False, True
+ vv-SWAP  30, 39 ( dummy87,LQ1-data2) : False, True
+ vv-SWAP  52, 61 ( dummy45,LQ1-data11) : False, True
+ vv-SWAP  66, 75 ( dummy55,LQ1-data17) : False, True
+ vv-SWAP  76, 67 ( dummy63,LQ2-data14) : False, True
+ vv-SWAP  22, 31 ( dummy23,LQ1-data12) : False, True
+ vv-SWAP 112,103 ( dummy66,LQ2-data19) : False, True
+ vv-SWAP 106, 97 ( dummy37,LQ2-data4) : False, True
+ vv-SWAP  46, 55 ( dummy62,LQ1-data18) : False, True
+ vv-SWAP  28, 37 (  dummy9,LQ1-data15) : False, True
+ vv-SWAP  74, 65 ( dummy59,LQ2-data7) : False, True
+ hh-SWAP  20, 19 (  dummy4,LQ1-data0) : False, True
+ hh-SWAP  40, 41 ( dummy16,LQ1-data9) : False, True
+ d2-SWAP  58, 68 ( dummy79,LQ1-data6) : False, True
+ vv-SWAP  42, 33 ( dummy53,LQ1-data14) : False, True
+ vv-SWAP  90, 81 ( dummy10,LQ2-data10) : False, True
+ vv-SWAP  82, 91 (  dummy2,LQ2-data0) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                                                                    
+1               LQ1-data21   LQ1-data5  LQ1-data13               LQ1-data8                                    
+2   LQ1-data10               LQ1-data0              LQ1-data12  LQ1-data16  LQ1-data22                        
+3               LQ1-data15               LQ1-data2               LQ1-data3                                    
+4                           LQ1-data19               LQ1-data9              LQ1-data14   LQ1-data4            
+5               LQ1-data18               LQ1-data1                                      LQ1-data11            
+6                                                    LQ1-data6                                                
+7                                       LQ1-data17                          LQ1-data20  LQ2-data22            
+8               LQ2-data21   LQ2-data7              LQ2-data14                                                
+9                LQ2-data0                           LQ2-data8               LQ2-data9                        
+10  LQ2-data10               LQ2-data2  LQ2-data13   LQ2-data3  LQ2-data12                                    
+11                                                                                       LQ2-data4            
+12              LQ2-data18   LQ2-data5  LQ2-data15  LQ2-data19              LQ2-data16                        
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 38-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  79, 70 ( dummy24,LQ2-data22) : False, True
+ d2-SWAP  86, 76 ( dummy11,LQ2-data14) : False, True
+ vv-SWAP  57, 66 ( dummy68,LQ1-data17) : False, True
+ vv-SWAP  13, 22 ( dummy15,LQ1-data12) : False, True
+ vv-SWAP  60, 69 ( dummy91,LQ1-data20) : False, True
+ d2-SWAP 102,112 ( dummy52,LQ2-data19) : False, True
+ vv-SWAP 103, 94 ( dummy66,LQ2-data3) : False, True
+ vv-SWAP 115,106 ( dummy60,LQ2-data4) : False, True
+ vv-SWAP  37, 46 (  dummy9,LQ1-data18) : False, True
+ vv-SWAP  83, 74 ( dummy30,LQ2-data7) : False, True
+ hh-SWAP  29, 28 ( dummy19,LQ1-data15) : False, True
+ vv-SWAP  21, 30 ( dummy51,LQ1-data2) : False, True
+ vv-SWAP  31, 40 ( dummy23,LQ1-data9) : False, True
+ vv-SWAP  19, 10 (  dummy4,LQ1-data21) : False, True
+ hh-SWAP  41, 42 ( dummy16,LQ1-data14) : False, True
+ d2-SWAP 100, 90 ( dummy41,LQ2-data10) : False, True
+ d2-SWAP  33, 23 ( dummy53,LQ1-data16) : False, True
+ hh-SWAP  39, 38 ( dummy87,LQ1-data19) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                                                                    
+1                            LQ1-data5  LQ1-data13  LQ1-data12   LQ1-data8                                    
+2   LQ1-data10  LQ1-data21   LQ1-data0   LQ1-data2                          LQ1-data22                        
+3                           LQ1-data15               LQ1-data9   LQ1-data3  LQ1-data16                        
+4               LQ1-data18              LQ1-data19              LQ1-data14               LQ1-data4            
+5                                        LQ1-data1                                      LQ1-data11            
+6                                       LQ1-data17   LQ1-data6              LQ1-data20                        
+7                                                                                                             
+8               LQ2-data21                                                              LQ2-data22            
+9                LQ2-data0   LQ2-data7               LQ2-data8  LQ2-data14   LQ2-data9                        
+10                           LQ2-data2  LQ2-data13              LQ2-data12                                    
+11              LQ2-data10              LQ2-data19   LQ2-data3                                                
+12              LQ2-data18   LQ2-data5  LQ2-data15                          LQ2-data16   LQ2-data4            
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 39-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  88, 79 ( dummy56,LQ2-data22) : False, True
+ vv-SWAP  94, 85 ( dummy66,LQ2-data8) : False, True
+ hh-SWAP 112,111 ( dummy52,LQ2-data15) : False, True
+ d2-SWAP  22, 32 ( dummy15,LQ1-data3) : False, True
+ d2-SWAP  50, 60 ( dummy96,LQ1-data20) : False, True
+ hh-SWAP 101,102 ( dummy47,LQ2-data19) : False, True
+ hh-SWAP  30, 29 ( dummy51,LQ1-data15) : False, True
+ d2-SWAP  28, 18 ( dummy19,LQ1-data10) : False, True
+ hh-SWAP  10, 11 (  dummy4,LQ1-data5) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                LQ1-data7                                                                                    
+1                LQ1-data5              LQ1-data13  LQ1-data12   LQ1-data8                                    
+2               LQ1-data21   LQ1-data0   LQ1-data2   LQ1-data3              LQ1-data22                        
+3               LQ1-data10              LQ1-data15   LQ1-data9              LQ1-data16                        
+4               LQ1-data18              LQ1-data19              LQ1-data14               LQ1-data4            
+5                                        LQ1-data1              LQ1-data20              LQ1-data11            
+6                                       LQ1-data17   LQ1-data6                                                
+7                                                                                                             
+8               LQ2-data21                                                                                    
+9                LQ2-data0   LQ2-data7                          LQ2-data14   LQ2-data9  LQ2-data22            
+10                           LQ2-data2  LQ2-data13   LQ2-data8  LQ2-data12                                    
+11              LQ2-data10  LQ2-data19               LQ2-data3                                                
+12              LQ2-data18   LQ2-data5              LQ2-data15              LQ2-data16   LQ2-data4            
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 40-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  85, 95 ( dummy66,LQ2-data12) : False, True
+ vv-SWAP  97, 88 ( dummy37,LQ2-data22) : False, True
+ d2-SWAP  40, 50 ( dummy23,LQ1-data20) : False, True
+ hh-SWAP  18, 19 ( dummy19,LQ1-data21) : False, True
+ hh-SWAP  32, 31 ( dummy15,LQ1-data9) : False, True
+ d2-SWAP  11,  1 (  dummy4,LQ1-data7) : False, True
+ d2-SWAP 102, 92 ( dummy47,LQ2-data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1                LQ1-data5   LQ1-data7  LQ1-data13  LQ1-data12   LQ1-data8                                    
+2   LQ1-data21               LQ1-data0   LQ1-data2   LQ1-data3              LQ1-data22                        
+3               LQ1-data10              LQ1-data15               LQ1-data9  LQ1-data16                        
+4               LQ1-data18              LQ1-data19  LQ1-data20  LQ1-data14               LQ1-data4            
+5                                        LQ1-data1                                      LQ1-data11            
+6                                       LQ1-data17   LQ1-data6                                                
+7                                                                                                             
+8               LQ2-data21                                                                                    
+9                LQ2-data0   LQ2-data7              LQ2-data12  LQ2-data14   LQ2-data9                        
+10                                      LQ2-data13   LQ2-data8                          LQ2-data22            
+11              LQ2-data10  LQ2-data19   LQ2-data2   LQ2-data3                                                
+12              LQ2-data18   LQ2-data5              LQ2-data15              LQ2-data16   LQ2-data4            
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 41-th index : 
+--------------------------------------------------------------------------------------------------------------
+ hh-SWAP  95, 94 ( dummy66,LQ2-data8) : False, True
+ hh-SWAP  96, 97 ( dummy61,LQ2-data22) : False, True
+ vv-SWAP  76, 85 ( dummy11,LQ2-data12) : False, True
+ vv-SWAP  19, 10 ( dummy19,LQ1-data5) : False, True
+ d2-SWAP  92, 82 ( dummy47,LQ2-data0) : False, True
+ vv-SWAP  23, 32 ( dummy53,LQ1-data9) : False, True
+ d2-SWAP  31, 21 ( dummy15,LQ1-data2) : False, True
+ vv-SWAP 111,102 ( dummy52,LQ2-data2) : False, True
+ vv-SWAP  50, 41 ( dummy23,LQ1-data14) : False, True
+ vv-SWAP   9, 18 ( dummy86,LQ1-data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1   LQ1-data21               LQ1-data7  LQ1-data13  LQ1-data12   LQ1-data8                                    
+2                LQ1-data5   LQ1-data0               LQ1-data3   LQ1-data9  LQ1-data22                        
+3               LQ1-data10              LQ1-data15   LQ1-data2              LQ1-data16                        
+4               LQ1-data18              LQ1-data19  LQ1-data20                           LQ1-data4            
+5                                        LQ1-data1              LQ1-data14              LQ1-data11            
+6                                       LQ1-data17   LQ1-data6                                                
+7                                                                                                             
+8               LQ2-data21                          LQ2-data12                                                
+9                            LQ2-data7                          LQ2-data14   LQ2-data9                        
+10                           LQ2-data0  LQ2-data13               LQ2-data8  LQ2-data22                        
+11              LQ2-data10  LQ2-data19               LQ2-data3                                                
+12              LQ2-data18   LQ2-data5   LQ2-data2  LQ2-data15              LQ2-data16   LQ2-data4            
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 42-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP  97, 87 ( dummy61,LQ2-data9) : False, True
+ hh-SWAP  85, 86 ( dummy11,LQ2-data14) : False, True
+ d2-SWAP  29, 19 ( dummy51,LQ1-data5) : False, True
+ hh-SWAP  32, 33 ( dummy53,LQ1-data16) : False, True
+ vv-SWAP  21, 12 ( dummy15,LQ1-data13) : False, True
+ d2-SWAP 102,112 ( dummy52,LQ2-data15) : False, True
+ d2-SWAP  41, 31 ( dummy23,LQ1-data2) : False, True
+ vv-SWAP  59, 50 ( dummy80,LQ1-data14) : False, True
+ hh-SWAP  10,  9 ( dummy19,LQ1-data21) : False, True
+ vv-SWAP  82, 73 ( dummy47,LQ2-data21) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1               LQ1-data21   LQ1-data7              LQ1-data12   LQ1-data8                                    
+2                            LQ1-data0  LQ1-data13   LQ1-data3   LQ1-data9  LQ1-data22                        
+3               LQ1-data10   LQ1-data5  LQ1-data15              LQ1-data16                                    
+4               LQ1-data18              LQ1-data19  LQ1-data20   LQ1-data2               LQ1-data4            
+5                                        LQ1-data1                                      LQ1-data11            
+6                                       LQ1-data17   LQ1-data6  LQ1-data14                                    
+7                                                                                                             
+8                                                   LQ2-data12                                                
+9               LQ2-data21   LQ2-data7              LQ2-data14                                                
+10                           LQ2-data0  LQ2-data13               LQ2-data8  LQ2-data22   LQ2-data9            
+11              LQ2-data10  LQ2-data19  LQ2-data15   LQ2-data3                                                
+12              LQ2-data18   LQ2-data5   LQ2-data2                          LQ2-data16   LQ2-data4            
+13                                       LQ2-data1              LQ2-data20              LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 43-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP  94, 85 ( dummy66,LQ2-data14) : False, True
+ vv-SWAP  86, 95 ( dummy11,LQ2-data8) : False, True
+ vv-SWAP 106, 97 ( dummy60,LQ2-data9) : False, True
+ d2-SWAP 112,122 ( dummy52,LQ2-data20) : False, True
+ vv-SWAP  38, 29 ( dummy87,LQ1-data5) : False, True
+ vv-SWAP  50, 41 ( dummy80,LQ1-data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1               LQ1-data21   LQ1-data7              LQ1-data12   LQ1-data8                                    
+2                            LQ1-data0  LQ1-data13   LQ1-data3   LQ1-data9  LQ1-data22                        
+3               LQ1-data10              LQ1-data15              LQ1-data16                                    
+4               LQ1-data18   LQ1-data5  LQ1-data19  LQ1-data20                           LQ1-data4            
+5                                        LQ1-data1               LQ1-data2              LQ1-data11            
+6                                       LQ1-data17   LQ1-data6  LQ1-data14                                    
+7                                                                                                             
+8                                                   LQ2-data12                                                
+9               LQ2-data21   LQ2-data7                           LQ2-data8                                    
+10                           LQ2-data0  LQ2-data13  LQ2-data14              LQ2-data22                        
+11              LQ2-data10  LQ2-data19  LQ2-data15   LQ2-data3                           LQ2-data9            
+12              LQ2-data18   LQ2-data5   LQ2-data2  LQ2-data20              LQ2-data16   LQ2-data4            
+13                                       LQ2-data1                                      LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 44-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP 104, 94 ( dummy42,LQ2-data14) : False, True
+ hh-SWAP 105,106 ( dummy69,LQ2-data9) : False, True
+ vv-SWAP  85, 76 ( dummy66,LQ2-data12) : False, True
+ d2-SWAP  29, 39 ( dummy87,LQ1-data19) : False, True
+ hh-SWAP  49, 50 ( dummy94,LQ1-data2) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1               LQ1-data21   LQ1-data7              LQ1-data12   LQ1-data8                                    
+2                            LQ1-data0  LQ1-data13   LQ1-data3   LQ1-data9  LQ1-data22                        
+3               LQ1-data10  LQ1-data19  LQ1-data15              LQ1-data16                                    
+4               LQ1-data18   LQ1-data5              LQ1-data20                           LQ1-data4            
+5                                        LQ1-data1   LQ1-data2                          LQ1-data11            
+6                                       LQ1-data17   LQ1-data6  LQ1-data14                                    
+7                                                                                                             
+8                                                                                                             
+9               LQ2-data21   LQ2-data7              LQ2-data12   LQ2-data8                                    
+10                           LQ2-data0  LQ2-data13                          LQ2-data22                        
+11              LQ2-data10  LQ2-data19  LQ2-data15   LQ2-data3  LQ2-data14   LQ2-data9                        
+12              LQ2-data18   LQ2-data5   LQ2-data2  LQ2-data20              LQ2-data16   LQ2-data4            
+13                                       LQ2-data1                                      LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 45-th index : 
+--------------------------------------------------------------------------------------------------------------
+ vv-SWAP 113,104 ( dummy85,LQ2-data14) : False, True
+ d2-SWAP  95,105 ( dummy11,LQ2-data9) : False, True
+ vv-SWAP  94,103 ( dummy42,LQ2-data3) : False, True
+ d2-SWAP  39, 49 ( dummy87,LQ1-data2) : False, True
+ vv-SWAP  50, 59 ( dummy94,LQ1-data14) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1               LQ1-data21   LQ1-data7              LQ1-data12   LQ1-data8                                    
+2                            LQ1-data0  LQ1-data13   LQ1-data3   LQ1-data9  LQ1-data22                        
+3               LQ1-data10  LQ1-data19  LQ1-data15              LQ1-data16                                    
+4               LQ1-data18   LQ1-data5   LQ1-data2  LQ1-data20                           LQ1-data4            
+5                                        LQ1-data1              LQ1-data14              LQ1-data11            
+6                                       LQ1-data17   LQ1-data6                                                
+7                                                                                                             
+8                                                                                                             
+9               LQ2-data21   LQ2-data7              LQ2-data12   LQ2-data8                                    
+10                           LQ2-data0  LQ2-data13   LQ2-data3   LQ2-data9  LQ2-data22                        
+11              LQ2-data10  LQ2-data19  LQ2-data15                                                            
+12              LQ2-data18   LQ2-data5   LQ2-data2  LQ2-data20  LQ2-data14  LQ2-data16   LQ2-data4            
+13                                       LQ2-data1                                      LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
+instructions at 46-th index : 
+--------------------------------------------------------------------------------------------------------------
+ d2-SWAP 104,114 ( dummy85,LQ2-data16) : False, True
+ vv-SWAP  41, 50 ( dummy80,LQ1-data14) : False, True
+--------------------------------------------------------------------------------------------------------------
+             0           1           2           3           4           5           6           7           8
+0                                                                                                             
+1               LQ1-data21   LQ1-data7              LQ1-data12   LQ1-data8                                    
+2                            LQ1-data0  LQ1-data13   LQ1-data3   LQ1-data9  LQ1-data22                        
+3               LQ1-data10  LQ1-data19  LQ1-data15              LQ1-data16                                    
+4               LQ1-data18   LQ1-data5   LQ1-data2  LQ1-data20  LQ1-data14               LQ1-data4            
+5                                        LQ1-data1                                      LQ1-data11            
+6                                       LQ1-data17   LQ1-data6                                                
+7                                                                                                             
+8                                                                                                             
+9               LQ2-data21   LQ2-data7              LQ2-data12   LQ2-data8                                    
+10                           LQ2-data0  LQ2-data13   LQ2-data3   LQ2-data9  LQ2-data22                        
+11              LQ2-data10  LQ2-data19  LQ2-data15              LQ2-data16                                    
+12              LQ2-data18   LQ2-data5   LQ2-data2  LQ2-data20  LQ2-data14               LQ2-data4            
+13                                       LQ2-data1                                      LQ2-data11            
+14                                      LQ2-data17   LQ2-data6                                                
+15                                                                                                            
+==============================================================================================================
