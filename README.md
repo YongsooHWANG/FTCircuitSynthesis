@@ -12,9 +12,6 @@ Note: It does not work well on Mac OS now, but will be fixed soon.
 To run the project successfully, you need to install the following packages included in "requirements.txt" after installation.
 - *stim*, *simplejson*, *icecream*, *pandas*, *networkx*, *parse*, *progress*, *qubitmapping*, *userproperty*
 
-```
-pip install -r requirements.txt
-```
 Note that the packages *qubitmapping* and *userproperty* are developed by Y.Hwang for this project.
 
 ## Installation
